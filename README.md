@@ -1,4 +1,4 @@
-#Full-stack Job Interview Questions
+#Full-stack Job Interview Questions and Answers
 
 This repo contains a number of full-stack developer interview questions that can be used when vetting potential candidates.
 
