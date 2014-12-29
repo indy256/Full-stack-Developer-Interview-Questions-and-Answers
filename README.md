@@ -74,6 +74,7 @@ This repo contains a number of full-stack developer interview questions that can
 * this keyword
 * inheritance
 * differences between == and ===
+* closures
 
 ####[[⬆]](#toc) <a name='codewriting'>Codewriting:</a>
 
