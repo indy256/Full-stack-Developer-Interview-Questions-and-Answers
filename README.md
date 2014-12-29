@@ -38,6 +38,9 @@ This repo contains a number of full-stack developer interview questions that can
 |Repeatable Read |-        |-        |may occur|
 |Serializable    |-        |-        |-        |
 
+####[[⬆]](#distributed) <a name='general'>Distributed:</a>
+* What is *CAP theorem*? (it is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: *consistency*, *availability*, *partition tolerance*) ![CAP theorem](http://guide.couchdb.org/draft/consistency/01.png "CAP theorem")
+
 ####[[⬆]](#toc) <a name='concurrency'>Concurrency:</a>
 
 * What is *race condition*? (Behavior of software system where the output is dependent on the sequence or timing of other uncontrollable events)
