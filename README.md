@@ -25,6 +25,12 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *encapsulation* (Packing of data and functions into a single component)
 * What is *inversion of control*? (A design in which custom-written portions of a computer program receive the flow of control from a generic, reusable library)
 
+####[[⬆]](#toc) <a name='web'>WEB:</a>
+
+* WEB security vulnerabilities (XSS, CSRF, session fixation, SQL injection, man-in-the-middle, buffer overflow)
+* What is *JSONP*? (A communication technique used in JavaScript programs running in web browsers to request data from a server in a different domain, something prohibited by typical web browsers because of the same-origin policy)
+* HTTPS negotiation steps.
+
 ####[[⬆]](#toc) <a name='sql'>SQL:</a>
 
 * *SQL join types* (inner join, left/right outer join, full outer join)
@@ -37,6 +43,9 @@ This repo contains a number of full-stack developer interview questions that can
 |Read Committed  |-        |may occur|may occur|
 |Repeatable Read |-        |-        |may occur|
 |Serializable    |-        |-        |-        |
+
+####[[⬆]](#scalability) <a name='general'>Scalability:</a>
+* sticky/non-sticky sessions
 
 ####[[⬆]](#distributed) <a name='general'>Distributed:</a>
 * What is *CAP theorem*? (it is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: *consistency*, *availability*, *partition tolerance*) ![CAP theorem](http://guide.couchdb.org/draft/consistency/01.png "CAP theorem")
