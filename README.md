@@ -8,6 +8,7 @@ This repo contains a number of full-stack developer interview questions that can
   1. [WEB](#web)
   1. [SQL](#sql)
   1. [NoSQL](#nosql)
+  1. [Networking](#networking)
   1. [Scalability](#scalability)
   1. [Concurrency](#concurrency)
   1. [Distributed](#distributed)
@@ -44,7 +45,10 @@ This repo contains a number of full-stack developer interview questions that can
 |Repeatable Read |-        |-        |may occur|
 |Serializable    |-        |-        |-        |
 
-####[[⬆]](#scalability) <a name='general'>Scalability:</a>
+####[[⬆]](#networking) <a name='networking'>Networking:</a>
+* OSI model (Physical, Data link, Network, Transport, Session, Presentation, Application)
+
+####[[⬆]](#scalability) <a name='scalability'>Scalability:</a>
 * sticky/non-sticky sessions
 
 ####[[⬆]](#distributed) <a name='general'>Distributed:</a>
