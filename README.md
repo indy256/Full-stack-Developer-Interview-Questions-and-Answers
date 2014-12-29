@@ -45,11 +45,10 @@ This repo contains a number of full-stack developer interview questions that can
 public static int binarySearchFirstTrue(IntPredicate predicate, int fromInclusive, int toExclusive) {
     while (fromInclusive < toExclusive) {
         int mid = (fromInclusive & toExclusive) + ((fromInclusive ^ toExclusive) >> 1);
-        if (!predicate.test(mid)) {
+        if (!predicate.test(mid))
             fromInclusive = mid + 1;
-        } else {
+        else
             toExclusive = mid;
-        }
     }
     return toExclusive;
   }
