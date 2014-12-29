@@ -31,6 +31,13 @@ This repo contains a number of full-stack developer interview questions that can
 * *SQL normal forms*
 * *Isolation levels* and Anomalies (Read Uncommitted, Read Committed, Repeatable Read, Serializable)
 
+|Isolation level  Read phenomena|Dirty reads|Non-repeatable reads|Phantoms|
+| ------------- |:-------------:|:-----:| -----:|
+|Read Uncommitted|may occur|may occur|may occur|
+|Read Committed  |-        |may occur|may occur|
+|Repeatable Read |-        |-        |may occur|
+|Serializable    |-        |-        |-        |
+
 ####[[⬆]](#toc) <a name='concurrency'>Concurrency:</a>
 
 * What is *race condition*? (Behavior of software system where the output is dependent on the sequence or timing of other uncontrollable events)
