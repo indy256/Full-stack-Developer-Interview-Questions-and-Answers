@@ -30,6 +30,7 @@ This repo contains a number of full-stack developer interview questions that can
 * *SQL join types* (inner join, left/right outer join, full outer join)
 * *SQL normal forms*
 * *Isolation levels* and Anomalies (Read Uncommitted, Read Committed, Repeatable Read, Serializable
+* 
 |Isolation level \ Read phenomena|Dirty reads|Non-repeatable reads|Phantoms|
 |:---------------|:-------:|:-------:|:-------:|
 |Read Uncommitted|may occur|may occur|may occur|
