@@ -51,5 +51,5 @@ public static int binarySearchFirstTrue(IntPredicate predicate, int fromInclusiv
             toExclusive = mid;
     }
     return toExclusive;
-  }
+}
 ```
