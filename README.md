@@ -44,6 +44,7 @@ This repo contains a number of full-stack developer interview questions that can
 // 000[1]11
 public static int binarySearchFirstTrue(IntPredicate predicate, int fromInclusive, int toExclusive) {
     while (fromInclusive < toExclusive) {
+        // see {@link com.google.common.math.IntMath#mean}
         int mid = (fromInclusive & toExclusive) + ((fromInclusive ^ toExclusive) >> 1);
         if (!predicate.test(mid))
             fromInclusive = mid + 1;
