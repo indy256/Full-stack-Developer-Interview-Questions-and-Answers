@@ -18,6 +18,7 @@ This repo contains a number of full-stack developer interview questions that can
   1. [Python](#python)
   1. [C++](#cpp)
   1. [Code writing](#code)
+  1. [Agile, Scrum, XP](#agile)
 
 ####[[⬆]](#toc) <a name='general'>General Questions:</a>
 
