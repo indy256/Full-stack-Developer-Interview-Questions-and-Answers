@@ -69,6 +69,12 @@ This repo contains a number of full-stack developer interview questions that can
 * WeakReference, SoftReference, PhantomReference
 * What is *Spring*? (Spring Framework is an application container for Java that supplies many useful features, such as Inversion of Control, Dependency Injection, abstract data access, transaction management, and more)
 
+####[[⬆]](#toc) <a name='javascript'>Javascript:</a>
+
+* this keyword
+* inheritance
+* differences between == and ===
+
 ####[[⬆]](#toc) <a name='codewriting'>Codewriting:</a>
 
 * Implement overflow resilient binary search
