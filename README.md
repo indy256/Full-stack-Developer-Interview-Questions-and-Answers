@@ -39,7 +39,7 @@ This repo contains a number of full-stack developer interview questions that can
 
 ####[[⬆]](#toc) <a name='codewriting'>Codewriting:</a>
 
-* Implement overflow-free binary search
+* Implement overflow resilient binary search
 ```java
 // 000[1]11
 public static int binarySearchFirstTrue(IntPredicate predicate, int fromInclusive, int toExclusive) {
