@@ -33,6 +33,7 @@ This repo contains a number of full-stack developer interview questions that can
 * CSRF prevention. (CSRF-token)
 * What is *JSONP*? (A communication technique used in JavaScript programs running in web browsers to request data from a server in a different domain, something prohibited by typical web browsers because of the same-origin policy)
 * HTTPS negotiation steps.
+* Browser-server communication methods: WebSocket
 
 ####[[⬆]](#toc) <a name='sql'>SQL:</a>
 
@@ -93,3 +94,6 @@ public static int binarySearchFirstTrue(IntPredicate predicate, int fromInclusiv
     return toExclusive;
 }
 ```
+
+####[[⬆]](#toc) <a name='agile'>Agile:</a>
+* What is Scrum? (Roles: product owner, development team, scrum master. Events: sprint, 
