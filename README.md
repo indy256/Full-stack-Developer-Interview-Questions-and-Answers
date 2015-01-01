@@ -97,4 +97,10 @@ public static int binarySearchFirstTrue(IntPredicate predicate, int fromInclusiv
 ```
 
 ####[[⬆]](#toc) <a name='agile'>Agile:</a>
+* What is Agile? ()
+  * Individuals and interactions over Processes and tools
+  * Working software over Comprehensive documentation
+  * Customer collaboration over Contract negotiation
+  * Responding to change over Following a plan
 * What is Scrum? (Roles: product owner, development team, scrum master. Events: sprint, 
+* What is XP? ()
