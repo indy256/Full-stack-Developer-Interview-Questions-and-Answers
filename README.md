@@ -20,6 +20,7 @@ This repo contains a number of full-stack developer interview questions that can
   1. [Code writing](#code)
   1. [Agile, Scrum, XP](#agile)
   1. [Git](#git)
+  1. [Other](#other)
 
 ####[[⬆]](#toc) <a name='general'>General Questions:</a>
 
@@ -109,5 +110,7 @@ public static int binarySearchFirstTrue(IntPredicate predicate, int fromInclusiv
 * What is XP? ()
 
 ####[[⬆]](#toc) <a name='git'>Git:</a>
-
 * Git workflow? ()
+
+####[[⬆]](#toc) <a name='other'>Other:</a>
+* What are your goals to work in our company? (3 categories: professional, financial, social)
