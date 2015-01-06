@@ -19,6 +19,7 @@ This repo contains a number of full-stack developer interview questions that can
   1. [C++](#cpp)
   1. [Code writing](#code)
   1. [Agile, Scrum, XP](#agile)
+  1. [Git](#git)
 
 ####[[⬆]](#toc) <a name='general'>General Questions:</a>
 
@@ -104,3 +105,7 @@ public static int binarySearchFirstTrue(IntPredicate predicate, int fromInclusiv
   * Responding to change over Following a plan
 * What is Scrum? (Roles: product owner, development team, scrum master. Events: sprint, 
 * What is XP? ()
+
+####[[⬆]](#toc) <a name='git'>Git:</a>
+
+* Git workflow? ()
