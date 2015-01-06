@@ -66,6 +66,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *thread contention*? (Contention is simply when two threads try to access either the same resource or related resources in such a way that at least one of the contending threads runs more slowly than it would if the other thread(s) were not running)
 * How to *avoid deadlock*? (Mutex hierarchy)
 * What is a thread-safe function? (Can be safely invoked by multiple threads at the same time)
+* Publish/Subscripe code
 
 ####[[⬆]](#toc) <a name='java'>Java:</a>
 
