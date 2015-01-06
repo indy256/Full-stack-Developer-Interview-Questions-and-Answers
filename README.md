@@ -97,6 +97,7 @@ public static int binarySearchFirstTrue(IntPredicate predicate, int fromInclusiv
     return toExclusive;
 }
 ```
+* Implement LIS
 
 ####[[⬆]](#toc) <a name='agile'>Agile:</a>
 * What is Agile? ()
