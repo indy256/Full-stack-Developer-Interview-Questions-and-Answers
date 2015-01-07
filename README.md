@@ -62,12 +62,14 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *CAP theorem*? (it is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: *consistency*, *availability*, *partition tolerance*) ![CAP theorem](http://guide.couchdb.org/draft/consistency/01.png "CAP theorem")
 
 ####[[⬆]](#toc) <a name='concurrency'>Concurrency:</a>
-
 * What is *race condition*? (Behavior of software system where the output is dependent on the sequence or timing of other uncontrollable events)
 * What is *thread contention*? (Contention is simply when two threads try to access either the same resource or related resources in such a way that at least one of the contending threads runs more slowly than it would if the other thread(s) were not running)
 * How to *avoid deadlock*? (Mutex hierarchy)
 * What is a thread-safe function? (Can be safely invoked by multiple threads at the same time)
 * Publish/Subscripe code
+
+####[[⬆]](#toc) <a name='os'>Operating system:</a>
+* What is memory mapped file?
 
 ####[[⬆]](#toc) <a name='java'>Java:</a>
 
