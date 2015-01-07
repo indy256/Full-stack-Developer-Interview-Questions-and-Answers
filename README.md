@@ -73,10 +73,10 @@ This repo contains a number of full-stack developer interview questions that can
 * What is memory mapped file?
 
 ####[[⬆]](#toc) <a name='java'>Java:</a>
-
 * WeakReference, SoftReference, PhantomReference
 * What is *Spring*? (Spring Framework is an application container for Java that supplies many useful features, such as Inversion of Control, Dependency Injection, abstract data access, transaction management, and more)
-* What is Hibernate?
+* What is *Hibernate*?
+* How to write *benchmarkrs*? 
 
 ####[[⬆]](#toc) <a name='javascript'>Javascript:</a>
 
