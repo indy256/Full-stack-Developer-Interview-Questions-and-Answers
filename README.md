@@ -58,6 +58,7 @@ This repo contains a number of full-stack developer interview questions that can
 ####[[⬆]](#scalability) <a name='scalability'>Scalability:</a>
 * sticky/non-sticky sessions
 * Horizontal and vertical scaling
+* For what is messanging?
 
 ####[[⬆]](#distributed) <a name='general'>Distributed:</a>
 * What is *CAP theorem*? (it is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: *consistency*, *availability*, *partition tolerance*) ![CAP theorem](http://guide.couchdb.org/draft/consistency/01.png "CAP theorem")
