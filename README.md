@@ -75,6 +75,7 @@ This repo contains a number of full-stack developer interview questions that can
 
 * WeakReference, SoftReference, PhantomReference
 * What is *Spring*? (Spring Framework is an application container for Java that supplies many useful features, such as Inversion of Control, Dependency Injection, abstract data access, transaction management, and more)
+* What is Hibernate?
 
 ####[[⬆]](#toc) <a name='javascript'>Javascript:</a>
 
