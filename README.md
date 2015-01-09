@@ -10,6 +10,7 @@ This repo contains a number of full-stack developer interview questions that can
   1. [NoSQL](#nosql)
   1. [Networking](#networking)
   1. [Scalability](#scalability)
+  1. [Transacations](#transacations)
   1. [Concurrency](#concurrency)
   1. [Distributed](#distributed)
   1. [Operating system](#os)
@@ -60,6 +61,9 @@ This repo contains a number of full-stack developer interview questions that can
 * sticky/non-sticky sessions
 * Horizontal and vertical scaling
 * For what is messanging?
+
+####[[⬆]](#transactions) <a name='transactions'>Transactions:</a>
+* What is 2-phase commit?
 
 ####[[⬆]](#distributed) <a name='general'>Distributed:</a>
 * What is *CAP theorem*? (it is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: *consistency*, *availability*, *partition tolerance*) ![CAP theorem](http://guide.couchdb.org/draft/consistency/01.png "CAP theorem")
