@@ -125,6 +125,7 @@ public static int binarySearchFirstTrue(IntPredicate predicate, int fromInclusiv
 
 ####[[⬆]](#toc) <a name='qa'>QA:</a>
 * What is unit, integration, functional tests?
+* Unit tests advantages?
 
 ####[[⬆]](#toc) <a name='other'>Other:</a>
 * What are your goals to work in our company? (3 categories: professional, financial, social)
