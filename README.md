@@ -54,22 +54,19 @@ This repo contains a number of full-stack developer interview questions that can
 |Repeatable Read |-        |-        |may occur|
 |Serializable    |-        |-        |-        |
 
-####[[⬆]](#networking) <a name='networking'>Networking:</a>
+####[[⬆]](#toc) <a name='networking'>Networking:</a>
 * OSI model (Physical, Data link, Network, Transport, Session, Presentation, Application)
 
-####[[⬆]](#scalability) <a name='scalability'>Scalability:</a>
+####[[⬆]](#toc) <a name='scalability'>Scalability:</a>
 * sticky/non-sticky sessions
 * Horizontal and vertical scaling
 * For what is messanging?
 
-####[[⬆]](#transactions) <a name='transactions'>Transactions:</a>
+####[[⬆]](#toc) <a name='transactions'>Transactions:</a>
 * What is 2-phase commit?
 
-####[[⬆]](#distributed) <a name='general'>Distributed:</a>
+####[[⬆]](#toc) <a name='general'>Distributed:</a>
 * What is *CAP theorem*? (it is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: *consistency*, *availability*, *partition tolerance*) ![CAP theorem](http://guide.couchdb.org/draft/consistency/01.png "CAP theorem")
-
-####[[⬆]](#toc) <a name='java'>Java:</a>
-* What is OSGI? (Specification describes a modular system and a service platform for the Java programming language that implements a complete and dynamic component model)
 
 ####[[⬆]](#toc) <a name='concurrency'>Concurrency:</a>
 * What is *race condition*? (Behavior of software system where the output is dependent on the sequence or timing of other uncontrollable events)
@@ -85,10 +82,11 @@ This repo contains a number of full-stack developer interview questions that can
 * WeakReference, SoftReference, PhantomReference
 * What is *Spring*? (Spring Framework is an application container for Java that supplies many useful features, such as Inversion of Control, Dependency Injection, abstract data access, transaction management, and more)
 * What is *Hibernate*?
-* How to write *benchmarkrs*? 
+* How to write *benchmarks*? 
+* What is OSGI? (Specification describes a modular system and a service platform for the Java programming language that implements a complete and dynamic component model)
+* What is JMS?
 
 ####[[⬆]](#toc) <a name='javascript'>Javascript:</a>
-
 * this keyword
 * inheritance
 * differences between == and ===
