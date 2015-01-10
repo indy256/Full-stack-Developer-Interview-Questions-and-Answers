@@ -49,12 +49,12 @@ This repo contains a number of full-stack developer interview questions that can
 * *SQL normal forms*
 * *Isolation levels* and Anomalies (Read Uncommitted, Read Committed, Repeatable Read, Serializable
 
-|Isolation level \ Read phenomena|Dirty reads|Non-repeatable reads|Phantoms|
-|:---------------|:-------:|:-------:|:-------:|
-|Read Uncommitted|may occur|may occur|may occur|
-|Read Committed  |-        |may occur|may occur|
-|Repeatable Read |-        |-        |may occur|
-|Serializable    |-        |-        |-        |
+|Isolation level \ Read phenomena|Lost update|Dirty reads|Non-repeatable reads|Phantoms|
+|:---------------|:-------:|:-------:|:-------:|:-------:|
+|Read Uncommitted|-        |may occur|may occur|may occur|
+|Read Committed  |-        |-        |may occur|may occur|
+|Repeatable Read |-        |-        |-        |may occur|
+|Serializable    |-        |-        |-        |-        |
 
 ####[[⬆]](#toc) <a name='networking'>Networking:</a>
 * OSI model (Physical, Data link, Network, Transport, Session, Presentation, Application)
