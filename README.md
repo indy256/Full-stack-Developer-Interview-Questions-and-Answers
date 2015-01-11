@@ -115,7 +115,20 @@ public static int binarySearchFirstTrue(IntPredicate predicate, int fromInclusiv
     return toExclusive;
 }
 ```
-* Implement LIS
+* Implement Longest increasing subsequence size
+```java
+public static int lisSize(int[] a) {
+	int[] last = new int[a.length];
+	Arrays.fill(last, Integer.MAX_VALUE);
+	int len = 0;
+	for (int v : a) {
+		int pos = lower_bound(last, v);
+		last[pos] = v;
+		len = Math.max(len, pos + 1);
+	}
+	return len;
+}
+```
 
 ####[[⬆]](#toc) <a name='agile'>Agile:</a>
 * What is Agile? ()
