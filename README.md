@@ -23,6 +23,7 @@ This repo contains a number of full-stack developer interview questions that can
   1. [Agile, Scrum, XP](#agile)
   1. [Git](#git)
   1. [QA](#qa)
+  1. [Algorithms](#algorithms)
   1. [Other](#other)
 
 ####[[⬆]](#toc) <a name='general'>General Questions:</a>
@@ -49,7 +50,7 @@ This repo contains a number of full-stack developer interview questions that can
 * *SQL normal forms*
 * *Isolation levels* and Anomalies (Read Uncommitted, Read Committed, Repeatable Read, Serializable
 
-|Isolation level \ Anomaly|Lost update|Dirty reads|Non-repeatable reads, 2nd-lost-update|Phantoms|Write skew|
+|Isolation level \ Anomaly|Lost update|Dirty reads|Non-repeatable reads, SecondLostUpdate|Phantoms|Write skew|
 |:---------------|:-------:|:-------:|:-------:|:-------:|:-------:|
 |Read Uncommitted|-        |may occur|may occur|may occur|may occur|
 |Read Committed  |-        |-        |may occur|may occur|may occur|
@@ -131,6 +132,9 @@ public static int binarySearchFirstTrue(IntPredicate predicate, int fromInclusiv
 ####[[⬆]](#toc) <a name='qa'>QA:</a>
 * What is unit, integration, functional tests?
 * Unit tests advantages?
+
+####[[⬆]](#toc) <a name='algorithms'>Algorithms:</a>
+* What is NP-completeness?
 
 ####[[⬆]](#toc) <a name='other'>Other:</a>
 * What are your goals to work in our company? (3 categories: professional, financial, social)
