@@ -100,6 +100,9 @@ This repo contains a number of full-stack developer interview questions that can
 * closures
 
 ####[[⬆]](#toc) <a name='codewriting'>Codewriting:</a>
+* Implement expression parser
+* Implement producer/consumer
+* Implement quick sort
 * Implement overflow resilient binary search
 ```java
 // 000[1]11
