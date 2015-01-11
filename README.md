@@ -50,7 +50,7 @@ This repo contains a number of full-stack developer interview questions that can
 * *SQL normal forms*
 * *Isolation levels* and Anomalies (Read Uncommitted, Read Committed, Repeatable Read, Serializable
 
-|Isolation_level\Anomaly|Lost_update|Dirty_reads|Non_repeatable_reads, second_lost_update|Phantoms|Write_skew|
+|Isolation_level\Anomaly|Lost_update|Dirty_reads|Non_repeatable_reads second_lost_update|Phantoms|Write_skew|
 |:---------------|:-------:|:-------:|:-------:|:-------:|:-------:|
 |Read Uncommitted|-        |may occur|may occur|may occur|may occur|
 |Read Committed  |-        |-        |may occur|may occur|may occur|
