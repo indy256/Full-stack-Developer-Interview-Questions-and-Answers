@@ -24,6 +24,7 @@ This repo contains a number of full-stack developer interview questions that can
   1. [Git](#git)
   1. [QA](#qa)
   1. [Algorithms](#algorithms)
+  1. [UML](#uml)
   1. [Other](#other)
 
 ####[[⬆]](#toc) <a name='general'>General Questions:</a>
@@ -155,4 +156,6 @@ public static int lisSize(int[] a) {
 * What is NP-completeness?
 
 ####[[⬆]](#toc) <a name='other'>Other:</a>
+* Regular expressions
+* XPath
 * What are your goals to work in our company? (3 categories: professional, financial, social)
