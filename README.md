@@ -68,7 +68,8 @@ This repo contains a number of full-stack developer interview questions that can
 * For what is messanging?
 
 ####[[⬆]](#toc) <a name='transactions'>Transactions:</a>
-* What is 2-phase commit?
+* What ACID?
+* What is 2-phase, 3-phase commit?
 * What is pessimistic/optimistic locking?
 
 ####[[⬆]](#toc) <a name='general'>Distributed:</a>
@@ -80,6 +81,7 @@ This repo contains a number of full-stack developer interview questions that can
 * How to *avoid deadlock*? (Mutex hierarchy)
 * What is a thread-safe function? (Can be safely invoked by multiple threads at the same time)
 * Publish/Subscripe code
+* What is 2-phase locking?
 
 ####[[⬆]](#toc) <a name='os'>Operating system:</a>
 * What is memory mapped file?
@@ -101,7 +103,6 @@ This repo contains a number of full-stack developer interview questions that can
 
 ####[[⬆]](#toc) <a name='codewriting'>Codewriting:</a>
 * Implement expression parser
-* Implement producer/consumer
 * Implement quick sort
 * Implement overflow resilient binary search
 ```java
