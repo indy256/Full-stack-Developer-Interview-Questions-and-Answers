@@ -49,7 +49,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is character encoding?
 
 ####[[⬆]](#toc) <a name='sql'>SQL:</a>
-* *SQL join types* (inner join, left/right outer join, full outer join)
+* *SQL join types* (inner join, left/right outer join, full outer join, cross join)
 * *SQL normal forms* (1.The domain of each attribute contains only atomic values, and the value of each attribute contains only a single value from that domain. 2.No non-prime attribute in the table is functionally dependent on a proper subset of any candidate key. 3.Every non-prime attribute is non-transitively dependent on every candidate key in the table. BCNF.Every non-trivial functional dependency in the table is a dependency on a superkey.)
 * *Isolation levels* and Anomalies (Read Uncommitted, Read Committed, Repeatable Read, Serializable
 
