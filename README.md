@@ -39,6 +39,7 @@ This repo contains a number of full-stack developer interview questions that can
 * *Integration patterns*.
 * 3-tier architecture? (Presentation tier, Application tier, Data tier)
 * 3-layer architecture? (DAO (Repository), Business (Service) layer, Controller)
+* What is REST?
 
 ####[[⬆]](#toc) <a name='web'>WEB:</a>
 * WEB security vulnerabilities (XSS, CSRF, session fixation, SQL injection, man-in-the-middle, buffer overflow)
