@@ -99,6 +99,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is OSGI? (Specification describes a modular system and a service platform for the Java programming language that implements a complete and dynamic component model. Each bundle has its own classpath. Dependency hell avoidance. META-INF/MANIFEST.MF contains OSGI-info)
 * What is JMS?
 * Serializable / Externalizable
+* What is Servlet?
 
 ####[[⬆]](#toc) <a name='javascript'>Javascript:</a>
 * this keyword
