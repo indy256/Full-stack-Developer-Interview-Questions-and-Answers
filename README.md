@@ -90,6 +90,7 @@ This repo contains a number of full-stack developer interview questions that can
 
 ####[[⬆]](#toc) <a name='os'>Operating system:</a>
 * What is memory mapped file?
+* Inter-process communication methods.
 
 ####[[⬆]](#toc) <a name='java'>Java:</a>
 * WeakReference, SoftReference, PhantomReference
