@@ -36,7 +36,7 @@ This repo contains a number of full-stack developer interview questions that can
 ####[[⬆]](#toc) <a name='architecture'>Architecture:</a>
 * *Design principles*. (SOLID, DRY, KISS, YAGNI, convention over configuration, separation of concerns, tourist principle)
 * *Design patterns*. (Creational:Builder,Object Pool,Factory Method,Signleton,Multiton,Prototype,Abstract Factory.Structural:Adapter,Bridge,Composite,Decorator,Facade,Flyweight,Proxy.Behavioral:Chain of Responsibility,Command,Interpreter,Iterator,Mediator,Memento,Observer,State,Strategy,Template Method,Visitor.)
-* *Integration patterns*.
+* *Integration patterns*, SOA patterns.
 * 3-tier architecture? (Presentation tier, Application tier, Data tier)
 * 3-layer architecture? (DAO (Repository), Business (Service) layer, Controller)
 * What is REST?
