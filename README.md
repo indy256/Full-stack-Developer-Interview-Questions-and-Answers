@@ -14,6 +14,8 @@ This repo contains a number of full-stack developer interview questions that can
   1. [Transcations](#transcations)
   1. [Concurrency](#concurrency)
   1. [Distributed](#distributed)
+  1. [Load balancing](#loadbalancing)
+  1. [Cache](#cache)
   1. [Operating system](#os)
   1. [Java](#java)
   1. [Javascript](#javascript)
