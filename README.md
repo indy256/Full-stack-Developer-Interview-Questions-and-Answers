@@ -90,6 +90,8 @@ This repo contains a number of full-stack developer interview questions that can
 * What is a *thread-safe function*? (Can be safely invoked by multiple threads at the same time)
 * Publish/Subscripe code
 * What is *2-phase locking*? (Growing phase, shrinking phase. Guarantees serializablity for transactions, doesn't prevent deadlock).
+* What is the difference between *thread* and *process*? (Threads (of the same process) run in a shared memory space, while processes run in separate memory spaces)
+* 
 
 ####[[⬆]](#toc) <a name='os'>Operating system:</a>
 * What is memory mapped file?
