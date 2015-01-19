@@ -92,6 +92,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *2-phase locking*? (Growing phase, shrinking phase. Guarantees serializablity for transactions, doesn't prevent deadlock).
 * What is the difference between *thread* and *process*? (Threads (of the same process) run in a shared memory space, while processes run in separate memory spaces)
 * What is *false sharing*, *cache pollution*, *cache miss*, *thread affinity*, *speculative execution*?
+* What is *sequential consistency*? (The result of any execution is the same as if the operations of all the processors were executed in some sequential order, and the operations of each individual processor appear in this sequence in the order specified by its program).
 
 ####[[⬆]](#toc) <a name='os'>Operating system:</a>
 * What is memory mapped file?
