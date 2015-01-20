@@ -95,6 +95,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *false sharing*, *cache pollution*, *cache miss*, *thread affinity*, *speculative execution*?
 * What is *sequential consistency*? (The result of any execution is the same as if the operations of all the processors were executed in some sequential order, and the operations of each individual processor appear in this sequence in the order specified by its program).
 * What is *memory barrier*? (A memory barrier, also known as a membar, memory fence or fence instruction, is a type of barrier instruction that causes a CPU or compiler to enforce an ordering constraint on memory operations issued before and after the barrier instruction)
+* ReentrantLock, Barrier, CountDownLatch, ...
 
 ####[[⬆]](#toc) <a name='os'>Operating system:</a>
 * What is memory mapped file?
@@ -103,7 +104,7 @@ This repo contains a number of full-stack developer interview questions that can
 ####[[⬆]](#toc) <a name='java'>Java:</a>
 * WeakReference, SoftReference, PhantomReference
 * What is *Spring*? (Spring Framework is an application container for Java that supplies many useful features, such as Inversion of Control, Dependency Injection, abstract data access, transaction management, and more)
-* What is *Hibernate*?
+* What is *Hibernate* (Caches, lazy-loading)?
 * How to write *benchmarks*? 
 * What is OSGI? (Specification describes a modular system and a service platform for the Java programming language that implements a complete and dynamic component model. Each bundle has its own classpath. Dependency hell avoidance. META-INF/MANIFEST.MF contains OSGI-info)
 * What is JMS?
