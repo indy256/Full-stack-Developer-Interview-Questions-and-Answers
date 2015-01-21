@@ -14,7 +14,7 @@ This repo contains a number of full-stack developer interview questions that can
   1. [Transcations](#transcations)
   1. [Concurrency](#concurrency)
   1. [Distributed](#distributed)
-  1. [Load balancing](#loadbalancing)
+  1. [Load balancing](#load-balancing)
   1. [Cache](#cache)
   1. [Operating system](#os)
   1. [Java](#java)
@@ -28,6 +28,8 @@ This repo contains a number of full-stack developer interview questions that can
   1. [Algorithms](#algorithms)
   1. [UML](#uml)
   1. [Other](#other)
+  1. [Machine learning](#machine-learning)
+  1. [Cryptography](#cryptography)
 
 ####[[⬆]](#toc) <a name='general'>General Questions:</a>
 * What is *polymorphism*? (Ability of a function to handle objects of many types)
@@ -176,3 +178,21 @@ public static int lisSize(int[] a) {
 * Regular expressions
 * XPath
 * What are your goals to work in our company? (3 categories: professional, financial, social)
+
+####[[⬆]](#toc) <a name='machine-learning'>Machine learning:</a>
+* Bayes theorem. P(A|B) = P(B|A)P(A)/P(B), P(B) = sum(P(Ai)P(B|Ai))
+
+####[[⬆]](#toc) <a name='cryptography'>Cryptography:</a>
+* What is *public key cryptography*?
+* *RSA*
+```
+select 2 primes: p,q
+n = p*q
+phi(n) = (p-1)*(q-1)
+select 1<e<phi(n), gcd(e,phi(n))=1
+d=e^-1 mod phi(n)
+(e,n) - public key
+(d,n) - private key
+c = m^e mod n
+m = c^d mod n = m^(e*d) mod n = m^(e*d mod phi(n)) mod n = m
+```
