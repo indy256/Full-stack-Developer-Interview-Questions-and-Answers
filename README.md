@@ -178,6 +178,7 @@ public static int lisSize(int[] a) {
 * Regular expressions
 * XPath
 * What are your goals to work in our company? (3 categories: professional, financial, social)
+* What is *virtualization*? 
 
 ####[[⬆]](#toc) <a name='machine-learning'>Machine learning:</a>
 * Bayes theorem. P(A|B) = P(B|A)P(A)/P(B), P(B) = sum(P(Ai)P(B|Ai))
