@@ -171,6 +171,7 @@ public static int lisSize(int[] a) {
 ####[[⬆]](#toc) <a name='qa'>QA:</a>
 * What is unit, integration, functional tests?
 * Unit tests advantages?
+* Types of tests: acceptance testing, functional testing, smoke testing, regression testing, unit testing, integration testing, stress testing.
 
 ####[[⬆]](#toc) <a name='algorithms'>Algorithms:</a>
 * What is NP-completeness?
