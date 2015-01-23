@@ -164,6 +164,7 @@ public static int lisSize(int[] a) {
   * Responding to change over Following a plan
 * What is Scrum? (Roles: product owner, development team, scrum master. Events: sprint, 
 * What is XP? ()
+* What is Lean, Kanban?
 
 ####[[⬆]](#toc) <a name='git'>Git:</a>
 * Git workflow? ()
