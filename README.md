@@ -106,7 +106,7 @@ lock or unlock)
 
 ####[[⬆]](#toc) <a name='os'>Operating system:</a>
 * What is memory mapped file?
-* Inter-process communication methods.
+* Interprocess communication methods.
 
 ####[[⬆]](#toc) <a name='java'>Java:</a>
 * WeakReference, SoftReference, PhantomReference
