@@ -105,8 +105,9 @@ This repo contains a number of full-stack developer interview questions that can
 lock or unlock)
 
 ####[[⬆]](#toc) <a name='os'>Operating system:</a>
-* What is memory mapped file?
-* Interprocess communication methods.
+* What is *memory mapped* file?
+* *Interprocess communication* methods.
+* *Virtual memory* organization.
 
 ####[[⬆]](#toc) <a name='java'>Java:</a>
 * WeakReference, SoftReference, PhantomReference
