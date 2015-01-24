@@ -52,7 +52,8 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *JSONP*? (A communication technique used in JavaScript programs running in web browsers to request data from a server in a different domain, something prohibited by typical web browsers because of the same-origin policy)
 * HTTPS negotiation steps.
 * Browser-server communication methods: WebSocket
-* What is character encoding?
+* What is *character encoding*?
+* What is *role-based access controll* and *access control list*?
 
 ####[[⬆]](#toc) <a name='sql'>SQL:</a>
 * *SQL join types* (inner join, left/right outer join, full outer join, cross join)
