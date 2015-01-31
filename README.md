@@ -46,6 +46,7 @@ This repo contains a number of full-stack developer interview questions that can
 * 3-layer architecture? (DAO (Repository), Business (Service) layer, Controller)
 * What is REST?
 * Naked objects, Restful objects.
+* What is *aspect-oriented programming*?
 
 ####[[⬆]](#toc) <a name='web'>WEB:</a>
 * WEB security vulnerabilities (XSS, CSRF, session fixation, SQL injection, man-in-the-middle, buffer overflow)
