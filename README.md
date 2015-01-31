@@ -36,6 +36,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *encapsulation* (Packing of data and functions into a single component)
 * What is *inversion of control*? (A design in which custom-written portions of a computer program receive the flow of control from a generic, reusable library)
 * What is tail recursion? (A tail call is a subroutine call performed as the final action of a procedure)
+* What is *virtual function*?
 
 ####[[⬆]](#toc) <a name='architecture'>Architecture:</a>
 * *Design principles*. (SOLID, DRY, KISS, YAGNI, convention over configuration, separation of concerns, principle of least knowledge, tourist principle)
