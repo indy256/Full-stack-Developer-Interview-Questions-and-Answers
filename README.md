@@ -106,8 +106,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *memory barrier*? (A memory barrier, also known as a membar, memory fence or fence instruction, is a type of barrier instruction that causes a CPU or compiler to enforce an ordering constraint on memory operations issued before and after the barrier instruction)
 * ReentrantLock, Barrier, CountDownLatch, ...
 * Java *memory model*. Causality requirement for incorrectly synchronized programs. (https://dl.dropboxusercontent.com/u/1011627/journal.pdf)
-* What is *monitor* in Java? (Each object in Java is associated with a monitor, which a thread can
-lock or unlock)
+* What is *monitor* in Java? (Each object in Java is associated with a monitor, which a thread can lock or unlock)
 
 ####[[⬆]](#toc) <a name='os'>Operating system:</a>
 * What is *memory mapped* file?
