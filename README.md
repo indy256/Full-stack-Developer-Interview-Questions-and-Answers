@@ -90,6 +90,7 @@ This repo contains a number of full-stack developer interview questions that can
 ####[[⬆]](#toc) <a name='general'>Distributed:</a>
 * What is *CAP theorem*? (it is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: *consistency*, *availability*, *partition tolerance*) ![CAP theorem](http://guide.couchdb.org/draft/consistency/01.png "CAP theorem")
 * What is *map-reduce*? (Word count example)
+* *Sharding counters*.
 
 ####[[⬆]](#toc) <a name='concurrency'>Concurrency:</a>
 * What is *deadlock*, *livelock*? (Deadlock is a situation in which two or more competing actions are each waiting for the other to finish, and thus neither ever does. A livelock is similar to a deadlock, except that the states of the processes involved in the livelock constantly change with regard to one another, none progressing.)
