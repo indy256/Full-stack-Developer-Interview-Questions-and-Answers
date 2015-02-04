@@ -77,6 +77,7 @@ This repo contains a number of full-stack developer interview questions that can
 * OSI model (Physical, Data link, Network, Transport, Session, Presentation, Application)
 * Multithreading vs select
 * Swith, hub, router.
+* TCP congestion.
 
 ####[[⬆]](#toc) <a name='scalability'>Scalability:</a>
 * sticky/non-sticky sessions
