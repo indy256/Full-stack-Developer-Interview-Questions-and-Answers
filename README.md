@@ -126,6 +126,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is JMS?
 * Serializable / Externalizable
 * What is Servlet (versions of servlet api)?
+* What is *generics* and PECS (producer extends and consumer super)?
 
 ####[[⬆]](#toc) <a name='javascript'>Javascript:</a>
 * this keyword
