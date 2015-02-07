@@ -32,12 +32,13 @@ This repo contains a number of full-stack developer interview questions that can
   1. [Cryptography](#cryptography)
 
 ####[[⬆]](#toc) <a name='general'>General Questions:</a>
-* What is *polymorphism*? (Ability of a function to handle objects of many types)
+* What is *polymorphism*? (Variable of type Shape could refer to an object of type Square, Circle... Ability of a function to handle objects of many types)
 * What is *encapsulation* (Packing of data and functions into a single component)
 * What is *inversion of control*? (A design in which custom-written portions of a computer program receive the flow of control from a generic, reusable library)
 * What is tail recursion? (A tail call is a subroutine call performed as the final action of a procedure)
 * What is *virtual function*?
 * What is *virtual method table*?
+* What is *dynamic binding*?(Actual method implementation invoked is determined at run time based on the class of the object, not the type of the variable or expression)
 
 ####[[⬆]](#toc) <a name='architecture'>Architecture:</a>
 * *Design principles*. (SOLID, DRY, KISS, YAGNI, convention over configuration, separation of concerns, principle of least knowledge, tourist principle)
