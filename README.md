@@ -50,6 +50,7 @@ This repo contains a number of full-stack developer interview questions that can
 * Naked objects, Restful objects.
 * What is *aspect-oriented programming*?
 * Why do you need *application server*?
+* *Inheritance* vs *Composition*.(inheritance - is-a relationship, whether clients will want to use the subclass type as a superclass type).
 
 ####[[⬆]](#toc) <a name='web'>WEB:</a>
 * WEB security vulnerabilities (XSS, CSRF, session fixation, SQL injection, man-in-the-middle, buffer overflow)
