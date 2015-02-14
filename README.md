@@ -214,7 +214,7 @@ public static int lisSize(int[] a) {
 * What is total/partial order?
 
 ####[[⬆]](#toc) <a name='machine-learning'>Machine learning:</a>
-* Bayes theorem. P(A|B) = P(B|A)P(A)/P(B), P(B) = sum(P(Ai)P(B|Ai))
+* Bayes' theorem. P(A|B) = P(B|A)P(A)/P(B), P(B) = sum(P(Ai)P(B|Ai))
 
 ####[[⬆]](#toc) <a name='cryptography'>Cryptography:</a>
 * What is *public key cryptography*?
