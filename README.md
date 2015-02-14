@@ -188,16 +188,15 @@ public static int lisSize(int[] a) {
 * Git workflow? ()
 
 ####[[⬆]](#toc) <a name='qa'>QA:</a>
-* What is unit, integration, functional tests?
 * Unit tests advantages?
-* Types of tests: acceptance testing, functional testing, smoke testing, regression testing, unit testing, integration testing, stress testing.
+* Types of tests: acceptance testing, functional testing, smoke testing, regression testing, unit testing, integration testing, stress testing, (Load, Performance, Sanity, Stability, Security, Feature, Progression, Installation, Business).
 * Differences between mock and stub?
 
 ####[[⬆]](#toc) <a name='algorithms'>Algorithms:</a>
 * What is NP-completeness?
 
 ####[[⬆]](#toc) <a name='other'>Other:</a>
-* Regular expressions
+* Regular expressions. (Examples)
 * XPath
 * What are your goals to work in our company? (3 categories: professional, financial, social)
 * What is *virtualization*? 
