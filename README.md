@@ -113,10 +113,19 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *false sharing*, *cache pollution*, *cache miss*, *thread affinity*, *speculative execution*?
 * What is *sequential consistency*? (The result of any execution is the same as if the operations of all the processors were executed in some sequential order, and the operations of each individual processor appear in this sequence in the order specified by its program).
 * What is *memory barrier*? (A memory barrier, also known as a membar, memory fence or fence instruction, is a type of barrier instruction that causes a CPU or compiler to enforce an ordering constraint on memory operations issued before and after the barrier instruction)
-* ReentrantLock, Barrier, CountDownLatch, ...
+* Synchonization aids
+  * CountDownLatch
+  * Barrier
+  * CyclicBarrier
+  * Phaser
+  * ReentrantLock
+  * Exchanger
+  * Semaphore
+  * LinkedTransferQueue
 * Java *memory model*. Causality requirement for incorrectly synchronized programs. (https://dl.dropboxusercontent.com/u/1011627/journal.pdf)
 * What is *monitor* in Java? (Each object in Java is associated with a monitor, which a thread can lock or unlock)
 * What is *safe publication*?
+* What is *wait*/*notify*?
 
 ####[[⬆]](#toc) <a name='os'>Operating system:</a>
 * What is *memory mapped* file?
