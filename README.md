@@ -53,6 +53,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *aspect-oriented programming*?
 * Why do you need *application server*?
 * *Inheritance* vs *Composition*.(inheritance - is-a relationship, whether clients will want to use the subclass type as a superclass type).
+* *Multiple inheritance problem*.
 * What is *uniform access principle*?(client code should not be affected by a decision to implement an attribute as a field or method)
 
 ####[[⬆]](#toc) <a name='web'>WEB:</a>
