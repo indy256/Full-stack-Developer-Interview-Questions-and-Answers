@@ -89,7 +89,8 @@ This repo contains a number of full-stack developer interview questions that can
 ####[[⬆]](#toc) <a name='scalability'>Scalability:</a>
 * sticky/non-sticky sessions
 * Horizontal and vertical scaling
-* For what is messanging?
+* How to scaling database? (Replaciation and sharding).
+* For what is messaging?
 
 ####[[⬆]](#toc) <a name='transactions'>Transactions:</a>
 * What ACID?
