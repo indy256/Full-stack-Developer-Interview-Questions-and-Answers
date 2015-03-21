@@ -199,7 +199,7 @@ public static int lisSize(int[] a) {
 * What is Lean, Kanban?
 
 ####[[⬆]](#toc) <a name='git'>Git:</a>
-* *Git* workflow? (Master: production-ready state; Develop: latest delivered development changes for the next release; Feature Branches; Release Branches; Hotfixes) ![git-workflow](http://nvie.com/img/git-model@2x.png "Git workflow")
+* *Git* workflow? (Master: production-ready state; Develop: latest delivered development changes for the next release; Feature Branches; Release Branches; Hotfixes) ![Git workflow](http://nvie.com/img/git-model@2x.png "Git workflow")
 
 ####[[⬆]](#toc) <a name='qa'>QA:</a>
 * Unit tests advantages?
