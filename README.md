@@ -105,7 +105,6 @@ This repo contains a number of full-stack developer interview questions that can
 ####[[⬆]](#toc) <a name='concurrency'>Concurrency:</a>
 * What is *deadlock*, *livelock*? (Deadlock is a situation in which two or more competing actions are each waiting for the other to finish, and thus neither ever does. A livelock is similar to a deadlock, except that the states of the processes involved in the livelock constantly change with regard to one another, none progressing.)
 * What is *race condition*? (Behavior of software system where the output is dependent on the sequence or timing of other uncontrollable events)
-* What is *data race*? (When a program contains two conflicting accesses that are not ordered by a happens-before relationship, it is said to contain a data race. Two accesses to (reads of or writes to) the same variable are said to be conflicting if at least one of the accesses is a write)
 * What is *happens-before* relation?
 * What is *thread contention*? (Contention is simply when two threads try to access either the same resource or related resources in such a way that at least one of the contending threads runs more slowly than it would if the other thread(s) were not running)
 * How to *avoid deadlock*? (Mutex hierarchy)
@@ -126,7 +125,8 @@ This repo contains a number of full-stack developer interview questions that can
   * Exchanger
   * Semaphore
   * LinkedTransferQueue
-* Java *memory model*. (Correctly synchronized programs have sequentially consistent semantics. Causality requirement for incorrectly synchronized programs. https://dl.dropboxusercontent.com/u/1011627/journal.pdf)
+* What is *data race*? (When a program contains two conflicting accesses that are not ordered by a happens-before relationship, it is said to contain a data race. Two accesses to (reads of or writes to) the same variable are said to be conflicting if at least one of the accesses is a write)
+* Java *memory model*. (A program is correctly synchronized if and only if all sequentially consistent executions are free of data races. Correctly synchronized programs have sequentially consistent semantics. Causality requirement for incorrectly synchronized programs. https://dl.dropboxusercontent.com/u/1011627/journal.pdf)
 * What is *monitor* in Java? (Each object in Java is associated with a monitor, which a thread can lock or unlock)
 * What is *safe publication*?
 * What is *wait*/*notify*?
