@@ -126,7 +126,7 @@ This repo contains a number of full-stack developer interview questions that can
   * Exchanger
   * Semaphore
   * LinkedTransferQueue
-* Java *memory model*. Causality requirement for incorrectly synchronized programs. (https://dl.dropboxusercontent.com/u/1011627/journal.pdf)
+* Java *memory model*. (Correctly synchronized programs have sequentially consistent semantics. Causality requirement for incorrectly synchronized programs. https://dl.dropboxusercontent.com/u/1011627/journal.pdf)
 * What is *monitor* in Java? (Each object in Java is associated with a monitor, which a thread can lock or unlock)
 * What is *safe publication*?
 * What is *wait*/*notify*?
