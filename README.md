@@ -154,6 +154,7 @@ This repo contains a number of full-stack developer interview questions that can
 * closures
 * What is *MVC*, *MVP*?, *MVVM*?
 * What is *promise*?
+* What is event bubbling and capturing?
 
 ####[[⬆]](#toc) <a name='codewriting'>Codewriting:</a>
 * Implement expression parser
