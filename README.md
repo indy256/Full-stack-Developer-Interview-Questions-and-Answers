@@ -131,6 +131,9 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *safe publication*?
 * What is *wait*/*notify*?
 * *Amdahl's law*? (Speedup = 1 / (1 - p + p / n))
+* *Dining philosophers problem*.
+* *Produces/consumer* problem.
+* *Readers/writers* problem.
 
 ####[[⬆]](#toc) <a name='os'>Operating system:</a>
 * What is *memory mapped* file?
