@@ -130,6 +130,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *monitor* in Java? (Each object in Java is associated with a monitor, which a thread can lock or unlock)
 * What is *safe publication*?
 * What is *wait*/*notify*?
+* *Amdahl's law*? (Speedup = 1 / (1 - p + p / n))
 
 ####[[⬆]](#toc) <a name='os'>Operating system:</a>
 * What is *memory mapped* file?
