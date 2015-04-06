@@ -134,6 +134,7 @@ This repo contains a number of full-stack developer interview questions that can
 * *Dining philosophers problem*.
 * *Produces/consumer* problem.
 * *Readers/writers* problem.
+* *Consensus number*. Maximum number of threads for which objects of the class can solve consensus problem.
 
 ####[[⬆]](#toc) <a name='os'>Operating system:</a>
 * What is *memory mapped* file?
