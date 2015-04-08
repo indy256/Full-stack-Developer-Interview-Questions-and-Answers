@@ -62,7 +62,7 @@ This repo contains a number of full-stack developer interview questions that can
 * CSRF prevention. (CSRF-token)
 * What is *JSONP*? (A communication technique used in JavaScript programs running in web browsers to request data from a server in a different domain, something prohibited by typical web browsers because of the same-origin policy)
 * HTTPS negotiation steps.
-* Browser-server communication methods: WebSocket
+* Browser-server communication methods: WebSocket, EventSource, Long-Polling
 * What is *character encoding*?
 * What is *role-based access controll* and *access control list*?
 
