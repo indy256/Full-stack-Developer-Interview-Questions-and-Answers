@@ -101,6 +101,11 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *CAP theorem*? (it is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: *consistency*, *availability*, *partition tolerance*) ![CAP theorem](http://guide.couchdb.org/draft/consistency/01.png "CAP theorem")
 * What is *map-reduce*? (Word count example)
 * *Sharding counters*.
+* Herlihy’s consensus hierarchy. Every shared object can be assigned a consensus number, which is the maximum number of processes for which the object can solve wait-free consensus in an asynchronous system.
+1 Read-write registers
+2 Test-and-set, swap, fetch-and-add, queue, stack
+⋮ ⋮
+∞ Augmented queue, compare-and-swap, sticky byte
 
 ####[[⬆]](#toc) <a name='concurrency'>Concurrency:</a>
 * What is *deadlock*, *livelock*? (Deadlock is a situation in which two or more competing actions are each waiting for the other to finish, and thus neither ever does. A livelock is similar to a deadlock, except that the states of the processes involved in the livelock constantly change with regard to one another, none progressing.)
