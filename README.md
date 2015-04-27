@@ -144,7 +144,7 @@ This repo contains a number of full-stack developer interview questions that can
 * *Consensus number*. Maximum number of threads for which objects of the class can solve consensus problem.
 
 ####[[⬆]](#toc) <a name='os'>Operating system:</a>
-* What is *memory mapped* file?
+* What is *memory mapped* file and its benefits?
 * *Interprocess communication* methods. (Pipes, Events, Mailboxes/Ports (can be implemented by using shared memory and semaphores), Direct Message Passing).
 * *Virtual memory* organization.
 
