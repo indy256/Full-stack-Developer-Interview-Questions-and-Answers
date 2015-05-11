@@ -166,7 +166,7 @@ This repo contains a number of full-stack developer interview questions that can
 * closures
 * What is *MVC*, *MVP*?, *MVVM*?
 * What is *promise*?
-* What is event *bubbling* and *capturing*?
+* What is event *bubbling* and *capturing*? (target.addEventListener(type, listener[, useCapture]))
 * What is *Asynchronous Module Design* and *CommonJS*?
 
 ####[[⬆]](#toc) <a name='codewriting'>Codewriting:</a>
