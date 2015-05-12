@@ -66,6 +66,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *character encoding*?
 * What is *role-based access controll* and *access control list*?
 * What is session and persistent cookies, sessionStorage and localStorage?
+* Authentication using cookies, JWT (JSON Web Tokens).
 
 ####[[⬆]](#toc) <a name='sql'>SQL:</a>
 * *SQL join types* (inner join, left/right outer join, full outer join, cross join)
