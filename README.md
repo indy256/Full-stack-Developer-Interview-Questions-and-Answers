@@ -93,6 +93,8 @@ This repo contains a number of full-stack developer interview questions that can
 * Horizontal and vertical scaling
 * How to scaling database? (Sharding, replaciation(master-slave, master-master).
 * For what is messaging?
+* Hadoop basics.
+* MongoDB, Redis.
 
 ####[[⬆]](#toc) <a name='transactions'>Transactions:</a>
 * What ACID?
