@@ -164,7 +164,7 @@ This repo contains a number of full-stack developer interview questions that can
 ####[[⬆]](#toc) <a name='javascript'>Javascript:</a>
 * this keyword
 * inheritance
-* differences between == and ===
+* differences between == and === (http://dorey.github.io/JavaScript-Equality-Table/)
 * closures
 * What is *MVC*, *MVP*, *MVVM*?
 * What is *promise*?
