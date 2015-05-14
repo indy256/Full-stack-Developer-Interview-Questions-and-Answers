@@ -166,10 +166,10 @@ This repo contains a number of full-stack developer interview questions that can
 * inheritance
 * differences between == and ===
 * closures
-* What is *MVC*, *MVP*?, *MVVM*?
+* What is *MVC*, *MVP*, *MVVM*?
 * What is *promise*?
 * What is event *bubbling* and *capturing*? (target.addEventListener(type, listener[, useCapture]))
-* What is *Asynchronous Module Design* and *CommonJS*?
+* What is *AMD*(Asynchronous Module Design) and *CommonJS*?
 
 ####[[⬆]](#toc) <a name='codewriting'>Codewriting:</a>
 * Implement expression parser
