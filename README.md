@@ -172,6 +172,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *promise*?
 * What is event *bubbling* and *capturing*? (target.addEventListener(type, listener[, useCapture]))
 * What is *AMD*(Asynchronous Module Design) and *CommonJS*?
+* What is *jQuery*?
 
 ####[[⬆]](#toc) <a name='codewriting'>Codewriting:</a>
 * Implement expression parser
