@@ -244,6 +244,7 @@ public static int lisSize(int[] a) {
 
 ####[[⬆]](#toc) <a name='cryptography'>Cryptography:</a>
 * What is *public key cryptography*?
+* What is *public key certificate*?
 * *RSA*
 ```
 select 2 primes: p,q
