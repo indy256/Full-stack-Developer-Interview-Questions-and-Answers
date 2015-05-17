@@ -91,9 +91,10 @@ This repo contains a number of full-stack developer interview questions that can
 
 ####[[⬆]](#toc) <a name='scalability'>Scalability:</a>
 * sticky/non-sticky sessions
+* storing sessions in Redis.
 * Horizontal and vertical scaling
-* How to scaling database? (Sharding, replaciation(master-slave, master-master).
-* For what is messaging?
+* How to scaling database? (Sharding, replication(master-slave, master-master).
+* When to use messaging?
 * Hadoop basics.
 * MongoDB, Redis.
 
