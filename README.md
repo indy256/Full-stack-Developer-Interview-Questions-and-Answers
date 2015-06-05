@@ -85,7 +85,6 @@ This repo contains a number of full-stack developer interview questions that can
 
 ####[[⬆]](#toc) <a name='nosql'>NoSQL:</a>
 * Types of NoSQL databases?
-  * Relational Databases (Oracle, Mysql, Postgresql, etc.)
   * Document Stores (MongoDB, Couchbase)
   * Key-Value Stores (Redis, Volgemort)
   * Column Stores (Cassandra)
