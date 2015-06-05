@@ -85,11 +85,11 @@ This repo contains a number of full-stack developer interview questions that can
 
 ####[[⬆]](#toc) <a name='nosql'>NoSQL:</a>
 * Types of NoSQL databases?
-  1. Relational Databases (Oracle, Mysql, Postgresql, etc.)
-  2. Document Stores (MongoDB, Couchbase)
-  3. Key-Value Stores (Redis, Volgemort)
-  4. Column Stores (Cassandra)
-  5. Graph Stores (Neo4j, Giraph)
+ 1. Relational Databases (Oracle, Mysql, Postgresql, etc.)
+ 1. Document Stores (MongoDB, Couchbase)
+ 1. Key-Value Stores (Redis, Volgemort)
+ 1. Column Stores (Cassandra)
+ 1. Graph Stores (Neo4j, Giraph)
 
 ####[[⬆]](#toc) <a name='networking'>Networking:</a>
 * OSI model (Physical, Data link, Network, Transport, Session, Presentation, Application)
