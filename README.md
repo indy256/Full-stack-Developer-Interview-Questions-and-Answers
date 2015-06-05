@@ -83,6 +83,14 @@ This repo contains a number of full-stack developer interview questions that can
 |Snapshot        |-        |-        |-        |-        |may occur|
 |Serializable    |-        |-        |-        |-        |-        |
 
+####[[⬆]](#toc) <a name='nosql'>NoSQL:</a>
+* Types of NoSQL databases?
+1. Relational Databases (Oracle, Mysql, Postgresql, etc.)
+2. Document Stores (MongoDB, Couchbase)
+3. Key-Value Stores (Redis, Volgemort)
+4. Column Stores (Cassandra)
+5. Graph Stores (Neo4j, Giraph)
+
 ####[[⬆]](#toc) <a name='networking'>Networking:</a>
 * OSI model (Physical, Data link, Network, Transport, Session, Presentation, Application)
 * Multithreading vs select
