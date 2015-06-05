@@ -85,11 +85,11 @@ This repo contains a number of full-stack developer interview questions that can
 
 ####[[⬆]](#toc) <a name='nosql'>NoSQL:</a>
 * Types of NoSQL databases?
- 1. Relational Databases (Oracle, Mysql, Postgresql, etc.)
- 1. Document Stores (MongoDB, Couchbase)
- 1. Key-Value Stores (Redis, Volgemort)
- 1. Column Stores (Cassandra)
- 1. Graph Stores (Neo4j, Giraph)
+  1. Relational Databases (Oracle, Mysql, Postgresql, etc.)
+  1. Document Stores (MongoDB, Couchbase)
+  1. Key-Value Stores (Redis, Volgemort)
+  1. Column Stores (Cassandra)
+  1. Graph Stores (Neo4j, Giraph)
 
 ####[[⬆]](#toc) <a name='networking'>Networking:</a>
 * OSI model (Physical, Data link, Network, Transport, Session, Presentation, Application)
@@ -117,10 +117,12 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *map-reduce*? (Word count example)
 * *Sharding counters*.
 * Herlihy’s consensus hierarchy. Every shared object can be assigned a consensus number, which is the maximum number of processes for which the object can solve wait-free consensus in an asynchronous system.
+```
 1 Read-write registers
 2 Test-and-set, swap, fetch-and-add, queue, stack
 ⋮ ⋮
 ∞ Augmented queue, compare-and-swap, sticky byte
+```
 
 ####[[⬆]](#toc) <a name='cache'>Cache:</a>
 * What is *write-through* and *write-behind* caching? (write-through (synchronous), write-behind (asynchronous))
