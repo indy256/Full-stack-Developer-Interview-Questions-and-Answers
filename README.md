@@ -127,6 +127,7 @@ This repo contains a number of full-stack developer interview questions that can
 
 ####[[⬆]](#toc) <a name='cache'>Cache:</a>
 * What is *write-through* and *write-behind* caching? (write-through (synchronous), write-behind (asynchronous))
+* HTTP cache options?
 
 ####[[⬆]](#toc) <a name='concurrency'>Concurrency:</a>
 * What is *deadlock*, *livelock*? (Deadlock is a situation in which two or more competing actions are each waiting for the other to finish, and thus neither ever does. A livelock is similar to a deadlock, except that the states of the processes involved in the livelock constantly change with regard to one another, none progressing.)
