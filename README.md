@@ -113,7 +113,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is 2-phase, 3-phase commit?
 * What is pessimistic/optimistic locking?
 
-####[[⬆]](#toc) <a name='general'>Distributed:</a>
+####[[⬆]](#toc) <a name='distributed'>Distributed:</a>
 * What is *CAP theorem*? (it is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: *consistency*, *availability*, *partition tolerance*) ![CAP theorem](http://guide.couchdb.org/draft/consistency/01.png "CAP theorem")
 * What is *map-reduce*? (Word count example)
 * *Sharding counters*.
@@ -124,6 +124,9 @@ This repo contains a number of full-stack developer interview questions that can
 ⋮ ⋮
 ∞ Augmented queue, compare-and-swap, sticky byte
 ```
+
+####[[⬆]](#toc) <a name='load-balancing'>Load balancing:</a>
+* What is *cloud computing*? (Cloud computing platform is a fully automated server platform that allows users to purchase, remotely create, dynamically scale, and administer system)
 
 ####[[⬆]](#toc) <a name='cache'>Cache:</a>
 * What is *write-through* and *write-behind* caching? (write-through (synchronous), write-behind (asynchronous))
