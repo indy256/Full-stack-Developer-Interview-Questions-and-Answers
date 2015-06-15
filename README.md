@@ -108,13 +108,14 @@ This repo contains a number of full-stack developer interview questions that can
 * TCP congestion.
 
 ####[[⬆]](#toc) <a name='scalability'>Scalability:</a>
-* sticky/non-sticky sessions
-* storing sessions in Redis.
 * Horizontal and vertical scaling.
-* How to scaling database? (Sharding, replication(master-slave, master-master).
+* How to scale database? (Data Partitioning, sharding, replication(master-slave, master-master).
+* What is *synchronous multimaster replication*? (Each server can accept write requests, and modified data is transmitted from the original server to every other server before each transaction commits)
+* What is *synchronous multimaster replication*? (Each server works independently, and periodically communicates with the other servers to identify conflicting transactions. The conflicts can be resolved by users or conflict resolution rules)
 * *Denormalization*.
 * When to use messaging queue?
 * Hadoop basics.
+* storing sessions in Redis.
 * MongoDB, Redis.
 
 ####[[⬆]](#toc) <a name='transactions'>Transactions:</a>
@@ -136,6 +137,7 @@ This repo contains a number of full-stack developer interview questions that can
 
 ####[[⬆]](#toc) <a name='load-balancing'>Load balancing:</a>
 * What is *cloud computing*? (Cloud computing platform is a fully automated server platform that allows users to purchase, remotely create, dynamically scale, and administer system)
+* sticky/non-sticky sessions
 
 ####[[⬆]](#toc) <a name='cache'>Cache:</a>
 * What is *write-through* and *write-behind* caching? (write-through (synchronous), write-behind (asynchronous))
