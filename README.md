@@ -185,6 +185,7 @@ This repo contains a number of full-stack developer interview questions that can
 
 ####[[⬆]](#toc) <a name='java'>Java:</a>
 * *WeakReference*, *SoftReference*, *PhantomReference*, *finalize()*, *ReferenceQueue*.
+* How to correctly stop a thread? (Thread.interrupt())
 * What is *Spring*? (Spring Framework is an application container for Java that supplies many useful features, such as Inversion of Control, Dependency Injection, abstract data access, transaction management, and more)
 * What is *Hibernate* (Caches, lazy-loading)?
 * How to write *benchmarks*? 
