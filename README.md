@@ -78,6 +78,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *character encoding*?
 * What is *role-based access controll* and *access control list*?
 * What is session and persistent cookies, sessionStorage and localStorage?
+* How to implement remember-me?
 * Authentication using cookies, JWT (JSON Web Tokens).
 
 ####[[⬆]](#toc) <a name='sql'>SQL:</a>
