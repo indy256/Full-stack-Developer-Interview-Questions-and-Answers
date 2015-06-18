@@ -194,7 +194,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is JMS?
 * Serializable / Externalizable
 * What is a *servlet* (versions of servlet api)?
-* What is a *servlet filter*?
+* What is a *servlet filter*? How to implement *GZipFilter*? (ResponseWrapper)
 * What is *generics* and PECS (producer extends and consumer super)?
 * What is *DAO* (Data Access Object)? (DAO allows one to switch between technologies like JDBC, Hibernate, JPA or JDO fairly easily)
 * What is the difference between <?> and <Object>?
