@@ -199,6 +199,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *generics* and PECS (producer extends and consumer super)?
 * What is *DAO* (Data Access Object)? (DAO allows one to switch between technologies like JDBC, Hibernate, JPA or JDO fairly easily)
 * What is the difference between <?> and <Object>?
+* XML: SAX, DOM, StAX
 
 ####[[⬆]](#toc) <a name='javascript'>Javascript:</a>
 * this keyword
@@ -270,7 +271,6 @@ public static int lisSize(int[] a) {
 * How to find memory leak. (Memory snapshot diff).
 * Profiling: sampling and instrumentation.
 * Regular expressions. (Examples)
-* XML: SAX, DOM, STax
 * XPath* 
 * What are your goals to work in our company? (3 categories: professional, financial, social)
 * What is *virtualization*? 
