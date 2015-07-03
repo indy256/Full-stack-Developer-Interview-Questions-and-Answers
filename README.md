@@ -45,6 +45,11 @@ This repo contains a number of full-stack developer interview questions that can
 
 ####[[⬆]](#toc) <a name='architecture'>Architecture:</a>
 * *Design principles*. (SOLID, DRY, KISS, YAGNI, convention over configuration, separation of concerns, principle of least knowledge, tourist principle, single source of truth, single version of the truth)
+* Benefits of *separation of concerns*.
+  * Adding new features will take an order of magnitude longer
+  * They’re impossible to optimize
+  * They’re extremely difficult to test
+  * Fixing and debugging can be a nightmare (fixing something in one place can lead to something else breaking that seems completely unrelated).
 
 |Rule|Description|
 |:--|:--|
@@ -253,6 +258,7 @@ public static int lisSize(int[] a) {
   * Customer collaboration over Contract negotiation
   * Responding to change over Following a plan
 * What is Scrum? (Roles: product owner, development team, scrum master. Events: sprint, 
+* What are the differences between Scrum and Waterfall?
 * What is XP? ()
 * What is Lean, Kanban?
 
