@@ -42,6 +42,7 @@ This repo contains a number of full-stack developer interview questions that can
 * How does *garbage collector* work? (Mark and sweep: mark: traverse object graph starting from root objects, sweep: garbage collect unmarked objects. Optimizations: young/old generations, incremental mark and sweep)
 * What is *semantic versioning*?
 * What is *A/B testing*?
+* What is stub and mock? (A stub is a test double with preprogrammed behavior. Mocks are stubs with preprogrammed expectations.)
 
 ####[[⬆]](#toc) <a name='architecture'>Architecture:</a>
 * *Design principles*. (SOLID, DRY, KISS, YAGNI, convention over configuration, separation of concerns, principle of least knowledge, tourist principle, single source of truth, single version of the truth)
