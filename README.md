@@ -9,7 +9,7 @@ This repo contains a number of full-stack developer interview questions that can
   1. [WEB](#web)
   1. [SQL](#sql)
   1. [NoSQL](#nosql)
-  1. [Networking](#networking)
+  1. [Networking](#networking)s
   1. [Scalability](#scalability)
   1. [Load balancing](#load-balancing)
   1. [Transcations](#transcations)
@@ -46,7 +46,7 @@ This repo contains a number of full-stack developer interview questions that can
 
 ####[[⬆]](#toc) <a name='architecture'>Architecture:</a>
 * *Design principles*. (SOLID, DRY, KISS, YAGNI, convention over configuration, separation of concerns, principle of least knowledge, tourist principle, single source of truth, single version of the truth)
-* Benefits of *separation of concerns*.
+* Benefits of *separation of concerns* (inversed)
   * Adding new features will take an order of magnitude longer
   * They’re impossible to optimize
   * They’re extremely difficult to test
@@ -270,6 +270,7 @@ public static int lisSize(int[] a) {
 * Unit tests advantages?
 * Types of tests: acceptance testing, functional testing, smoke testing, regression testing, unit testing, integration testing, stress testing, (Load, Performance, Sanity, Stability, Security, Feature, Progression, Installation, Business).
 * Differences between mock and stub?
+* Selenium tests and webdriver.
 
 ####[[⬆]](#toc) <a name='algorithms'>Algorithms:</a>
 * What is NP-completeness?
