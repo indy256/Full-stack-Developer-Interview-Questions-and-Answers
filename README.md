@@ -259,7 +259,7 @@ public static int lisSize(int[] a) {
   * Customer collaboration over Contract negotiation
   * Responding to change over Following a plan
 * What is Scrum? (Roles: product owner, development team, scrum master. Events: sprint, 
-* What are the differences between Scrum and Waterfall?
+* What are the differences between Scrum and Waterfall? ( http://www.leanagiletraining.com/agile/waterfall-versus-scrum-how-do-they-compare/)
 * What is XP? ()
 * What is Lean, Kanban?
 
