@@ -78,7 +78,7 @@ This repo contains a number of full-stack developer interview questions that can
 ####[[⬆]](#toc) <a name='web'>WEB:</a>
 * WEB security vulnerabilities (XSS, CSRF, session fixation, SQL injection, man-in-the-middle, buffer overflow)
 * CSRF prevention. (CSRF-token)
-* What is *JSONP*? (A communication technique used in JavaScript programs running in web browsers to request data from a server in a different domain, something prohibited by typical web browsers because of the same-origin policy)
+* What is *JSONP*, *CORS*? (A communication technique used in JavaScript programs running in web browsers to request data from a server in a different domain, something prohibited by typical web browsers because of the same-origin policy)
 * HTTPS negotiation steps.
 * What is HTTP Strict Transport Security (HSTS)? (Prevents Man in the Middle attacks)
 * Browser-server communication methods: WebSocket, EventSource, Comet(Polling, Long-Polling, Streaming)
