@@ -52,7 +52,8 @@ This repo contains a number of full-stack developer interview questions that can
   * They’re impossible to optimize
   * They’re extremely difficult to test
   * Fixing and debugging can be a nightmare (fixing something in one place can lead to something else breaking that seems completely unrelated).
-  * Pros of microservices (The services are easy to replace, Services can be implemented using different programming languages, databases, hardware and software environment, depending on what fits best)
+  * *Microservices* are a style of software architecture that involves delivering systems as a set of very small, granular, independent collaborating services. 
+  * Pros of *microservices* (The services are easy to replace, Services can be implemented using different programming languages, databases, hardware and software environment, depending on what fits best)
 
 |Rule|Description|
 |:--|:--|
