@@ -47,10 +47,10 @@ This repo contains a number of full-stack developer interview questions that can
 
 ####[[⬆]](#toc) <a name='architecture'>Architecture:</a>
 * *Design principles*. (SOLID, DRY, KISS, YAGNI, Worse is better, convention over configuration, separation of concerns, principle of least knowledge, tourist principle, single source of truth, single version of the truth)
-* Benefits of *separation of concerns* (inversed)
+* Drawbacks of not using *separation of concerns* (inversed)
   * Adding new features will take an order of magnitude longer
-  * They’re impossible to optimize
-  * They’re extremely difficult to test
+  * Impossible to optimize
+  * Extremely difficult to test
   * Fixing and debugging can be a nightmare (fixing something in one place can lead to something else breaking that seems completely unrelated).
   * *Microservices* are a style of software architecture that involves delivering systems as a set of very small, granular, independent collaborating services. 
   * Pros of *microservices* (The services are easy to replace, Services can be implemented using different programming languages, databases, hardware and software environment, depending on what fits best)
