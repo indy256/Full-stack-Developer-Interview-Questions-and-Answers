@@ -61,7 +61,7 @@ This repo contains a number of full-stack developer interview questions that can
 |Open/closed principle|The developers should focus more on extending the software entities rather than modifying them.|
 |Liskov substitution principle|It should be possible to substitute the derived class with base class.|
 |Interface segregation principle|It’s like Single Responsibility Principle but applicable to interfaces. Each interface should be responsible for a specific task. The developers should need to implement methods which he/she doesn’t need.|
-|Dependency inversion principle|Depend upon Abstractions- but not on concretions. This means that each module should be separated from other using an abstract layer which binds them together.|
+|Dependency inversion principle|Depend upon Abstractions but not on concretions. This means that each module should be separated from other using an abstract layer which binds them together.|
 
 * *Design patterns*. (Creational:Builder,Object Pool,Factory Method,Signleton,Multiton,Prototype,Abstract Factory.Structural:Adapter,Bridge,Composite,Decorator,Facade,Flyweight,Proxy.Behavioral:Chain of Responsibility,Command,Interpreter,Iterator,Mediator,Memento,Observer,State,Strategy,Template Method,Visitor.)
 * *Integration patterns*, SOA patterns.
