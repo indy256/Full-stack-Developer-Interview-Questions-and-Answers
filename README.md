@@ -11,7 +11,7 @@ This repo contains a number of full-stack developer interview questions that can
   1. [NoSQL](#nosql)
   1. [Networking](#networking)s
   1. [Scalability](#scalability)
-  1. [Load balancing](#load-balancing)
+  1. [Load balancing](#load-balancing)d
   1. [Transcations](#transcations)
   1. [Concurrency](#concurrency)
   1. [Distributed](#distributed)
@@ -46,7 +46,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is stub and mock? (A stub is a test double with preprogrammed behavior. Mocks are stubs with preprogrammed expectations.)
 
 ####[[⬆]](#toc) <a name='architecture'>Architecture:</a>
-* *Design principles*. (SOLID, DRY, KISS, YAGNI, convention over configuration, separation of concerns, principle of least knowledge, tourist principle, single source of truth, single version of the truth)
+* *Design principles*. (SOLID, DRY, KISS, YAGNI, Worse is better, convention over configuration, separation of concerns, principle of least knowledge, tourist principle, single source of truth, single version of the truth)
 * Benefits of *separation of concerns* (inversed)
   * Adding new features will take an order of magnitude longer
   * They’re impossible to optimize
