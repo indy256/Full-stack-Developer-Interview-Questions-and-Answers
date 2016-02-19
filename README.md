@@ -73,7 +73,7 @@ This repo contains a number of full-stack developer interview questions that can
 * Naked objects, Restful objects.
 * What is *aspect-oriented programming*?
 * Why do you need *application server*?
-* *Inheritance* vs *Composition*.(inheritance - is-a relationship, whether clients will want to use the subclass type as a superclass type).
+* *Inheritance* vs *Composition*.(Inheritance - is-a relationship, whether clients will want to use the subclass type as a superclass type. Composition - has-a or part-of relationship).
 * *Multiple inheritance problem*.
 * What is *uniform access principle*?(client code should not be affected by a decision to implement an attribute as a field or method)
 * Advantages of using *modules*. (reuse, decoupling, namespace)
