@@ -198,6 +198,10 @@ This repo contains a number of full-stack developer interview questions that can
 * *WeakReference*, *SoftReference*, *PhantomReference*, *finalize()*, *ReferenceQueue*.
 * How to correctly stop a thread? (Thread.interrupt())
 * What is *Spring*? (Spring Framework is an application container for Java that supplies many useful features, such as Inversion of Control, Dependency Injection, abstract data access, transaction management, and more)
+  * Spring is a framework for dependency injection: a design pattern that allows the developer to build very decoupled systems by injecting dependencies into classes.
+  * It elegantly wraps Java libraries and makes then much easier to use in your application.
+  * Included in the framework are implementations of commonly used patterns such as REST and MVC web framework which are predominately use by in web applications.
+
 * What is *Hibernate* (Caches, lazy-loading)?
 * How to write *benchmarks*? 
 * What is OSGI? (Specification describes a modular system and a service platform for the Java programming language that implements a complete and dynamic component model. Each bundle has its own classpath. Dependency hell avoidance. META-INF/MANIFEST.MF contains OSGI-info)
