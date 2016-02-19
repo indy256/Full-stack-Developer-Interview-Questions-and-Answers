@@ -9,10 +9,10 @@ This repo contains a number of full-stack developer interview questions that can
   1. [WEB](#web)
   1. [SQL](#sql)
   1. [NoSQL](#nosql)
+  1. [Transcations](#transcations)
   1. [Networking](#networking)s
   1. [Scalability](#scalability)
   1. [Load balancing](#load-balancing)d
-  1. [Transcations](#transcations)
   1. [Concurrency](#concurrency)
   1. [Distributed](#distributed)
   1. [Cache](#cache)
@@ -112,6 +112,11 @@ This repo contains a number of full-stack developer interview questions that can
   * Column Stores (Cassandra)
   * Graph Stores (Neo4j, Giraph)
 
+####[[⬆]](#toc) <a name='transactions'>Transactions:</a>
+* What ACID?
+* What is 2-phase, 3-phase commit?
+* What is pessimistic/optimistic locking?
+
 ####[[⬆]](#toc) <a name='networking'>Networking:</a>
 * OSI model (Physical, Data link, Network, Transport, Session, Presentation, Application)
 * Multithreading vs select
@@ -132,11 +137,6 @@ This repo contains a number of full-stack developer interview questions that can
 ####[[⬆]](#toc) <a name='load-balancing'>Load balancing:</a>
 * What is *cloud computing*? (Cloud computing platform is a fully automated server platform that allows users to purchase, remotely create, dynamically scale, and administer system)
 * sticky/non-sticky sessions
-
-####[[⬆]](#toc) <a name='transactions'>Transactions:</a>
-* What ACID?
-* What is 2-phase, 3-phase commit?
-* What is pessimistic/optimistic locking?
 
 ####[[⬆]](#toc) <a name='distributed'>Distributed:</a>
 * What is *CAP theorem*? (it is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: *consistency*, *availability*, *partition tolerance*) ![CAP theorem](http://guide.couchdb.org/draft/consistency/01.png "CAP theorem")
