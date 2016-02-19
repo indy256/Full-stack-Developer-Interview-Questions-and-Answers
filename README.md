@@ -43,7 +43,6 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *semantic versioning*?
 * What is *Blue-green Deployment*, *Canary release*?
 * What is *A/B testing*?
-* What is stub and mock? (A stub is a test double with preprogrammed behavior. Mocks are stubs with preprogrammed expectations.)
 
 ####[[⬆]](#toc) <a name='architecture'>Architecture:</a>
 * *Design principles*. (SOLID, DRY, KISS, YAGNI, Worse is better, convention over configuration, separation of concerns, principle of least knowledge, tourist principle, single source of truth, single version of the truth)
@@ -275,7 +274,7 @@ public static int lisSize(int[] a) {
 ####[[⬆]](#toc) <a name='qa'>QA:</a>
 * Unit tests advantages?
 * Types of tests: acceptance testing, functional testing, smoke testing, regression testing, unit testing, integration testing, stress testing, (Load, Performance, Sanity, Stability, Security, Feature, Progression, Installation, Business).
-* Differences between mock and stub?
+* Differences between stub and mock? (A stub is a test double with preprogrammed behavior. Mocks are stubs with preprogrammed expectations)
 * Selenium tests and webdriver.
 
 ####[[⬆]](#toc) <a name='algorithms'>Algorithms:</a>
