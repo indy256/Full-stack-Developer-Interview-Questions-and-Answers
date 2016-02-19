@@ -10,12 +10,12 @@ This repo contains a number of full-stack developer interview questions that can
   1. [SQL](#sql)
   1. [NoSQL](#nosql)
   1. [Transcations](#transcations)
-  1. [Networking](#networking)s
   1. [Scalability](#scalability)
   1. [Load balancing](#load-balancing)d
   1. [Concurrency](#concurrency)
   1. [Distributed](#distributed)
   1. [Cache](#cache)
+  1. [Networking](#networking)s
   1. [Operating system](#os)
   1. [Java](#java)
   1. [Javascript](#javascript)
@@ -117,12 +117,6 @@ This repo contains a number of full-stack developer interview questions that can
 * What is 2-phase, 3-phase commit?
 * What is pessimistic/optimistic locking?
 
-####[[⬆]](#toc) <a name='networking'>Networking:</a>
-* OSI model (Physical, Data link, Network, Transport, Session, Presentation, Application)
-* Multithreading vs select
-* Switch, hub, router.
-* TCP congestion.
-
 ####[[⬆]](#toc) <a name='scalability'>Scalability:</a>
 * Horizontal and vertical scaling.
 * How to scale database? (Data partitioning, sharding(vertical/horizontal), replication(master-slave, master-master)).
@@ -188,6 +182,12 @@ This repo contains a number of full-stack developer interview questions that can
 * *Produces/consumer* problem.
 * *Readers/writers* problem.
 * *Consensus number*. Maximum number of threads for which objects of the class can solve consensus problem.
+
+####[[⬆]](#toc) <a name='networking'>Networking:</a>
+* OSI model (Physical, Data link, Network, Transport, Session, Presentation, Application)
+* Multithreading vs select
+* Switch, hub, router.
+* TCP congestion.
 
 ####[[⬆]](#toc) <a name='os'>Operating system:</a>
 * What is *memory mapped* file and its benefits?
