@@ -201,7 +201,6 @@ This repo contains a number of full-stack developer interview questions that can
   * It elegantly wraps Java libraries and makes then much easier to use in your application.
   * Included in the framework are implementations of commonly used patterns such as REST and MVC web framework which are predominately use by in web applications.
 * *Garbage collection*. (Young/Old generation collectors combination examples: PS Scavenge/PS MarkSweep, Copy/MarkSweepCompact)
-
 * What is *Hibernate* (Caches, lazy-loading)?
 * How to write *benchmarks*? 
 * What is OSGI? (Specification describes a modular system and a service platform for the Java programming language that implements a complete and dynamic component model. Each bundle has its own classpath. Dependency hell avoidance. META-INF/MANIFEST.MF contains OSGI-info)
