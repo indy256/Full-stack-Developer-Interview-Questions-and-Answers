@@ -200,6 +200,7 @@ This repo contains a number of full-stack developer interview questions that can
   * Spring is a framework for dependency injection: a design pattern that allows the developer to build very decoupled systems by injecting dependencies into classes.
   * It elegantly wraps Java libraries and makes then much easier to use in your application.
   * Included in the framework are implementations of commonly used patterns such as REST and MVC web framework which are predominately use by in web applications.
+* *Garbage collection*. (Young/Old generation collectors combination examples: PS Scavenge/PS MarkSweep, Copy/MarkSweepCompact)
 
 * What is *Hibernate* (Caches, lazy-loading)?
 * How to write *benchmarks*? 
