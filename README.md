@@ -273,6 +273,8 @@ public static int lisSize(int[] a) {
 * *Git* workflow? (Master: production-ready state; Develop: latest delivered development changes for the next release; Feature Branches; Release Branches; Hotfixes) ![Git workflow](http://nvie.com/img/git-model@2x.png "Git workflow")
 
 ####[[⬆]](#toc) <a name='qa'>QA:</a>
+* What is *unit test*? (A test that purely tests a single unit of functionality)
+* What is *integration test*? (Examine several parts of a system to make sure that when integrated, these parts behave as expected)
 * Unit tests advantages?
 * Types of tests: acceptance testing, functional testing, smoke testing, regression testing, unit testing, integration testing, stress testing, (Load, Performance, Sanity, Stability, Security, Feature, Progression, Installation, Business).
 * Differences between stub and mock? (A stub is a test double with preprogrammed behavior. Mocks are stubs with preprogrammed expectations)
