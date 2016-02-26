@@ -219,6 +219,7 @@ This repo contains a number of full-stack developer interview questions that can
 * inheritance 
 * differences between == and === (http://dorey.github.io/JavaScript-Equality-Table/)
 * closures
+* recursion 
 * What is *MVC*, *MVP*, *MVVM*?
 * What is *promise*?
 * What is event *bubbling* and *capturing*? (target.addEventListener(type, listener[, useCapture]))
