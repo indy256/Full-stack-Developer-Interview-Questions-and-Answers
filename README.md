@@ -21,7 +21,7 @@ This repo contains a number of full-stack developer interview questions that can
   1. [Javascript](#javascript)
   1. [Python](#python)
   1. [C++](#cpp)
-  1. [Code writing](#code)
+  1. [Code writing](#codewriting)
   1. [Agile, Scrum, XP](#agile)
   1. [Git](#git)
   1. [DevOps](#devOps)
@@ -226,37 +226,47 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *jQuery*?
 
 ####[[⬆]](#toc) <a name='codewriting'>Codewriting:</a>
-* Implement expression parser
-* Implement quick sort
-* Implement overflow resilient binary search
+* Implement binary search
 ```java
 // 000[1]11
-public static int binarySearchFirstTrue(IntPredicate predicate, int fromInclusive, int toExclusive) {
-    while (fromInclusive < toExclusive) {
-        // see {@link com.google.common.math.IntMath#mean}
-        int mid = (fromInclusive & toExclusive) + ((fromInclusive ^ toExclusive) >> 1);
-        if (!predicate.test(mid))
-            fromInclusive = mid + 1;
+int binarySearch0(int[] a, int fromIndex, int toIndex, int key) {
+    int low = fromIndex;
+    int high = toIndex - 1;
+    while (low <= high) {
+        int mid = (low + high) >>> 1;
+        int midVal = a[mid];
+        if (midVal < key)
+            low = mid + 1;
+        else if (midVal > key)
+            high = mid - 1;
         else
-            toExclusive = mid;
+            return mid; // key found
     }
-    return toExclusive;
+    return -(low + 1);  // key not found.
 }
 ```
-* Implement Longest increasing subsequence size
+* Implement quick sort
 ```java
-public static int lisSize(int[] a) {
-	int[] last = new int[a.length];
-	Arrays.fill(last, Integer.MAX_VALUE);
-	int len = 0;
-	for (int v : a) {
-		int pos = lower_bound(last, v);
-		last[pos] = v;
-		len = Math.max(len, pos + 1);
-	}
-	return len;
+void qSort(int[] a, int low, int high) {
+    if (high - low < 1) return;
+    int separator = a[low + rnd.nextInt(high - low + 1)];
+    int i = low;
+    int j = high;
+    while (i <= j) {
+        while (a[i] < separator) ++i;
+        while (a[j] > separator) --j;
+        if (i > j) break;
+        int t = a[i];
+        a[i] = a[j];
+        a[j] = t;
+        ++i;
+        --j;
+    }
+    qSort(a, low, j);
+    qSort(a, i, high);
 }
 ```
+* Implement expression parser
 
 ####[[⬆]](#toc) <a name='agile'>Agile:</a>
 * What is Agile? ()
