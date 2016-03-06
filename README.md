@@ -271,7 +271,7 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
 * *Git* workflow? (Master: production-ready state; Develop: latest delivered development changes for the next release; Feature Branches; Release Branches; Hotfixes) ![Git workflow](http://nvie.com/img/git-model@2x.png "Git workflow")
 
 ####[[⬆]](#toc) <a name='devOps'>DevOps:</a>
-* What is *Blue-green Deployment*, *Canary release*?
+* What is *Blue-green Deployment*, *Canary release*? (https://www.javacodegeeks.com/2016/02/blue-green-deployment.html)
 
 ####[[⬆]](#toc) <a name='qa'>QA:</a>
 * What is *unit test*? (A test that purely tests a single unit of functionality)
