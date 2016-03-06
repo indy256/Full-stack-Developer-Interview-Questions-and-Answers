@@ -24,6 +24,7 @@ This repo contains a number of full-stack developer interview questions that can
   1. [Code writing](#code)
   1. [Agile, Scrum, XP](#agile)
   1. [Git](#git)
+  1. [DevOps](#devOps)
   1. [QA](#qa)
   1. [Algorithms](#algorithms)
   1. [UML](#uml)
@@ -41,7 +42,6 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *dynamic binding*?(Actual method implementation invoked is determined at run time based on the class of the object, not the type of the variable or expression)
 * How does *garbage collector* work? (Mark and sweep: mark: traverse object graph starting from root objects, sweep: garbage collect unmarked objects. Optimizations: young/old generations, incremental mark and sweep)
 * What is *semantic versioning*?
-* What is *Blue-green Deployment*, *Canary release*?
 * What is *A/B testing*?
 
 ####[[⬆]](#toc) <a name='architecture'>Architecture:</a>
@@ -272,6 +272,9 @@ public static int lisSize(int[] a) {
 ####[[⬆]](#toc) <a name='git'>Git:</a>
 * *Git* workflow? (Master: production-ready state; Develop: latest delivered development changes for the next release; Feature Branches; Release Branches; Hotfixes) ![Git workflow](http://nvie.com/img/git-model@2x.png "Git workflow")
 
+####[[⬆]](#toc) <a name='devOps'>DevOps:</a>
+* What is *Blue-green Deployment*, *Canary release*?
+
 ####[[⬆]](#toc) <a name='qa'>QA:</a>
 * What is *unit test*? (A test that purely tests a single unit of functionality)
 * What is *integration test*? (Examine several parts of a system to make sure that when integrated, these parts behave as expected)
@@ -281,7 +284,8 @@ public static int lisSize(int[] a) {
 * Selenium tests and webdriver.
 
 ####[[⬆]](#toc) <a name='algorithms'>Algorithms:</a>
-* What is NP-completeness?
+* What Ο(n), Ω(n), Θ(n)?
+* What is NP, NP-completeness, NP-hardness with examples?
 
 ####[[⬆]](#toc) <a name='other'>Other:</a>
 * How to find memory leak. (Memory snapshot diff).
