@@ -249,7 +249,7 @@ int binarySearch(int[] a, int fromInclusive, int toExclusive, int key) {
 void qSort(int[] a, int fromInclusive, int toInclusive) {
     int i = fromInclusive;
     int j = toInclusive;
-    if (j - i < 1) return;
+    if (i >= j) return;
     int separator = a[i + random.nextInt(j - i + 1)];
     while (i <= j) {
         while (a[i] < separator) ++i;
