@@ -228,9 +228,9 @@ This repo contains a number of full-stack developer interview questions that can
 ####[[⬆]](#toc) <a name='codewriting'>Codewriting:</a>
 * Implement binary search
 ```java
-int binarySearch(int[] a, int fromIndex, int toIndex, int key) {
-    int low = fromIndex;
-    int high = toIndex - 1;
+int binarySearch(int[] a, int fromInclusive, int toExclusive, int key) {
+    int low = fromInclusive;
+    int high = toExclusive - 1;
     while (low <= high) {
         int mid = (low + high) >>> 1;
         int midVal = a[mid];
@@ -246,11 +246,11 @@ int binarySearch(int[] a, int fromIndex, int toIndex, int key) {
 ```
 * Implement quick sort
 ```java
-void qSort(int[] a, int low, int high) {
-    if (high - low < 1) return;
-    int separator = a[low + random.nextInt(high - low + 1)];
-    int i = low;
-    int j = high;
+void qSort(int[] a, int fromInclusive, int toInclusive) {
+    int i = fromInclusive;
+    int j = toInclusive;
+    if (j - i < 1) return;
+    int separator = a[i + random.nextInt(j - i + 1)];
     while (i <= j) {
         while (a[i] < separator) ++i;
         while (a[j] > separator) --j;
@@ -261,8 +261,8 @@ void qSort(int[] a, int low, int high) {
         ++i;
         --j;
     }
-    qSort(a, low, j);
-    qSort(a, i, high);
+    qSort(a, fromInclusive, j);
+    qSort(a, i, toInclusive);
 }
 ```
 * Implement expression parser
