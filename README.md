@@ -22,10 +22,10 @@ This repo contains a number of full-stack developer interview questions that can
   1. [Python](#python)
   1. [C++](#cpp)
   1. [Code writing](#codewriting)
-  1. [Agile, Scrum, XP](#agile)
   1. [Git](#git)
   1. [DevOps](#devOps)
   1. [QA](#qa)
+  1. [Agile, Scrum, XP](#agile)
   1. [Algorithms](#algorithms)
   1. [UML](#uml)
   1. [Other](#other)
@@ -228,8 +228,7 @@ This repo contains a number of full-stack developer interview questions that can
 ####[[⬆]](#toc) <a name='codewriting'>Codewriting:</a>
 * Implement binary search
 ```java
-// 000[1]11
-int binarySearch0(int[] a, int fromIndex, int toIndex, int key) {
+int binarySearch(int[] a, int fromIndex, int toIndex, int key) {
     int low = fromIndex;
     int high = toIndex - 1;
     while (low <= high) {
@@ -242,14 +241,14 @@ int binarySearch0(int[] a, int fromIndex, int toIndex, int key) {
         else
             return mid; // key found
     }
-    return -(low + 1);  // key not found.
+    return -(low + 1); // key not found
 }
 ```
 * Implement quick sort
 ```java
 void qSort(int[] a, int low, int high) {
     if (high - low < 1) return;
-    int separator = a[low + rnd.nextInt(high - low + 1)];
+    int separator = a[low + random.nextInt(high - low + 1)];
     int i = low;
     int j = high;
     while (i <= j) {
@@ -268,17 +267,6 @@ void qSort(int[] a, int low, int high) {
 ```
 * Implement expression parser
 
-####[[⬆]](#toc) <a name='agile'>Agile:</a>
-* What is Agile? ()
-  * Individuals and interactions over Processes and tools
-  * Working software over Comprehensive documentation
-  * Customer collaboration over Contract negotiation
-  * Responding to change over Following a plan
-* What is Scrum? (Roles: product owner, development team, scrum master. Events: sprint, 
-* What are the differences between Scrum and Waterfall? ( http://www.leanagiletraining.com/agile/waterfall-versus-scrum-how-do-they-compare/)
-* What is XP? ()
-* What is Lean, Kanban?
-
 ####[[⬆]](#toc) <a name='git'>Git:</a>
 * *Git* workflow? (Master: production-ready state; Develop: latest delivered development changes for the next release; Feature Branches; Release Branches; Hotfixes) ![Git workflow](http://nvie.com/img/git-model@2x.png "Git workflow")
 
@@ -292,6 +280,17 @@ void qSort(int[] a, int low, int high) {
 * Types of tests: acceptance testing, functional testing, smoke testing, regression testing, unit testing, integration testing, stress testing, (Load, Performance, Sanity, Stability, Security, Feature, Progression, Installation, Business).
 * Differences between stub and mock? (A stub is a test double with preprogrammed behavior. Mocks are stubs with preprogrammed expectations)
 * Selenium tests and webdriver.
+
+####[[⬆]](#toc) <a name='agile'>Agile:</a>
+* What is Agile? ()
+  * Individuals and interactions over Processes and tools
+  * Working software over Comprehensive documentation
+  * Customer collaboration over Contract negotiation
+  * Responding to change over Following a plan
+* What is Scrum? (Roles: product owner, development team, scrum master. Events: sprint, 
+* What are the differences between Scrum and Waterfall? ( http://www.leanagiletraining.com/agile/waterfall-versus-scrum-how-do-they-compare/)
+* What is XP? ()
+* What is Lean, Kanban?
 
 ####[[⬆]](#toc) <a name='algorithms'>Algorithms:</a>
 * What Ο(n), Ω(n), Θ(n)?
