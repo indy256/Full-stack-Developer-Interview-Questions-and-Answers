@@ -265,7 +265,21 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
     qSort(a, i, toInclusive);
 }
 ```
-* Implement expression parser
+* Implement permutations generation
+```python
+def generate_permutations(p, depth):
+    n = len(p)
+    if depth == n:
+        yield p
+    for i in range(n):
+        if p[i] == 0:
+            p[i] = depth
+            yield from generate_permutations(p, depth + 1)
+            p[i] = 0
+
+for p in generate_permutations([0] * 3, 1):
+    print(p)
+```
 
 ####[[⬆]](#toc) <a name='git'>Git:</a>
 * *Git* workflow? (Master: production-ready state; Develop: latest delivered development changes for the next release; Feature Branches; Release Branches; Hotfixes) ![Git workflow](http://nvie.com/img/git-model@2x.png "Git workflow")
