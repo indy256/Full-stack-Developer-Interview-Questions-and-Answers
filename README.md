@@ -251,7 +251,7 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
     int j = toInclusive;
     if (i >= j) return;
     int separator = a[i + random.nextInt(j - i + 1)];
-    while (i <= j) {
+    do {
         while (a[i] < separator) ++i;
         while (a[j] > separator) --j;
         if (i > j) break;
@@ -260,7 +260,7 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
         a[j] = t;
         ++i;
         --j;
-    }
+    } while (i <= j);
     qSort(a, fromInclusive, j);
     qSort(a, i, toInclusive);
 }
