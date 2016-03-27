@@ -177,7 +177,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *safe publication*?
 * What is *wait*/*notify*?
 * *Amdahl's law*? (Speedup = 1 / (1 - p + p / n))
-* *Dining philosophers problem*.
+* *Dining philosophers problem* (Resource hierarchy (first take lower-indexed fork), arbitrator, communication (dirty/clean forks)).
 * *Produces/consumer* problem.
 * *Readers/writers* problem.
 * *Consensus number*. Maximum number of threads for which objects of the class can solve consensus problem.
