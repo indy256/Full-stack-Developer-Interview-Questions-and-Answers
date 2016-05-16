@@ -54,6 +54,7 @@ This repo contains a number of full-stack developer interview questions that can
 * *Microservices* are a style of software architecture that involves delivering systems as a set of very small, granular, independent collaborating services. 
 * Pros of *microservices* (The services are easy to replace, Services can be implemented using different programming languages, databases, hardware and software environment, depending on what fits best)
 * What is *Docker*?
+* *The Twelve-Factor App* (http://12factor.net)
 
 |Rule|Description|
 |:--|:--|
