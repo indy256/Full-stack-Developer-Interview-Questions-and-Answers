@@ -296,6 +296,7 @@ for p in generate_permutations([0] * 3, 1):
 * Types of tests: acceptance testing, functional testing, smoke testing, regression testing, unit testing, integration testing, stress testing, (Load, Performance, Sanity, Stability, Security, Feature, Progression, Installation, Business).
 * Differences between stub and mock? (A stub is a test double with preprogrammed behavior. Mocks are stubs with preprogrammed expectations)
 * Selenium tests and webdriver.
+* How to test multithreading code?
 
 ####[[⬆]](#toc) <a name='agile'>Agile:</a>
 * What is Agile? ()
