@@ -320,6 +320,7 @@ for p in generate_permutations([0] * 3, 1):
 * What are your goals to work in our company? (3 categories: professional, financial, social)
 * What is *virtualization*? 
 * What is total/partial order?
+* How to work with legacy code? (http://programmers.stackexchange.com/a/122024)
 
 ####[[⬆]](#toc) <a name='machine-learning'>Machine learning:</a>
 * Bayes' theorem. P(A|B) = P(B|A)P(A)/P(B), P(B) = sum(P(Ai)P(B|Ai))
