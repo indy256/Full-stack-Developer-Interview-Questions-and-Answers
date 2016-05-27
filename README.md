@@ -46,7 +46,7 @@ This repo contains a number of full-stack developer interview questions that can
 
 ####[[⬆]](#toc) <a name='architecture'>Architecture:</a>
 * *Design principles*. (SOLID, DRY, KISS, YAGNI, Worse is better, convention over configuration, separation of concerns, principle of least knowledge, tourist principle, single source of truth, single version of the truth)
-* Drawbacks of not using *separation of concerns* (inversed)
+* Drawbacks of not using *separation of concerns*
   * Adding new features will take an order of magnitude longer
   * Impossible to optimize
   * Extremely difficult to test
