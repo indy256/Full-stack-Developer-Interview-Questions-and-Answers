@@ -41,7 +41,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *virtual method table*?
 * What is *dynamic binding*?(Actual method implementation invoked is determined at run time based on the class of the object, not the type of the variable or expression)
 * How does *garbage collector* work? (Mark and sweep: mark: traverse object graph starting from root objects, sweep: garbage collect unmarked objects. Optimizations: young/old generations, incremental mark and sweep)
-* What is *semantic versioning*?
+* What is *semantic versioning*? (http://semver.org)
 * What is *A/B testing*?
 
 ####[[⬆]](#toc) <a name='architecture'>Architecture:</a>
