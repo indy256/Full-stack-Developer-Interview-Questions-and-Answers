@@ -9,13 +9,13 @@ This repo contains a number of full-stack developer interview questions that can
   1. [WEB](#web)
   1. [SQL](#sql)
   1. [NoSQL](#nosql)
-  1. [Transcations](#transcations)
+  1. [Transactions](#transcations)
   1. [Scalability](#scalability)
-  1. [Load balancing](#load-balancing)d
+  1. [Load balancing](#load-balancing)
   1. [Concurrency](#concurrency)
   1. [Distributed](#distributed)
   1. [Cache](#cache)
-  1. [Networking](#networking)s
+  1. [Networking](#networking)
   1. [Operating system](#os)
   1. [Java](#java)
   1. [Javascript](#javascript)
