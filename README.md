@@ -88,7 +88,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is HTTP Strict Transport Security (HSTS)? (Prevents Man in the Middle attacks)
 * Browser-server communication methods: WebSocket, EventSource, Comet(Polling, Long-Polling, Streaming)
 * What is *character encoding*?
-* What is *role-based access controll* and *access control list*?
+* What is *role-based access control* and *access control list*?
 * What is session and persistent cookies, sessionStorage and localStorage?
 * How to implement *remember-me*? (http://jaspan.com/improved_persistent_login_cookie_best_practice)
 * Authentication using cookies, JWT (JSON Web Tokens).
