@@ -284,7 +284,7 @@ for p in generate_permutations([0] * 3, 1):
 ```
 
 ####[[⬆]](#toc) <a name='git'>Git:</a>
-* *Git* workflow? (Master: production-ready state; Develop: latest delivered development changes for the next release; Feature Branches; Release Branches; Hotfixes) ![Git workflow](http://nvie.com/img/git-model@2x.png "Git workflow")
+* *Git* workflow? (Master: production-ready state; Develop: latest delivered development changes for the next release; Feature Branches; Release Branches; Hotfixes) ![Git workflow](http://nvie.com/img/git-model@2x.png "Git workflow") http://nvie.com/posts/a-successful-git-branching-model/
 
 ####[[⬆]](#toc) <a name='devOps'>DevOps:</a>
 * What is *Blue-green Deployment*, *Canary release*? (https://www.javacodegeeks.com/2016/02/blue-green-deployment.html)
