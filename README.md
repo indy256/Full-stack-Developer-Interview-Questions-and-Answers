@@ -202,17 +202,19 @@ This repo contains a number of full-stack developer interview questions that can
   * Spring is a framework for dependency injection: a design pattern that allows the developer to build very decoupled systems by injecting dependencies into classes.
   * It elegantly wraps Java libraries and makes then much easier to use in your application.
   * Included in the framework are implementations of commonly used patterns such as REST and MVC web framework which are predominately use by in web applications.
-* *Garbage collection*. (Young/Old generation collectors combination examples: PS Scavenge/PS MarkSweep, Copy/MarkSweepCompact)
-* What is *Hibernate* (Caches, lazy-loading)?
-* How to write *benchmarks*? 
+* What is *Spring-Boot*?
+* What is *Hibernate* (Caches, lazy-loading) and JPA?
+* *Garbage collection*. (Young/Old generation collectors combination examples: PS Scavenge/PS MarkSweep, Copy/MarkSweepCompact, G1)
+* How to write *benchmarks*? (jmh)
+* What are Java 9 modules?
 * What is OSGI? (Specification describes a modular system and a service platform for the Java programming language that implements a complete and dynamic component model. Each bundle has its own classpath. Dependency hell avoidance. META-INF/MANIFEST.MF contains OSGI-info)
-* What is JMS?
 * Serializable / Externalizable
-* What is a *servlet* (versions of servlet api)?
+* What is a *servlet* (versions of servlet api, Servlet 4.0)?
 * What is a *servlet filter*? How to implement *GZipFilter*? (ResponseWrapper)
 * What is *generics* and PECS (producer extends and consumer super)?
-* What is *DAO* (Data Access Object)? (DAO allows one to switch between technologies like JDBC, Hibernate, JPA or JDO fairly easily)
-* What is the difference between <?> and \<Object\>?
+* What is the difference between <?>, \<Object\> and <? extends Object>?
+* Explain method signature for Collections.max(...), Collections.fill(...), Collections.copy(...), Collections.sort(...)
+* Why are arrays covariant but generics are invariant?
 * XML: SAX, DOM, StAX
 
 ####[[⬆]](#toc) <a name='javascript'>Javascript:</a>
