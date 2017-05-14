@@ -23,6 +23,7 @@ This repo contains a number of full-stack developer interview questions that can
   1. [C++](#cpp)
   1. [Code writing](#codewriting)
   1. [Functional programming](#functional-programming)
+  1. [Reactive programming](#reactive-programming)
   1. [Git](#git)
   1. [DevOps](#devOps)
   1. [QA](#qa)
@@ -300,6 +301,9 @@ for p in generate_permutations([0] * 3, 1):
 
 #### [[⬆]](#toc) <a name='functional-programming'>Functional programming:</a>
 * What is *Monad*?
+
+#### [[⬆]](#toc) <a name='reactive-programming'>Reactive programming:</a>
+* What is *async* and *non-blocking*? [link](https://www.linkedin.com/pulse/java-servlets-asynchronous-non-blocking-aliaksandr-liakh)
 
 #### [[⬆]](#toc) <a name='git'>Git:</a>
 * *Git* workflow? (Master: production-ready state; Develop: latest delivered development changes for the next release; Feature Branches; Release Branches; Hotfixes) ![Git workflow](http://nvie.com/img/git-model@2x.png "Git workflow") http://nvie.com/posts/a-successful-git-branching-model/
