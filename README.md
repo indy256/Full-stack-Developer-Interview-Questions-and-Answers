@@ -140,7 +140,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *CAP theorem*? (it is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: *consistency*, *availability*, *partition tolerance*) ![CAP theorem](http://guide.couchdb.org/draft/consistency/01.png "CAP theorem")
 * What is *map-reduce*? (Word count example)
 * *Sharding counters*.
-* Major software:
+* Distributed software:
   * Distributed streaming platforms: kafka
   * Distributed key-value store: zookeeper
   * Map-reduce: hadoop, spark
