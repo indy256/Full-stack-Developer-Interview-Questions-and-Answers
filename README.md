@@ -54,7 +54,6 @@ This repo contains a number of full-stack developer interview questions that can
   * Fixing and debugging can be a nightmare (fixing something in one place can lead to something else breaking that seems completely unrelated).
 * *Microservices* are a style of software architecture that involves delivering systems as a set of very small, granular, independent collaborating services. 
 * Pros of *microservices* (The services are easy to replace, Services can be implemented using different programming languages, databases, hardware and software environment, depending on what fits best)
-* What is *Docker*?
 * *The Twelve-Factor App* (http://12factor.net)
 * *The Reactive Manifesto* (http://www.reactivemanifesto.org)
 * What is *SOLID*?
@@ -303,7 +302,7 @@ for p in generate_permutations([0] * 3, 1):
 
 #### [[⬆]](#toc) <a name='devOps'>DevOps:</a>
 * What is *Blue-green Deployment*, *Canary release*, *A/B testing*? [link](https://www.javacodegeeks.com/2016/02/blue-green-deployment.html)
-* *Docker*
+* What is *Docker*?
 
 #### [[⬆]](#toc) <a name='qa'>QA:</a>
 * What is *unit test*? (A test that purely tests a single unit of functionality)
@@ -325,6 +324,7 @@ for p in generate_permutations([0] * 3, 1):
 * What is Scrum? (Roles: product owner, development team, scrum master. Events: sprint)
 * What are the differences between Scrum and Waterfall? ( http://www.leanagiletraining.com/agile/waterfall-versus-scrum-how-do-they-compare/)
 * What is XP? ()
+* What is Kanban?
 * What is Lean, Kanban?
 
 #### [[⬆]](#toc) <a name='algorithms'>Algorithms:</a>
