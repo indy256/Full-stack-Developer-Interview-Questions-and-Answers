@@ -31,6 +31,7 @@ This repo contains a number of full-stack developer interview questions that can
   1. [UML](#uml)
   1. [Other](#other)
   1. [Machine learning](#machine-learning)
+  1. [Big Data](#big-data)
   1. [Cryptography](#cryptography)
   1. [Android](#android)
 
@@ -317,6 +318,7 @@ for p in generate_permutations([0] * 3, 1):
 * Differences between stub and mock? (A stub is a test double with preprogrammed behavior. Mocks are stubs with preprogrammed expectations)
 * Selenium tests and webdriver.
 * How to test multithreading code?
+* What is *Consumer Driven Contract*? [link](https://cloud.spring.io/spring-cloud-contract/spring-cloud-contract.html)
 
 #### [[⬆]](#toc) <a name='agile'>Agile:</a>
 * What is Agile? (http://agilemanifesto.org/principles.html)
@@ -345,6 +347,10 @@ for p in generate_permutations([0] * 3, 1):
 
 #### [[⬆]](#toc) <a name='machine-learning'>Machine learning:</a>
 * Bayes' theorem. P(A|B) = P(B|A)P(A)/P(B), P(B) = sum(P(Ai)P(B|Ai))
+
+#### [[⬆]](#toc) <a name='bid-data'>Big Data:</a>
+* What is *Lambda architecture*?
+* What is *HyperLogLog*? (https://en.wikipedia.org/wiki/HyperLogLog)
 
 #### [[⬆]](#toc) <a name='cryptography'>Cryptography:</a>
 * What is *public key cryptography*?
