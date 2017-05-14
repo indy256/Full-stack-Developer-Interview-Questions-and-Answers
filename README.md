@@ -94,7 +94,8 @@ This repo contains a number of full-stack developer interview questions that can
 * Authentication using cookies, JWT (JSON Web Tokens).
 
 #### [[⬆]](#toc) <a name='sql'>SQL:</a>
-* *SQL join types* (inner join, left/right outer join, full outer join, cross join, [link](https://habrastorage.org/files/7ff/b2c/3a2/7ffb2c3a25b74dcf9eec013282b9cfb4.png))
+* *SQL join types* (inner join, left/right outer join, full outer join, cross join
+![Join types](https://habrastorage.org/files/7ff/b2c/3a2/7ffb2c3a25b74dcf9eec013282b9cfb4.png "Join types"))
 * *SQL normal forms* (1.The domain of each attribute contains only atomic values, and the value of each attribute contains only a single value from that domain. 2.No non-prime attribute in the table is functionally dependent on a proper subset of any candidate key. 3.Every non-prime attribute is non-transitively dependent on every candidate key in the table. BCNF.Every non-trivial functional dependency in the table is a dependency on a superkey.)
 * *Isolation levels* and Anomalies (Read Uncommitted, Read Committed, Repeatable Read, Serializable
 
@@ -122,22 +123,28 @@ This repo contains a number of full-stack developer interview questions that can
 #### [[⬆]](#toc) <a name='scalability'>Scalability:</a>
 * Horizontal and vertical scaling.
 * How to scale database? (Data partitioning, sharding(vertical/horizontal), replication(master-slave, master-master)).
+* *Denormalization*.
 * What is *synchronous multimaster replication*? (Each server can accept write requests, and modified data is transmitted from the original server to every other server before each transaction commits)
 * What is *asynchronous multimaster replication*? (Each server works independently, and periodically communicates with the other servers to identify conflicting transactions. The conflicts can be resolved by users or conflict resolution rules)
-* *Denormalization*.
 * When to use messaging queue?
-* Hadoop basics.
-* storing sessions in Redis.
 * MongoDB, Redis.
+* Hadoop basics.
 
 #### [[⬆]](#toc) <a name='load-balancing'>Load balancing:</a>
 * What is *cloud computing*? (Cloud computing platform is a fully automated server platform that allows users to purchase, remotely create, dynamically scale, and administer system)
 * sticky/non-sticky sessions
+* *Sticky sessions* vs storing sessions in Redis.
 
 #### [[⬆]](#toc) <a name='distributed'>Distributed:</a>
 * What is *CAP theorem*? (it is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: *consistency*, *availability*, *partition tolerance*) ![CAP theorem](http://guide.couchdb.org/draft/consistency/01.png "CAP theorem")
 * What is *map-reduce*? (Word count example)
 * *Sharding counters*.
+* Major software:
+  * Distributed streaming platforms: kafka
+  * Distributed key-value store: zookeeper
+  * Map-reduce: hadoop, spark
+  * Distributed file system: hbase
+  * Cluster management: mesos, kubernetes
 * Herlihy’s consensus hierarchy. Every shared object can be assigned a consensus number, which is the maximum number of processes for which the object can solve wait-free consensus in an asynchronous system.
 ```
 1 Read-write registers
