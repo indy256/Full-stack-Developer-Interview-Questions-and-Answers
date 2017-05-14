@@ -57,7 +57,6 @@ This repo contains a number of full-stack developer interview questions that can
 * *Microservices* are a style of software architecture that involves delivering systems as a set of very small, granular, independent collaborating services. 
 * Pros of *microservices* (The services are easy to replace, Services can be implemented using different programming languages, databases, hardware and software environment, depending on what fits best)
 * *The Twelve-Factor App* (http://12factor.net)
-* *The Reactive Manifesto* (http://www.reactivemanifesto.org)
 * What is *SOLID*?
 
 |Rule|Description|
@@ -303,6 +302,7 @@ for p in generate_permutations([0] * 3, 1):
 * What is *Monad*?
 
 #### [[⬆]](#toc) <a name='reactive-programming'>Reactive programming:</a>
+* *The Reactive Manifesto* (responsive, resilient, elastic, message driven http://www.reactivemanifesto.org)
 * What is *asynchronous* and *non-blocking*? [link](https://www.linkedin.com/pulse/java-servlets-asynchronous-non-blocking-aliaksandr-liakh)
 
 #### [[⬆]](#toc) <a name='git'>Git:</a>
