@@ -34,6 +34,7 @@ This repo contains a number of full-stack developer interview questions that can
   1. [Other](#other)
   1. [Machine learning](#machine-learning)
   1. [Big Data](#big-data)
+  1. [Image processing](#image-processing)
   1. [Cryptography](#cryptography)
   1. [Android](#android)
 
@@ -359,6 +360,8 @@ for p in generate_permutations([0] * 3, 1):
 #### [[⬆]](#toc) <a name='bid-data'>Big Data:</a>
 * What is *Lambda architecture*?
 * What is *HyperLogLog*? (https://en.wikipedia.org/wiki/HyperLogLog)
+
+#### [[⬆]](#toc) <a name='image-processing'>Image processing:</a>
 
 #### [[⬆]](#toc) <a name='cryptography'>Cryptography:</a>
 * What is *public key cryptography*?
