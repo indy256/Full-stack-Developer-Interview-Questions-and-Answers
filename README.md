@@ -154,6 +154,7 @@ This repo contains a number of full-stack developer interview questions that can
 ⋮ ⋮
 ∞ Augmented queue, compare-and-swap, sticky byte
 ```
+* *Consensus number*. Maximum number of threads for which objects of the class can solve consensus problem.
 
 #### [[⬆]](#toc) <a name='cache'>Cache:</a>
 * What is *write-through* and *write-behind* caching? (write-through (synchronous), write-behind (asynchronous))
@@ -191,7 +192,6 @@ This repo contains a number of full-stack developer interview questions that can
 * *Dining philosophers problem* (Resource hierarchy (first take lower-indexed fork), arbitrator, communication (dirty/clean forks)).
 * *Produces/consumer* problem.
 * *Readers/writers* problem.
-* *Consensus number*. Maximum number of threads for which objects of the class can solve consensus problem.
 
 #### [[⬆]](#toc) <a name='networking'>Networking:</a>
 * OSI model (Physical, Data link, Network, Transport, Session, Presentation, Application)
