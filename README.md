@@ -203,10 +203,10 @@ This repo contains a number of full-stack developer interview questions that can
   * It elegantly wraps Java libraries and makes then much easier to use in your application.
   * Included in the framework are implementations of commonly used patterns such as REST and MVC web framework which are predominately use by in web applications.
 * What is *Spring-Boot*?
-* What is *Hibernate* (Caches, lazy-loading) and JPA?
-* *Garbage collection*. (Young/Old generation collectors combination examples: PS Scavenge/PS MarkSweep, Copy/MarkSweepCompact, G1)
+* What is *Hibernate* and JPA (Caches, lazy-loading)?
+* *Garbage collection*. (G1, Young/Old generation collectors combination examples: PS Scavenge/PS MarkSweep, Copy/MarkSweepCompact)
 * How to write *benchmarks*? (jmh)
-* What are Java 9 modules?
+* What are Java 9 modularity?
 * What is OSGI? (Specification describes a modular system and a service platform for the Java programming language that implements a complete and dynamic component model. Each bundle has its own classpath. Dependency hell avoidance. META-INF/MANIFEST.MF contains OSGI-info)
 * Serializable / Externalizable
 * What is a *servlet* (versions of servlet api, Servlet 4.0)?
@@ -215,7 +215,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is the difference between <?>, \<Object\> and <? extends Object>?
 * Explain method signature for Collections.max(...), Collections.fill(...), Collections.copy(...), Collections.sort(...)
 * Why are arrays covariant but generics are invariant?
-* XML: SAX, DOM, StAX
+* Major specs: JAX-RS, JAX-WS, JMS, JAXB, XSLT, XPATH, JNDI, JMX, JDBC, XML(SAX, DOM, StAX)
 
 ####[[⬆]](#toc) <a name='javascript'>Javascript:</a>
 * this keyword
