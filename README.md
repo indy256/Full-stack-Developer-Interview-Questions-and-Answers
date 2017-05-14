@@ -55,6 +55,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *Docker*?
 * *The Twelve-Factor App* (http://12factor.net)
 * *The Reactive Manifesto* (http://www.reactivemanifesto.org)
+* What is *SOLID*?
 
 |Rule|Description|
 |:--|:--|
