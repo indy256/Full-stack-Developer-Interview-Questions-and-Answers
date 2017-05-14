@@ -196,7 +196,7 @@ This repo contains a number of full-stack developer interview questions that can
 * *Virtual memory* organization.
 
 ####[[⬆]](#toc) <a name='java'>Java:</a>
-* *WeakReference*, *SoftReference*, *PhantomReference*, *finalize()*, *ReferenceQueue*.
+* *WeakReference*, *SoftReference*, *PhantomReference*, *finalize()*, *ReferenceQueue*. [link](https://community.oracle.com/blogs/enicholas/2006/05/04/understanding-weak-references)
 * How to correctly stop a thread? (Thread.interrupt())
 * What is *Spring*? (Spring Framework is an application container for Java that supplies many useful features, such as Inversion of Control, Dependency Injection, abstract data access, transaction management, and more)
   * Spring is a framework for dependency injection: a design pattern that allows the developer to build very decoupled systems by injecting dependencies into classes.
@@ -212,9 +212,9 @@ This repo contains a number of full-stack developer interview questions that can
 * What is a *servlet* (versions of servlet api, Servlet 4.0)?
 * What is a *servlet filter*? How to implement *GZipFilter*? (ResponseWrapper)
 * What is *generics* and PECS (producer extends and consumer super)?
-* What is the difference between <?>, \<Object\> and <? extends Object>?
+* What is the difference between <?>, \<Object\> and <? extends Object>? [link1](http://stackoverflow.com/questions/8055389/whats-the-difference-between-and-extends-object-in-java-generics) [link2](http://stackoverflow.com/questions/678822/what-is-the-difference-between-and-object-in-java-generics)
 * Explain method signature for Collections.max(...), Collections.fill(...), Collections.copy(...), Collections.sort(...)
-* Why are arrays covariant but generics are invariant?
+* Why are arrays covariant but generics are invariant? [link](http://stackoverflow.com/questions/18666710/why-are-arrays-covariant-but-generics-are-invariant)
 * Major specs: JAX-RS, JAX-WS, JMS, JAXB, XSLT, XPATH, JNDI, JMX, JDBC, XML(SAX, DOM, StAX)
 
 ####[[⬆]](#toc) <a name='javascript'>Javascript:</a>
