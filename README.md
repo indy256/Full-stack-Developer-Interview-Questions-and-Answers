@@ -31,6 +31,7 @@ This repo contains a number of full-stack developer interview questions that can
   1. [Other](#other)
   1. [Machine learning](#machine-learning)
   1. [Cryptography](#cryptography)
+  1. [Android](#android)
 
 #### [[⬆]](#toc) <a name='general'>General Questions:</a>
 * What is *polymorphism*? (Variable of type Shape could refer to an object of type Square, Circle... Ability of a function to handle objects of many types)
@@ -141,11 +142,11 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *map-reduce*? (Word count example)
 * *Sharding counters*.
 * Distributed software:
-  * Distributed streaming platforms: kafka
-  * Distributed key-value store: zookeeper
-  * Map-reduce: hadoop, spark
-  * Distributed file system: hbase
-  * Cluster management: mesos, kubernetes
+  * Distributed streaming platforms: **kafka**
+  * Distributed key-value store: **zookeeper**
+  * Map-reduce: **hadoop**, **spark**
+  * Distributed file system: **hbase**
+  * Cluster management: **mesos**, **kubernetes**
 * Herlihy’s consensus hierarchy. Every shared object can be assigned a consensus number, which is the maximum number of processes for which the object can solve wait-free consensus in an asynchronous system.
 ```
 1 Read-write registers
@@ -352,3 +353,4 @@ d=e^-1 mod phi(n)
 c = m^e mod n
 m = c^d mod n = m^(e*d) mod n = m^(e*d mod phi(n)) mod n = m
 ```
+#### [[⬆]](#toc) <a name='android'>Android:</a>
