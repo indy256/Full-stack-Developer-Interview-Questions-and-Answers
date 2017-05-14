@@ -194,6 +194,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *memory mapped* file and its benefits?
 * *Interprocess communication* methods. (Pipes, Events, Mailboxes/Ports (can be implemented by using shared memory and semaphores), Direct Message Passing).
 * *Virtual memory* organization.
+* *Process scheduler*.
 
 ####[[⬆]](#toc) <a name='java'>Java:</a>
 * *WeakReference*, *SoftReference*, *PhantomReference*, *finalize()*, *ReferenceQueue*. [link](https://community.oracle.com/blogs/enicholas/2006/05/04/understanding-weak-references)
@@ -205,7 +206,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *Spring-Boot*?
 * What is *Hibernate* and JPA (Caches, lazy-loading)?
 * *Garbage collection*. (G1, Young/Old generation collectors combination examples: PS Scavenge/PS MarkSweep, Copy/MarkSweepCompact)
-* How to write *benchmarks*? (jmh)
+* How to write *benchmarks*? ([jmh](http://openjdk.java.net/projects/code-tools/jmh/))
 * What are Java 9 modularity?
 * What is OSGI? (Specification describes a modular system and a service platform for the Java programming language that implements a complete and dynamic component model. Each bundle has its own classpath. Dependency hell avoidance. META-INF/MANIFEST.MF contains OSGI-info)
 * Serializable / Externalizable
