@@ -93,7 +93,7 @@ This repo contains a number of full-stack developer interview questions that can
 * How to implement *remember-me*? (http://jaspan.com/improved_persistent_login_cookie_best_practice)
 * Authentication using cookies, JWT (JSON Web Tokens).
 
-####[[⬆]](#toc) <a name='sql'>SQL:</a>
+#### [[⬆]](#toc) <a name='sql'>SQL:</a>
 * *SQL join types* (inner join, left/right outer join, full outer join, cross join, [link](https://habrastorage.org/files/7ff/b2c/3a2/7ffb2c3a25b74dcf9eec013282b9cfb4.png))
 * *SQL normal forms* (1.The domain of each attribute contains only atomic values, and the value of each attribute contains only a single value from that domain. 2.No non-prime attribute in the table is functionally dependent on a proper subset of any candidate key. 3.Every non-prime attribute is non-transitively dependent on every candidate key in the table. BCNF.Every non-trivial functional dependency in the table is a dependency on a superkey.)
 * *Isolation levels* and Anomalies (Read Uncommitted, Read Committed, Repeatable Read, Serializable
