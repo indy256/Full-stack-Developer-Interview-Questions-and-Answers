@@ -42,7 +42,6 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *dynamic binding*?(Actual method implementation invoked is determined at run time based on the class of the object, not the type of the variable or expression)
 * How does *garbage collector* work? (Mark and sweep: mark: traverse object graph starting from root objects, sweep: garbage collect unmarked objects. Optimizations: young/old generations, incremental mark and sweep)
 * What is *semantic versioning*? (http://semver.org)
-* What is *A/B testing*?
 
 ####[[⬆]](#toc) <a name='architecture'>Architecture:</a>
 * *Design principles*. (SOLID, DRY, KISS, YAGNI, Worse is better, convention over configuration, separation of concerns, principle of least knowledge, tourist principle, single source of truth, single version of the truth)
@@ -290,7 +289,7 @@ for p in generate_permutations([0] * 3, 1):
 * *Git* workflow? (Master: production-ready state; Develop: latest delivered development changes for the next release; Feature Branches; Release Branches; Hotfixes) ![Git workflow](http://nvie.com/img/git-model@2x.png "Git workflow") http://nvie.com/posts/a-successful-git-branching-model/
 
 ####[[⬆]](#toc) <a name='devOps'>DevOps:</a>
-* What is *Blue-green Deployment*, *Canary release*? (https://www.javacodegeeks.com/2016/02/blue-green-deployment.html)
+* What is *Blue-green Deployment*, *Canary release*, *A/B testing*? [link](https://www.javacodegeeks.com/2016/02/blue-green-deployment.html)
 
 ####[[⬆]](#toc) <a name='qa'>QA:</a>
 * What is *unit test*? (A test that purely tests a single unit of functionality)
