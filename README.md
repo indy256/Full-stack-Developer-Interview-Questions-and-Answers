@@ -32,7 +32,7 @@ This repo contains a number of full-stack developer interview questions that can
   1. [Machine learning](#machine-learning)
   1. [Cryptography](#cryptography)
 
-####[[⬆]](#toc) <a name='general'>General Questions:</a>
+#### [[⬆]](#toc) <a name='general'>General Questions:</a>
 * What is *polymorphism*? (Variable of type Shape could refer to an object of type Square, Circle... Ability of a function to handle objects of many types)
 * What is *encapsulation* (Packing of data and functions into a single component)
 * What is *inversion of control*? (A design in which custom-written portions of a computer program receive the flow of control from a generic, reusable library)
@@ -43,7 +43,7 @@ This repo contains a number of full-stack developer interview questions that can
 * How does *garbage collector* work? (Mark and sweep: mark: traverse object graph starting from root objects, sweep: garbage collect unmarked objects. Optimizations: young/old generations, incremental mark and sweep)
 * What is *semantic versioning*? (http://semver.org)
 
-####[[⬆]](#toc) <a name='architecture'>Architecture:</a>
+#### [[⬆]](#toc) <a name='architecture'>Architecture:</a>
 * *Design principles*. (SOLID, DRY, KISS, YAGNI, Worse is better, convention over configuration, separation of concerns, principle of least knowledge, tourist principle, single source of truth, single version of the truth)
 * Drawbacks of not using *separation of concerns*
   * Adding new features will take an order of magnitude longer
@@ -80,7 +80,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *uniform access principle*?(client code should not be affected by a decision to implement an attribute as a field or method)
 * Advantages of using *modules*. (reuse, decoupling, namespace)
 
-####[[⬆]](#toc) <a name='web'>WEB:</a>
+#### [[⬆]](#toc) <a name='web'>WEB:</a>
 * WEB security vulnerabilities (XSS, CSRF, session fixation, SQL injection, man-in-the-middle, buffer overflow)
 * CSRF prevention. (CSRF-token)
 * What is *JSONP*, *CORS*? (A communication technique used in JavaScript programs running in web browsers to request data from a server in a different domain, something prohibited by typical web browsers because of the same-origin policy)
@@ -107,19 +107,19 @@ This repo contains a number of full-stack developer interview questions that can
 |Snapshot        |-        |-        |-        |-        |may occur|
 |Serializable    |-        |-        |-        |-        |-        |
 
-####[[⬆]](#toc) <a name='nosql'>NoSQL:</a>
+#### [[⬆]](#toc) <a name='nosql'>NoSQL:</a>
 * Types of NoSQL databases?
   * Document Stores (MongoDB, Couchbase)
   * Key-Value Stores (Redis, Volgemort)
   * Column Stores (Cassandra)
   * Graph Stores (Neo4j, Giraph)
 
-####[[⬆]](#toc) <a name='transactions'>Transactions:</a>
+#### [[⬆]](#toc) <a name='transactions'>Transactions:</a>
 * What ACID?
 * What is 2-phase, 3-phase commit?
 * What is pessimistic/optimistic locking?
 
-####[[⬆]](#toc) <a name='scalability'>Scalability:</a>
+#### [[⬆]](#toc) <a name='scalability'>Scalability:</a>
 * Horizontal and vertical scaling.
 * How to scale database? (Data partitioning, sharding(vertical/horizontal), replication(master-slave, master-master)).
 * What is *synchronous multimaster replication*? (Each server can accept write requests, and modified data is transmitted from the original server to every other server before each transaction commits)
@@ -130,11 +130,11 @@ This repo contains a number of full-stack developer interview questions that can
 * storing sessions in Redis.
 * MongoDB, Redis.
 
-####[[⬆]](#toc) <a name='load-balancing'>Load balancing:</a>
+#### [[⬆]](#toc) <a name='load-balancing'>Load balancing:</a>
 * What is *cloud computing*? (Cloud computing platform is a fully automated server platform that allows users to purchase, remotely create, dynamically scale, and administer system)
 * sticky/non-sticky sessions
 
-####[[⬆]](#toc) <a name='distributed'>Distributed:</a>
+#### [[⬆]](#toc) <a name='distributed'>Distributed:</a>
 * What is *CAP theorem*? (it is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: *consistency*, *availability*, *partition tolerance*) ![CAP theorem](http://guide.couchdb.org/draft/consistency/01.png "CAP theorem")
 * What is *map-reduce*? (Word count example)
 * *Sharding counters*.
@@ -146,11 +146,11 @@ This repo contains a number of full-stack developer interview questions that can
 ∞ Augmented queue, compare-and-swap, sticky byte
 ```
 
-####[[⬆]](#toc) <a name='cache'>Cache:</a>
+#### [[⬆]](#toc) <a name='cache'>Cache:</a>
 * What is *write-through* and *write-behind* caching? (write-through (synchronous), write-behind (asynchronous))
 * HTTP cache options?
 
-####[[⬆]](#toc) <a name='concurrency'>Concurrency:</a>
+#### [[⬆]](#toc) <a name='concurrency'>Concurrency:</a>
 * What is *deadlock*, *livelock*? (Deadlock is a situation in which two or more competing actions are each waiting for the other to finish, and thus neither ever does. A livelock is similar to a deadlock, except that the states of the processes involved in the livelock constantly change with regard to one another, none progressing.)
 * Deadlock avoidance. (prevention, detection, avoidance (Mutex hierarchy), and recovery)
 * What is *starvation*? ()
@@ -184,19 +184,19 @@ This repo contains a number of full-stack developer interview questions that can
 * *Readers/writers* problem.
 * *Consensus number*. Maximum number of threads for which objects of the class can solve consensus problem.
 
-####[[⬆]](#toc) <a name='networking'>Networking:</a>
+#### [[⬆]](#toc) <a name='networking'>Networking:</a>
 * OSI model (Physical, Data link, Network, Transport, Session, Presentation, Application)
 * Multithreading vs select
 * Switch, hub, router.
 * TCP congestion.
 
-####[[⬆]](#toc) <a name='os'>Operating system:</a>
+#### [[⬆]](#toc) <a name='os'>Operating system:</a>
 * What is *memory mapped* file and its benefits?
 * *Interprocess communication* methods. (Pipes, Events, Mailboxes/Ports (can be implemented by using shared memory and semaphores), Direct Message Passing).
 * *Virtual memory* organization.
 * *Process scheduler*.
 
-####[[⬆]](#toc) <a name='java'>Java:</a>
+#### [[⬆]](#toc) <a name='java'>Java:</a>
 * *WeakReference*, *SoftReference*, *PhantomReference*, *finalize()*, *ReferenceQueue*. [link](https://community.oracle.com/blogs/enicholas/2006/05/04/understanding-weak-references)
 * How to correctly stop a thread? (Thread.interrupt())
 * What is *Spring*? (Spring Framework is an application container for Java that supplies many useful features, such as Inversion of Control, Dependency Injection, abstract data access, transaction management, and more)
@@ -218,7 +218,7 @@ This repo contains a number of full-stack developer interview questions that can
 * Why are arrays covariant but generics are invariant? [link](http://stackoverflow.com/questions/18666710/why-are-arrays-covariant-but-generics-are-invariant)
 * Major specs: JAX-RS, JAX-WS, JMS, JAXB, XSLT, XPATH, JNDI, JMX, JDBC, XML(SAX, DOM, StAX)
 
-####[[⬆]](#toc) <a name='javascript'>Javascript:</a>
+#### [[⬆]](#toc) <a name='javascript'>Javascript:</a>
 * this keyword
 * How *prototypes* work?
 * inheritance 
@@ -230,7 +230,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *AMD*(Asynchronous Module Design) and *CommonJS*?
 * What is *jQuery*?
 
-####[[⬆]](#toc) <a name='codewriting'>Codewriting:</a>
+#### [[⬆]](#toc) <a name='codewriting'>Codewriting:</a>
 * Implement binary search
 ```java
 int binarySearch(int[] a, int fromInclusive, int toExclusive, int key) {
@@ -286,13 +286,13 @@ for p in generate_permutations([0] * 3, 1):
     print(p)
 ```
 
-####[[⬆]](#toc) <a name='git'>Git:</a>
+#### [[⬆]](#toc) <a name='git'>Git:</a>
 * *Git* workflow? (Master: production-ready state; Develop: latest delivered development changes for the next release; Feature Branches; Release Branches; Hotfixes) ![Git workflow](http://nvie.com/img/git-model@2x.png "Git workflow") http://nvie.com/posts/a-successful-git-branching-model/
 
-####[[⬆]](#toc) <a name='devOps'>DevOps:</a>
+#### [[⬆]](#toc) <a name='devOps'>DevOps:</a>
 * What is *Blue-green Deployment*, *Canary release*, *A/B testing*? [link](https://www.javacodegeeks.com/2016/02/blue-green-deployment.html)
 
-####[[⬆]](#toc) <a name='qa'>QA:</a>
+#### [[⬆]](#toc) <a name='qa'>QA:</a>
 * What is *unit test*? (A test that purely tests a single unit of functionality)
 * What is *integration test*? (Examine several parts of a system to make sure that when integrated, these parts behave as expected)
 * Unit tests advantages?
@@ -301,7 +301,7 @@ for p in generate_permutations([0] * 3, 1):
 * Selenium tests and webdriver.
 * How to test multithreading code?
 
-####[[⬆]](#toc) <a name='agile'>Agile:</a>
+#### [[⬆]](#toc) <a name='agile'>Agile:</a>
 * What is Agile? ()
   * Individuals and interactions over Processes and tools
   * Working software over Comprehensive documentation
@@ -312,11 +312,11 @@ for p in generate_permutations([0] * 3, 1):
 * What is XP? ()
 * What is Lean, Kanban?
 
-####[[⬆]](#toc) <a name='algorithms'>Algorithms:</a>
+#### [[⬆]](#toc) <a name='algorithms'>Algorithms:</a>
 * What Ο(n), Ω(n), Θ(n)?
 * What is NP, NP-completeness, NP-hardness with examples?
 
-####[[⬆]](#toc) <a name='other'>Other:</a>
+#### [[⬆]](#toc) <a name='other'>Other:</a>
 * How to find memory leak. (Memory snapshot diff).
 * Profiling: sampling and instrumentation.
 * Regular expressions. (Examples)
@@ -326,10 +326,10 @@ for p in generate_permutations([0] * 3, 1):
 * What is total/partial order?
 * How to work with legacy code? (http://programmers.stackexchange.com/a/122024)
 
-####[[⬆]](#toc) <a name='machine-learning'>Machine learning:</a>
+#### [[⬆]](#toc) <a name='machine-learning'>Machine learning:</a>
 * Bayes' theorem. P(A|B) = P(B|A)P(A)/P(B), P(B) = sum(P(Ai)P(B|Ai))
 
-####[[⬆]](#toc) <a name='cryptography'>Cryptography:</a>
+#### [[⬆]](#toc) <a name='cryptography'>Cryptography:</a>
 * What is *public key cryptography*?
 * What is *public key certificate*?
 * *RSA*
