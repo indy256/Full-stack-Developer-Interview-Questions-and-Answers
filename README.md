@@ -22,6 +22,7 @@ This repo contains a number of full-stack developer interview questions that can
   1. [Python](#python)
   1. [C++](#cpp)
   1. [Code writing](#codewriting)
+  1. [Functional programming](#functional-programming)
   1. [Git](#git)
   1. [DevOps](#devOps)
   1. [QA](#qa)
@@ -80,6 +81,7 @@ This repo contains a number of full-stack developer interview questions that can
 * *Multiple inheritance problem*.
 * What is *uniform access principle*?(client code should not be affected by a decision to implement an attribute as a field or method)
 * Advantages of using *modules*. (reuse, decoupling, namespace)
+* *Domain driver design*.
 
 #### [[⬆]](#toc) <a name='web'>WEB:</a>
 * WEB security vulnerabilities (XSS, CSRF, session fixation, SQL injection, man-in-the-middle, buffer overflow)
@@ -301,10 +303,13 @@ for p in generate_permutations([0] * 3, 1):
 
 #### [[⬆]](#toc) <a name='devOps'>DevOps:</a>
 * What is *Blue-green Deployment*, *Canary release*, *A/B testing*? [link](https://www.javacodegeeks.com/2016/02/blue-green-deployment.html)
+* *Docker*
 
 #### [[⬆]](#toc) <a name='qa'>QA:</a>
 * What is *unit test*? (A test that purely tests a single unit of functionality)
+* What is *component test*?
 * What is *integration test*? (Examine several parts of a system to make sure that when integrated, these parts behave as expected)
+* What is *user acceptance test*? BDD?
 * Unit tests advantages?
 * Types of tests: acceptance testing, functional testing, smoke testing, regression testing, unit testing, integration testing, stress testing, (Load, Performance, Sanity, Stability, Security, Feature, Progression, Installation, Business).
 * Differences between stub and mock? (A stub is a test double with preprogrammed behavior. Mocks are stubs with preprogrammed expectations)
@@ -312,12 +317,12 @@ for p in generate_permutations([0] * 3, 1):
 * How to test multithreading code?
 
 #### [[⬆]](#toc) <a name='agile'>Agile:</a>
-* What is Agile? ()
+* What is Agile? (http://agilemanifesto.org/principles.html)
   * Individuals and interactions over Processes and tools
   * Working software over Comprehensive documentation
   * Customer collaboration over Contract negotiation
   * Responding to change over Following a plan
-* What is Scrum? (Roles: product owner, development team, scrum master. Events: sprint, 
+* What is Scrum? (Roles: product owner, development team, scrum master. Events: sprint)
 * What are the differences between Scrum and Waterfall? ( http://www.leanagiletraining.com/agile/waterfall-versus-scrum-how-do-they-compare/)
 * What is XP? ()
 * What is Lean, Kanban?
@@ -330,7 +335,6 @@ for p in generate_permutations([0] * 3, 1):
 * How to find memory leak. (Memory snapshot diff).
 * Profiling: sampling and instrumentation.
 * Regular expressions. (Examples)
-* XPath 
 * What are your goals to work in our company? (3 categories: professional, financial, social)
 * What is *virtualization*? 
 * What is total/partial order?
