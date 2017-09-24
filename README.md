@@ -36,6 +36,7 @@ This repo contains a number of full-stack developer interview questions that can
   1. [Big Data](#big-data)
   1. [Image processing](#image-processing)
   1. [Cryptography](#cryptography)
+  1. [Security](#security)
   1. [Android](#android)
 
 #### [[⬆]](#toc) <a name='general'>General Questions:</a>
@@ -379,4 +380,13 @@ d=e^-1 mod phi(n)
 c = m^e mod n
 m = c^d mod n = m^(e*d) mod n = m^(e*d mod phi(n)) mod n = m
 ```
+
+#### [[⬆]](#toc) <a name='security'>Security:</a>
+* What is *OpenID and OAuth2.0 and OpenID Connect*?
+* What is *access_token, SAML token, JWT token*?
+* *Sticky session vs Session Replication*.
+* What is *Federated Authentication* ?
+* What is *CSP* and *SRI hash* ?
+* What is *Clickjacking* and *Cursorjacking* ? How to prevent it ?
+
 #### [[⬆]](#toc) <a name='android'>Android:</a>
