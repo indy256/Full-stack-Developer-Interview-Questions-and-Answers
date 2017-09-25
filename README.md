@@ -57,7 +57,7 @@ This repo contains a number of full-stack developer interview questions that can
   * Impossible to optimize
   * Extremely difficult to test
   * Fixing and debugging can be a nightmare (fixing something in one place can lead to something else breaking that seems completely unrelated).
-* *Microservices* are a style of software architecture that involves delivering systems as a set of very small, granular, independent collaborating services. 
+* *Microservices* are a style of software architecture that involves delivering systems as a set of very small, granular, independent collaborating services.
 * Pros of *microservices* (The services are easy to replace, Services can be implemented using different programming languages, databases, hardware and software environment, depending on what fits best)
 * *The Twelve-Factor App* (http://12factor.net)
 * What is *SOLID*?
@@ -110,7 +110,6 @@ This repo contains a number of full-stack developer interview questions that can
 |:---------------|:-------:|:-------:|:-------:|:-------:|:-------:|
 |Read Uncommitted|-        |may occur|may occur|may occur|may occur|
 |Read Committed  |-        |-        |may occur|may occur|may occur|
-|Repeatable Read |-        |-        |-        |may occur|may occur|
 |Repeatable Read |-        |-        |-        |may occur|may occur|
 |Snapshot        |-        |-        |-        |-        |may occur|
 |Serializable    |-        |-        |-        |-        |-        |
@@ -239,7 +238,7 @@ This repo contains a number of full-stack developer interview questions that can
 #### [[⬆]](#toc) <a name='javascript'>Javascript:</a>
 * this keyword
 * How *prototypes* work?
-* inheritance 
+* inheritance
 * differences between == and === (http://dorey.github.io/JavaScript-Equality-Table/)
 * closures
 * What is *MVC*, *MVP*, *MVVM*?
@@ -352,7 +351,7 @@ for p in generate_permutations([0] * 3, 1):
 * Profiling: sampling and instrumentation.
 * Regular expressions. (Examples)
 * What are your goals to work in our company? (3 categories: professional, financial, social)
-* What is *virtualization*? 
+* What is *virtualization*?
 * What is total/partial order?
 * How to work with legacy code? (http://programmers.stackexchange.com/a/122024)
 
