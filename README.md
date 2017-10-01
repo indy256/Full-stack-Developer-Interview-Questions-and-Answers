@@ -215,7 +215,7 @@ This repo contains a number of full-stack developer interview questions that can
 * *Process scheduler*.
 
 #### [[⬆]](#toc) <a name='java'>Java:</a>
-* *WeakReference*, *SoftReference*, *PhantomReference*, *finalize()*, *ReferenceQueue*. [link](https://community.oracle.com/blogs/enicholas/2006/05/04/understanding-weak-references)
+* [*PhantomReference*](https://en.wikipedia.org/wiki/Phantom_reference), [*WeakReference*](https://en.wikipedia.org/wiki/Weak_reference), [*SoftReference*](https://en.wikipedia.org/wiki/Soft_reference), *finalize()*, *ReferenceQueue*.
 * How to correctly stop a thread? (Thread.interrupt())
 * What is *Spring*? (Spring Framework is an application container for Java that supplies many useful features, such as Inversion of Control, Dependency Injection, abstract data access, transaction management, and more)
   * Spring is a framework for dependency injection: a design pattern that allows the developer to build very decoupled systems by injecting dependencies into classes.
