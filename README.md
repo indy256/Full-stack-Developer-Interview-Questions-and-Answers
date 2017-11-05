@@ -111,7 +111,6 @@ This repo contains a number of full-stack developer interview questions that can
 |Read Uncommitted|-        |may occur|may occur|may occur|may occur|
 |Read Committed  |-        |-        |may occur|may occur|may occur|
 |Repeatable Read |-        |-        |-        |may occur|may occur|
-|Repeatable Read |-        |-        |-        |may occur|may occur|
 |Snapshot        |-        |-        |-        |-        |may occur|
 |Serializable    |-        |-        |-        |-        |-        |
 
