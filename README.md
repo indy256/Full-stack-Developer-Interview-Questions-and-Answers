@@ -42,11 +42,11 @@ This repo contains a number of full-stack developer interview questions that can
 #### [[⬆]](#toc) <a name='general'>General Questions:</a>
 * What is *polymorphism*? (Variable of type Shape could refer to an object of type Square, Circle... Ability of a function to handle objects of many types)
 * What is *encapsulation* (Packing of data and functions into a single component)
-* What is tail recursion? (A tail call is a subroutine call performed as the final action of a procedure)
 * What is *virtual function*? (Overridable function)
 * What is *virtual method table*?
 * What is *dynamic binding*? (Actual method implementation invoked is determined at run time based on the class of the object, not the type of the variable or expression)
 * How does *garbage collector* work? (Mark and sweep: mark: traverse object graph starting from root objects, sweep: garbage collect unmarked objects. Optimizations: young/old generations, incremental mark and sweep)
+* What is tail recursion? (A tail call is a subroutine call performed as the final action of a procedure)
 * What is *semantic versioning*? (http://semver.org)
 
 #### [[⬆]](#toc) <a name='architecture'>Architecture:</a>
