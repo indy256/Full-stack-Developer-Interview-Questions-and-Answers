@@ -61,14 +61,9 @@ This repo contains a number of full-stack developer interview questions that can
 |**I**nterface segregation principle|It’s like Single Responsibility Principle but applicable to interfaces. Each interface should be responsible for a specific task. The developers should need to implement methods which he/she doesn’t need.|
 |**D**ependency inversion principle|Depend upon Abstractions but not on concretions. This means that each module should be separated from other using an abstract layer which binds them together.|
 
-* Drawbacks of not using *separation of concerns*
-  * Adding new features will take an order of magnitude longer
-  * Impossible to optimize
-  * Extremely difficult to test
-  * Fixing and debugging can be a nightmare (fixing something in one place can lead to something else breaking that seems completely unrelated).
 * *Microservices* are a style of software architecture that involves delivering systems as a set of very small, granular, independent collaborating services. 
 * Pros of *microservices* (The services are easy to replace, Services can be implemented using different programming languages, databases, hardware and software environment, depending on what fits best)
-* *The Twelve-Factor App* (http://12factor.net)
+* [*The Twelve-Factor App*](http://12factor.net)
 * *Design patterns*. (Creational:Builder,Object Pool,Factory Method,Signleton,Multiton,Prototype,Abstract Factory.Structural:Adapter,Bridge,Composite,Decorator,Facade,Flyweight,Proxy.Behavioral:Chain of Responsibility,Command,Interpreter,Iterator,Mediator,Memento,Observer,State,Strategy,Template Method,Visitor.)
 * *Integration patterns*, SOA patterns.
 * 3-tier architecture? (Presentation tier, Application tier, Data tier)
@@ -77,13 +72,18 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *idempotent* operation? (The PUT and DELETE methods are referred to as idempotent, meaning that the operation will produce the same result no matter how many times it is repeated)
 * What is *nullipotent* operation? (GET method is a safe method (or nullipotent), meaning that calling it produces no side-effects)
 * Naked objects, Restful objects.
-* What is *aspect-oriented programming*?
+* [*Aspect-oriented programming*](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
 * Why do you need *web server* (tomcat, jetty)?
 * *Inheritance* vs *Composition*.(Inheritance - is-a relationship, whether clients will want to use the subclass type as a superclass type. Composition - has-a or part-of relationship).
-* *Multiple inheritance problem*.
-* What is *uniform access principle*?(client code should not be affected by a decision to implement an attribute as a field or method)
+* [*Multiple inheritance (diamond) problem*](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem)
 * Advantages of using *modules*. (reuse, decoupling, namespace)
-* [*Domain-driven design*](https://en.wikipedia.org/wiki/Domain-driven_design).
+* [*Domain-driven design*](https://en.wikipedia.org/wiki/Domain-driven_design)
+* Drawbacks of not using *separation of concerns*
+  * Adding new features will take an order of magnitude longer
+  * Impossible to optimize
+  * Extremely difficult to test
+  * Fixing and debugging can be a nightmare (fixing something in one place can lead to something else breaking that seems completely unrelated).
+* What is *uniform access principle*?(client code should not be affected by a decision to implement an attribute as a field or method)
 
 #### [[⬆]](#toc) <a name='web'>WEB:</a>
 * WEB security vulnerabilities (XSS, CSRF, session fixation, SQL injection, man-in-the-middle, buffer overflow)
