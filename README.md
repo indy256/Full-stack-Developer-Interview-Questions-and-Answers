@@ -50,15 +50,7 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *semantic versioning*? (http://semver.org)
 
 #### [[⬆]](#toc) <a name='architecture'>Architecture:</a>
-* *Design principles*. (SOLID, DRY, KISS, YAGNI, Worse is better, convention over configuration, separation of concerns, principle of least knowledge, tourist principle, single source of truth, single version of the truth)
-* Drawbacks of not using *separation of concerns*
-  * Adding new features will take an order of magnitude longer
-  * Impossible to optimize
-  * Extremely difficult to test
-  * Fixing and debugging can be a nightmare (fixing something in one place can lead to something else breaking that seems completely unrelated).
-* *Microservices* are a style of software architecture that involves delivering systems as a set of very small, granular, independent collaborating services. 
-* Pros of *microservices* (The services are easy to replace, Services can be implemented using different programming languages, databases, hardware and software environment, depending on what fits best)
-* *The Twelve-Factor App* (http://12factor.net)
+* *Design principles*. (SOLID, DRY, KISS, YAGNI, Occam's razor, Worse is better, convention over configuration, separation of concerns, principle of least knowledge, boy scout rule, single source/version of truth, principle of least astonishment)
 * What is *SOLID*?
 
 |Rule|Description|
@@ -69,6 +61,14 @@ This repo contains a number of full-stack developer interview questions that can
 |**I**nterface segregation principle|It’s like Single Responsibility Principle but applicable to interfaces. Each interface should be responsible for a specific task. The developers should need to implement methods which he/she doesn’t need.|
 |**D**ependency inversion principle|Depend upon Abstractions but not on concretions. This means that each module should be separated from other using an abstract layer which binds them together.|
 
+* Drawbacks of not using *separation of concerns*
+  * Adding new features will take an order of magnitude longer
+  * Impossible to optimize
+  * Extremely difficult to test
+  * Fixing and debugging can be a nightmare (fixing something in one place can lead to something else breaking that seems completely unrelated).
+* *Microservices* are a style of software architecture that involves delivering systems as a set of very small, granular, independent collaborating services. 
+* Pros of *microservices* (The services are easy to replace, Services can be implemented using different programming languages, databases, hardware and software environment, depending on what fits best)
+* *The Twelve-Factor App* (http://12factor.net)
 * *Design patterns*. (Creational:Builder,Object Pool,Factory Method,Signleton,Multiton,Prototype,Abstract Factory.Structural:Adapter,Bridge,Composite,Decorator,Facade,Flyweight,Proxy.Behavioral:Chain of Responsibility,Command,Interpreter,Iterator,Mediator,Memento,Observer,State,Strategy,Template Method,Visitor.)
 * *Integration patterns*, SOA patterns.
 * 3-tier architecture? (Presentation tier, Application tier, Data tier)
