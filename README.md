@@ -72,7 +72,7 @@ This repo contains a number of full-stack developer interview questions that can
 * *Integration patterns*, SOA patterns.
 * 3-tier architecture? (Presentation tier, Application tier, Data tier)
 * 3-layer architecture? (DAO (Repository), Business (Service) layer, Controller)
-* [REST](https://en.wikipedia.org/wiki/Representational_state_transfer), [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call)
+* [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)(Representational state transfer), [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call)
 * What is *idempotent* operation? (The PUT and DELETE methods are referred to as idempotent, meaning that the operation will produce the same result no matter how many times it is repeated)
 * What is *nullipotent* operation? (GET method is a safe method (or nullipotent), meaning that calling it produces no side-effects)
 * Naked objects, Restful objects.
