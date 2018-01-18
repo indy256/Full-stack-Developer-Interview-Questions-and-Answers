@@ -67,7 +67,7 @@ This repo contains a number of full-stack developer interview questions that can
 * [*Domain-driven design*](https://en.wikipedia.org/wiki/Domain-driven_design)
 * *Microservices* are a style of software architecture that involves delivering systems as a set of very small, granular, independent collaborating services. 
 * Pros of *microservices* (The services are easy to replace, Services can be implemented using different programming languages, databases, hardware and software environment, depending on what fits best)
-* *Design patterns*. (Creational:Builder,Object Pool,Factory Method,Signleton,Multiton,Prototype,Abstract Factory.Structural:Adapter,Bridge,Composite,Decorator,Facade,Flyweight,Proxy.Behavioral:Chain of Responsibility,Command,Interpreter,Iterator,Mediator,Memento,Observer,State,Strategy,Template Method,Visitor.)
+* *Design patterns*. (**Creational**: Builder,Object Pool,Factory Method,Signleton,Multiton,Prototype,Abstract Factory. **Structural**: Adapter,Bridge,Composite,Decorator,Facade,Flyweight,Proxy. **Behavioral**: Chain of Responsibility,Command,Interpreter,Iterator,Mediator,Memento,Observer,State,Strategy,Template Method,Visitor.)
 * [*Event sourcing*](http://microservices.io/patterns/data/event-sourcing.html)
 * *Integration patterns*, SOA patterns.
 * 3-tier architecture? (Presentation tier, Application tier, Data tier)
