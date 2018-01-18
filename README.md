@@ -241,7 +241,7 @@ This repo contains a number of full-stack developer interview questions that can
 #### [[⬆]](#toc) <a name='javascript'>Javascript:</a>
 * this keyword
 * How *prototypes* work?
-* inheritance 
+* inheritance
 * differences between == and === (http://dorey.github.io/JavaScript-Equality-Table/)
 * closures
 * recursion 
@@ -355,7 +355,7 @@ for p in generate_permutations([0] * 3, 1):
 * Profiling: sampling and instrumentation.
 * Regular expressions. (Examples)
 * What are your goals to work in our company? (3 categories: professional, financial, social)
-* What is *virtualization*? 
+* What is *virtualization*?
 * What is total/partial order?
 * How to work with legacy code? (http://programmers.stackexchange.com/a/122024)
 
