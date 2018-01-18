@@ -61,6 +61,7 @@ This repo contains a number of full-stack developer interview questions that can
 |[**I**nterface segregation principle](https://en.wikipedia.org/wiki/Interface_segregation_principle)|Many client-specific interfaces are better than one general-purpose interface.|
 |[**D**ependency inversion principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle)|Depend upon Abstractions but not on concretions. This means that each module should be separated from other using an abstract layer which binds them together. Source code dependency points in the opposite direction compared to the flow of control.|
 
+* [*Clean Code Cheat Sheet*](https://www.planetgeek.ch/wp-content/uploads/2014/11/Clean-Code-V2.4.pdf)
 * [*One key abstraction*](http://wiki3.cosc.canterbury.ac.nz/index.php/One_key_abstraction)
 * [*Aspect-oriented programming*](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
 * [*The Twelve-Factor App*](http://12factor.net)
