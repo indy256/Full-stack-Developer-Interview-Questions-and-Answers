@@ -56,7 +56,7 @@ This repo contains a number of full-stack developer interview questions that can
 |Rule|Description|
 |:--|:--|
 |**S**ingle responsibility principle|A module should be responsible to one, and only one, actor.|
-|**O**pen/closed principle|The developers should focus more on extending the software entities rather than modifying them.|
+|**O**pen/closed principle|A software artifact should be open for extension but closed for modification.|
 |**L**iskov substitution principle|It should be possible to substitute the derived class with base class.|
 |**I**nterface segregation principle|It’s like Single Responsibility Principle but applicable to interfaces. Each interface should be responsible for a specific task. The developers should need to implement methods which he/she doesn’t need.|
 |**D**ependency inversion principle|Depend upon Abstractions but not on concretions. This means that each module should be separated from other using an abstract layer which binds them together.|
