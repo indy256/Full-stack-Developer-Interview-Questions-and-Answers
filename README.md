@@ -42,49 +42,50 @@ This repo contains a number of full-stack developer interview questions that can
 #### [[⬆]](#toc) <a name='general'>General Questions:</a>
 * What is *polymorphism*? (Variable of type Shape could refer to an object of type Square, Circle... Ability of a function to handle objects of many types)
 * What is *encapsulation* (Packing of data and functions into a single component)
-* What is *inversion of control*? (A design in which custom-written portions of a computer program receive the flow of control from a generic, reusable library)
-* What is tail recursion? (A tail call is a subroutine call performed as the final action of a procedure)
-* What is *virtual function*?
+* What is *virtual function*? (Overridable function)
 * What is *virtual method table*?
-* What is *dynamic binding*?(Actual method implementation invoked is determined at run time based on the class of the object, not the type of the variable or expression)
+* What is *dynamic binding*? (Actual method implementation invoked is determined at run time based on the class of the object, not the type of the variable or expression)
 * How does *garbage collector* work? (Mark and sweep: mark: traverse object graph starting from root objects, sweep: garbage collect unmarked objects. Optimizations: young/old generations, incremental mark and sweep)
-* What is *semantic versioning*? (http://semver.org)
+* What is tail recursion? (A tail call is a subroutine call performed as the final action of a procedure)
+* [*Semantic versioning*](http://semver.org)
 
 #### [[⬆]](#toc) <a name='architecture'>Architecture:</a>
-* *Design principles*. (SOLID, DRY, KISS, YAGNI, Worse is better, convention over configuration, separation of concerns, principle of least knowledge, tourist principle, single source of truth, single version of the truth)
+* *Design principles*. ([SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)), [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), [KISS](https://en.wikipedia.org/wiki/KISS_principle), [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it), [Occam's razor](https://en.wikipedia.org/wiki/Occam%27s_razor), [Worse is better](https://en.wikipedia.org/wiki/Worse_is_better), [convention over configuration](https://en.wikipedia.org/wiki/Convention_over_configuration), [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns), [Law of Demeter (principle of least knowledge)](https://en.wikipedia.org/wiki/Law_of_Demeter), boy scout rule, [single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth), [single version of truth](https://en.wikipedia.org/wiki/Single_version_of_the_truth), [principle of least astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment), [let it crash principle](https://en.wikipedia.org/wiki/Crash-only_software), [inversion of control](https://en.wikipedia.org/wiki/Inversion_of_control))
+* [*SOLID*](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
+
+|Rule|Description|
+|:--|:--|
+|[**S**ingle responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle)|A module should be responsible to one, and only one, actor.|
+|[**O**pen/closed principle](https://en.wikipedia.org/wiki/Open/closed_principle)|A software artifact should be open for extension but closed for modification.|
+|[**L**iskov substitution principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle)|It should be possible to substitute the derived class with base class.|
+|[**I**nterface segregation principle](https://en.wikipedia.org/wiki/Interface_segregation_principle)|Many client-specific interfaces are better than one general-purpose interface.|
+|[**D**ependency inversion principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle)|Depend upon Abstractions but not on concretions. This means that each module should be separated from other using an abstract layer which binds them together. Source code dependency points in the opposite direction compared to the flow of control.|
+
+* [*One key abstraction*](http://wiki3.cosc.canterbury.ac.nz/index.php/One_key_abstraction)
+* [*Aspect-oriented programming*](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
+* [*The Twelve-Factor App*](http://12factor.net)
+* [*Domain-driven design*](https://en.wikipedia.org/wiki/Domain-driven_design)
+* *Microservices* are a style of software architecture that involves delivering systems as a set of very small, granular, independent collaborating services. 
+* Pros of *microservices* (The services are easy to replace, Services can be implemented using different programming languages, databases, hardware and software environment, depending on what fits best)
+* *Design patterns*. (**Creational**: Builder,Object Pool,Factory Method,Signleton,Multiton,Prototype,Abstract Factory. **Structural**: Adapter,Bridge,Composite,Decorator,Facade,Flyweight,Proxy. **Behavioral**: Chain of Responsibility,Command,Interpreter,Iterator,Mediator,Memento,Observer,State,Strategy,Template Method,Visitor.)
+* [*Event sourcing*](http://microservices.io/patterns/data/event-sourcing.html)
+* *Integration patterns*, SOA patterns.
+* 3-tier architecture? (Presentation tier, Application tier, Data tier)
+* 3-layer architecture? (DAO (Repository), Business (Service) layer, Controller)
+* [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)(Representational state transfer), [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call)
+* What is *idempotent* operation? (The PUT and DELETE methods are referred to as idempotent, meaning that the operation will produce the same result no matter how many times it is repeated)
+* What is *nullipotent* operation? (GET method is a safe method (or nullipotent), meaning that calling it produces no side-effects)
+* Naked objects, Restful objects.
+* Why do you need *web server* (tomcat, jetty)?
+* *Inheritance* vs *Composition*.(Inheritance - is-a relationship, whether clients will want to use the subclass type as a superclass type. Composition - has-a or part-of relationship).
+* [*Multiple inheritance (diamond) problem*](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem)
+* Advantages of using *modules*. (reuse, decoupling, namespace)
 * Drawbacks of not using *separation of concerns*
   * Adding new features will take an order of magnitude longer
   * Impossible to optimize
   * Extremely difficult to test
   * Fixing and debugging can be a nightmare (fixing something in one place can lead to something else breaking that seems completely unrelated).
-* *Microservices* are a style of software architecture that involves delivering systems as a set of very small, granular, independent collaborating services.
-* Pros of *microservices* (The services are easy to replace, Services can be implemented using different programming languages, databases, hardware and software environment, depending on what fits best)
-* *The Twelve-Factor App* (http://12factor.net)
-* What is *SOLID*?
-
-|Rule|Description|
-|:--|:--|
-|**S**ingle responsibility principle|A class should have one and only one task/responsibility. If class is performing more than one task, it leads to confusion.|
-|**O**pen/closed principle|The developers should focus more on extending the software entities rather than modifying them.|
-|**L**iskov substitution principle|It should be possible to substitute the derived class with base class.|
-|**I**nterface segregation principle|It’s like Single Responsibility Principle but applicable to interfaces. Each interface should be responsible for a specific task. The developers should need to implement methods which he/she doesn’t need.|
-|**D**ependency inversion principle|Depend upon Abstractions but not on concretions. This means that each module should be separated from other using an abstract layer which binds them together.|
-
-* *Design patterns*. (Creational:Builder,Object Pool,Factory Method,Signleton,Multiton,Prototype,Abstract Factory.Structural:Adapter,Bridge,Composite,Decorator,Facade,Flyweight,Proxy.Behavioral:Chain of Responsibility,Command,Interpreter,Iterator,Mediator,Memento,Observer,State,Strategy,Template Method,Visitor.)
-* *Integration patterns*, SOA patterns.
-* 3-tier architecture? (Presentation tier, Application tier, Data tier)
-* 3-layer architecture? (DAO (Repository), Business (Service) layer, Controller)
-* What is REST?
-* What is *idempotent* operation? (The PUT and DELETE methods are referred to as idempotent, meaning that the operation will produce the same result no matter how many times it is repeated)
-* What is *nullipotent* operation? (GET method is a safe method (or nullipotent), meaning that calling it produces no side-effects)
-* Naked objects, Restful objects.
-* What is *aspect-oriented programming*?
-* Why do you need *web server* (tomcat, jetty)?
-* *Inheritance* vs *Composition*.(Inheritance - is-a relationship, whether clients will want to use the subclass type as a superclass type. Composition - has-a or part-of relationship).
-* *Multiple inheritance problem*.
 * What is *uniform access principle*?(client code should not be affected by a decision to implement an attribute as a field or method)
-* Advantages of using *modules*. (reuse, decoupling, namespace)
-* *Domain driver design*.
 
 #### [[⬆]](#toc) <a name='web'>WEB:</a>
 * WEB security vulnerabilities (XSS, CSRF, session fixation, SQL injection, man-in-the-middle, buffer overflow)
@@ -101,7 +102,7 @@ This repo contains a number of full-stack developer interview questions that can
 * How *OAuth 2.0* works?
 
 #### [[⬆]](#toc) <a name='sql'>SQL:</a>
-* *SQL join types* (inner join, left/right outer join, full outer join, cross join
+* *SQL join types* (inner join, left/right outer join, full outer join, cross join)
 ![Join types](https://habrastorage.org/files/7ff/b2c/3a2/7ffb2c3a25b74dcf9eec013282b9cfb4.png "Join types"))
 * *SQL normal forms* (1.The domain of each attribute contains only atomic values, and the value of each attribute contains only a single value from that domain. 2.No non-prime attribute in the table is functionally dependent on a proper subset of any candidate key. 3.Every non-prime attribute is non-transitively dependent on every candidate key in the table. BCNF.Every non-trivial functional dependency in the table is a dependency on a superkey.)
 * *Isolation levels* and Anomalies (Read Uncommitted, Read Committed, Repeatable Read, Serializable
@@ -145,15 +146,16 @@ This repo contains a number of full-stack developer interview questions that can
 * *Amazon web services*
 
 #### [[⬆]](#toc) <a name='distributed'>Distributed:</a>
-* What is *CAP theorem*? (it is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: *consistency*, *availability*, *partition tolerance*) ![CAP theorem](http://guide.couchdb.org/draft/consistency/01.png "CAP theorem")
+* What is *CAP theorem*? (It is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: *consistency*, *availability*, *partition tolerance*). ["Please stop calling databases CP or AP"](https://martin.kleppmann.com/2015/05/11/please-stop-calling-databases-cp-or-ap.html))
+![CAP theorem](http://guide.couchdb.org/draft/consistency/01.png "CAP theorem")
 * What is *map-reduce*? (Word count example)
 * *Sharding counters*.
 * Distributed software:
   * Distributed streaming platforms: **kafka**
-  * Distributed key-value store: **zookeeper**
+  * Distributed key-value store: **zookeeper**, **etcd**, **Consul**
   * Map-reduce: **hadoop**, **spark**
   * Distributed file system: **hbase**
-  * Cluster management: **mesos**, **kubernetes**
+  * Cluster management: **kubernetes**, **docker-swarm**, **mesos**
 * Herlihy’s consensus hierarchy. Every shared object can be assigned a consensus number, which is the maximum number of processes for which the object can solve wait-free consensus in an asynchronous system.
 ```
 1 Read-write registers
@@ -199,6 +201,7 @@ This repo contains a number of full-stack developer interview questions that can
 * *Dining philosophers problem* (Resource hierarchy (first take lower-indexed fork), arbitrator, communication (dirty/clean forks)).
 * *Produces/consumer* problem.
 * *Readers/writers* problem.
+* [*Transactional memory*](https://en.wikipedia.org/wiki/Software_transactional_memory)
 
 #### [[⬆]](#toc) <a name='networking'>Networking:</a>
 * OSI model (Physical, Data link, Network, Transport, Session, Presentation, Application)
@@ -214,7 +217,7 @@ This repo contains a number of full-stack developer interview questions that can
 * *Process scheduler*.
 
 #### [[⬆]](#toc) <a name='java'>Java:</a>
-* *WeakReference*, *SoftReference*, *PhantomReference*, *finalize()*, *ReferenceQueue*. [link](https://community.oracle.com/blogs/enicholas/2006/05/04/understanding-weak-references)
+* [*PhantomReference*](https://en.wikipedia.org/wiki/Phantom_reference), [*WeakReference*](https://en.wikipedia.org/wiki/Weak_reference), [*SoftReference*](https://en.wikipedia.org/wiki/Soft_reference), *finalize()*, *ReferenceQueue*.
 * How to correctly stop a thread? (Thread.interrupt())
 * What is *Spring*? (Spring Framework is an application container for Java that supplies many useful features, such as Inversion of Control, Dependency Injection, abstract data access, transaction management, and more)
   * Spring is a framework for dependency injection: a design pattern that allows the developer to build very decoupled systems by injecting dependencies into classes.
@@ -241,6 +244,7 @@ This repo contains a number of full-stack developer interview questions that can
 * inheritance
 * differences between == and === (http://dorey.github.io/JavaScript-Equality-Table/)
 * closures
+* recursion 
 * What is *MVC*, *MVP*, *MVVM*?
 * What is *promise*?
 * What is event *bubbling* and *capturing*? (target.addEventListener(type, listener[, useCapture]))
