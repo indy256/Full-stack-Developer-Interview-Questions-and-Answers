@@ -75,7 +75,7 @@ This repo contains a number of full-stack developer interview questions that can
 * [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)(Representational state transfer), [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call)
 * What is *idempotent* operation? (The PUT and DELETE methods are referred to as idempotent, meaning that the operation will produce the same result no matter how many times it is repeated)
 * What is *nullipotent* operation? (GET method is a safe method (or nullipotent), meaning that calling it produces no side-effects)
-* Naked objects, Restful objects.
+* [*Naked objects*](https://en.wikipedia.org/wiki/Naked_objects), [*Restful objects*](https://en.wikipedia.org/wiki/Restful_Objects).
 * Why do you need *web server* (tomcat, jetty)?
 * *Inheritance* vs *Composition*.(Inheritance - is-a relationship, whether clients will want to use the subclass type as a superclass type. Composition - has-a or part-of relationship).
 * [*Multiple inheritance (diamond) problem*](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem)
