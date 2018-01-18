@@ -333,7 +333,7 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
 * What are the differences between Scrum and Waterfall? ( http://www.leanagiletraining.com/agile/waterfall-versus-scrum-how-do-they-compare/)
 * What is XP? ()
 * What is Kanban?
-* What is Lean, Kanban?
+* What is Lean development?
 
 #### [[⬆]](#toc) <a name='algorithms'>Algorithms:</a>
 * What Ο(n), Ω(n), Θ(n)?
