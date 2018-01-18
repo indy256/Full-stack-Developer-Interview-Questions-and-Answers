@@ -67,9 +67,9 @@ This repo contains a number of full-stack developer interview questions that can
 * [*Aspect-oriented programming*](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
 * [*The Twelve-Factor App*](http://12factor.net)
 * [*Domain-driven design*](https://en.wikipedia.org/wiki/Domain-driven_design)
-* *Microservices* are a style of software architecture that involves delivering systems as a set of very small, granular, independent collaborating services. 
+* [*Microservices*](https://en.wikipedia.org/wiki/Microservices) are a style of software architecture that involves delivering systems as a set of very small, granular, independent collaborating services. 
 * Pros of *microservices* (The services are easy to replace, Services can be implemented using different programming languages, databases, hardware and software environment, depending on what fits best)
-* *Design patterns*. (**Creational**: Builder,Object Pool,Factory Method,Signleton,Multiton,Prototype,Abstract Factory. **Structural**: Adapter,Bridge,Composite,Decorator,Facade,Flyweight,Proxy. **Behavioral**: Chain of Responsibility,Command,Interpreter,Iterator,Mediator,Memento,Observer,State,Strategy,Template Method,Visitor.)
+* *Design patterns*. (**Creational**: [*Builder*](https://refactoring.guru/design-patterns/builder),[*Object Pool*](https://en.wikipedia.org/wiki/Object_pool_pattern),[*Factory Method*](https://refactoring.guru/design-patterns/factory-method),[*Signleton*](https://refactoring.guru/design-patterns/singleton),[*Multiton*](https://en.wikipedia.org/wiki/Multiton_pattern),[*Prototype*](https://refactoring.guru/design-patterns/prototype),[*Abstract Factory*](https://refactoring.guru/design-patterns/abstract-factory). **Structural**: Adapter,Bridge,Composite,Decorator,Facade,Flyweight,Proxy. **Behavioral**: Chain of Responsibility,Command,Interpreter,Iterator,Mediator,Memento,Observer,State,Strategy,Template Method,Visitor.)
 * *Integration patterns*, SOA patterns.
 * 3-tier architecture? (Presentation tier, Application tier, Data tier)
 * 3-layer architecture? (DAO (Repository), Business (Service) layer, Controller)
