@@ -50,7 +50,7 @@ This repo contains a number of full-stack developer interview questions that can
 * [*Semantic versioning*](http://semver.org)
 
 #### [[⬆]](#toc) <a name='architecture'>Architecture:</a>
-* *Design principles*. ([SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)), [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), [KISS](https://en.wikipedia.org/wiki/KISS_principle), [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it), [Occam's razor](https://en.wikipedia.org/wiki/Occam%27s_razor), [Worse is better](https://en.wikipedia.org/wiki/Worse_is_better), [convention over configuration](https://en.wikipedia.org/wiki/Convention_over_configuration), [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns), [Law of Demeter (principle of least knowledge)](https://en.wikipedia.org/wiki/Law_of_Demeter), boy scout rule, [single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth), [single version of truth](https://en.wikipedia.org/wiki/Single_version_of_the_truth), [principle of least astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment), [let it crash principle](https://en.wikipedia.org/wiki/Crash-only_software), [inversion of control](https://en.wikipedia.org/wiki/Inversion_of_control), [etc](https://webpro.github.io/programming-principles/))
+* *Design principles*. ([SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)), [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), [KISS](https://en.wikipedia.org/wiki/KISS_principle), [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it), [Occam's razor](https://en.wikipedia.org/wiki/Occam%27s_razor), [Worse is better](https://en.wikipedia.org/wiki/Worse_is_better), [convention over configuration](https://en.wikipedia.org/wiki/Convention_over_configuration), [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns), [Law of Demeter (principle of least knowledge)](https://en.wikipedia.org/wiki/Law_of_Demeter), boy scout rule, [single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth), [single version of truth](https://en.wikipedia.org/wiki/Single_version_of_the_truth), [principle of least astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment), [let it crash principle](https://en.wikipedia.org/wiki/Crash-only_software), [inversion of control](https://en.wikipedia.org/wiki/Inversion_of_control))
 * What is *SOLID*?
 
 |Rule|Description|
@@ -61,10 +61,12 @@ This repo contains a number of full-stack developer interview questions that can
 |**I**nterface segregation principle|It’s like Single Responsibility Principle but applicable to interfaces. Each interface should be responsible for a specific task. The developers should need to implement methods which he/she doesn’t need.|
 |**D**ependency inversion principle|Depend upon Abstractions but not on concretions. This means that each module should be separated from other using an abstract layer which binds them together.|
 
-* *[One key abstraction]*(http://wiki3.cosc.canterbury.ac.nz/index.php/One_key_abstraction)
+* [*One key abstraction*](http://wiki3.cosc.canterbury.ac.nz/index.php/One_key_abstraction)
+* [*Aspect-oriented programming*](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
+* [*The Twelve-Factor App*](http://12factor.net)
+* [*Domain-driven design*](https://en.wikipedia.org/wiki/Domain-driven_design)
 * *Microservices* are a style of software architecture that involves delivering systems as a set of very small, granular, independent collaborating services. 
 * Pros of *microservices* (The services are easy to replace, Services can be implemented using different programming languages, databases, hardware and software environment, depending on what fits best)
-* [*The Twelve-Factor App*](http://12factor.net)
 * *Design patterns*. (Creational:Builder,Object Pool,Factory Method,Signleton,Multiton,Prototype,Abstract Factory.Structural:Adapter,Bridge,Composite,Decorator,Facade,Flyweight,Proxy.Behavioral:Chain of Responsibility,Command,Interpreter,Iterator,Mediator,Memento,Observer,State,Strategy,Template Method,Visitor.)
 * [*Event sourcing*](http://microservices.io/patterns/data/event-sourcing.html)
 * *Integration patterns*, SOA patterns.
@@ -74,12 +76,10 @@ This repo contains a number of full-stack developer interview questions that can
 * What is *idempotent* operation? (The PUT and DELETE methods are referred to as idempotent, meaning that the operation will produce the same result no matter how many times it is repeated)
 * What is *nullipotent* operation? (GET method is a safe method (or nullipotent), meaning that calling it produces no side-effects)
 * Naked objects, Restful objects.
-* [*Aspect-oriented programming*](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
 * Why do you need *web server* (tomcat, jetty)?
 * *Inheritance* vs *Composition*.(Inheritance - is-a relationship, whether clients will want to use the subclass type as a superclass type. Composition - has-a or part-of relationship).
 * [*Multiple inheritance (diamond) problem*](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem)
 * Advantages of using *modules*. (reuse, decoupling, namespace)
-* [*Domain-driven design*](https://en.wikipedia.org/wiki/Domain-driven_design)
 * Drawbacks of not using *separation of concerns*
   * Adding new features will take an order of magnitude longer
   * Impossible to optimize
