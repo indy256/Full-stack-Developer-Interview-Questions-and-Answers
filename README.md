@@ -351,7 +351,7 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
 #### [[⬆]](#toc) <a name='machine-learning'>Machine learning:</a>
 * Bayes' theorem. P(A|B) = P(B|A)P(A)/P(B), P(B) = sum(P(Ai)P(B|Ai))
 
-#### [[⬆]](#toc) <a name='bid-data'>Big Data:</a>
+#### [[⬆]](#toc) <a name='big-data'>Big Data:</a>
 * [*Lambda architecture*](https://en.wikipedia.org/wiki/Lambda_architecture)
 * [*HyperLogLog*](https://en.wikipedia.org/wiki/HyperLogLog)
 * [*Event sourcing*](http://microservices.io/patterns/data/event-sourcing.html)
