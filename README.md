@@ -69,7 +69,6 @@ This repo contains a number of full-stack developer interview questions that can
 * *Microservices* are a style of software architecture that involves delivering systems as a set of very small, granular, independent collaborating services. 
 * Pros of *microservices* (The services are easy to replace, Services can be implemented using different programming languages, databases, hardware and software environment, depending on what fits best)
 * *Design patterns*. (**Creational**: Builder,Object Pool,Factory Method,Signleton,Multiton,Prototype,Abstract Factory. **Structural**: Adapter,Bridge,Composite,Decorator,Facade,Flyweight,Proxy. **Behavioral**: Chain of Responsibility,Command,Interpreter,Iterator,Mediator,Memento,Observer,State,Strategy,Template Method,Visitor.)
-* [*Event sourcing*](http://microservices.io/patterns/data/event-sourcing.html)
 * *Integration patterns*, SOA patterns.
 * 3-tier architecture? (Presentation tier, Application tier, Data tier)
 * 3-layer architecture? (DAO (Repository), Business (Service) layer, Controller)
@@ -353,8 +352,9 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
 * Bayes' theorem. P(A|B) = P(B|A)P(A)/P(B), P(B) = sum(P(Ai)P(B|Ai))
 
 #### [[⬆]](#toc) <a name='bid-data'>Big Data:</a>
-* What is *Lambda architecture*?
-* What is *HyperLogLog*? (https://en.wikipedia.org/wiki/HyperLogLog)
+* [*Lambda architecture*](https://en.wikipedia.org/wiki/Lambda_architecture)
+* [*HyperLogLog*](https://en.wikipedia.org/wiki/HyperLogLog)
+* [*Event sourcing*](http://microservices.io/patterns/data/event-sourcing.html)
 
 #### [[⬆]](#toc) <a name='image-processing'>Image processing:</a>
 
