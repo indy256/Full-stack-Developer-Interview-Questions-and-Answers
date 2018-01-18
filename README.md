@@ -55,7 +55,7 @@ This repo contains a number of full-stack developer interview questions that can
 
 |Rule|Description|
 |:--|:--|
-|**S**ingle responsibility principle|A class should have one and only one task/responsibility. If class is performing more than one task, it leads to confusion.|
+|**S**ingle responsibility principle|A module should be responsible to one, and only one, actor.|
 |**O**pen/closed principle|The developers should focus more on extending the software entities rather than modifying them.|
 |**L**iskov substitution principle|It should be possible to substitute the derived class with base class.|
 |**I**nterface segregation principle|It’s like Single Responsibility Principle but applicable to interfaces. Each interface should be responsible for a specific task. The developers should need to implement methods which he/she doesn’t need.|
@@ -69,7 +69,7 @@ This repo contains a number of full-stack developer interview questions that can
 * *Integration patterns*, SOA patterns.
 * 3-tier architecture? (Presentation tier, Application tier, Data tier)
 * 3-layer architecture? (DAO (Repository), Business (Service) layer, Controller)
-* What is REST?
+* [REST](https://en.wikipedia.org/wiki/Representational_state_transfer), [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call)
 * What is *idempotent* operation? (The PUT and DELETE methods are referred to as idempotent, meaning that the operation will produce the same result no matter how many times it is repeated)
 * What is *nullipotent* operation? (GET method is a safe method (or nullipotent), meaning that calling it produces no side-effects)
 * Naked objects, Restful objects.
