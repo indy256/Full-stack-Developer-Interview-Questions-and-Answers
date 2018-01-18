@@ -81,12 +81,12 @@ This repo contains a number of full-stack developer interview questions that can
 * [*Inheritance*](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)) vs [*Composition*](https://en.wikipedia.org/wiki/Object_composition) (Inheritance - is-a relationship, whether clients will want to use the subclass type as a superclass type. Composition - has-a or part-of relationship).
 * [*Multiple inheritance (diamond) problem*](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem)
 * Advantages of using *modules*. (reuse, decoupling, namespace)
-* Drawbacks of not using *separation of concerns*
+* Drawbacks of not using [*separation of concerns*](https://en.wikipedia.org/wiki/Separation_of_concerns)
   * Adding new features will take an order of magnitude longer
   * Impossible to optimize
   * Extremely difficult to test
   * Fixing and debugging can be a nightmare (fixing something in one place can lead to something else breaking that seems completely unrelated).
-* What is *uniform access principle*?(client code should not be affected by a decision to implement an attribute as a field or method)
+* What is [*uniform access principle*](https://en.wikipedia.org/wiki/Uniform_access_principle)? (client code should not be affected by a decision to implement an attribute as a field or method)
 * [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law) (organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations)
 * [GRASP](https://en.wikipedia.org/wiki/GRASP_(object-oriented_design))
 
