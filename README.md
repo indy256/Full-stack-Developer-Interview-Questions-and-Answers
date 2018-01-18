@@ -61,6 +61,7 @@ This repo contains a number of full-stack developer interview questions that can
 |**I**nterface segregation principle|It’s like Single Responsibility Principle but applicable to interfaces. Each interface should be responsible for a specific task. The developers should need to implement methods which he/she doesn’t need.|
 |**D**ependency inversion principle|Depend upon Abstractions but not on concretions. This means that each module should be separated from other using an abstract layer which binds them together.|
 
+* *[One key abstraction]*(http://wiki3.cosc.canterbury.ac.nz/index.php/One_key_abstraction)
 * *Microservices* are a style of software architecture that involves delivering systems as a set of very small, granular, independent collaborating services. 
 * Pros of *microservices* (The services are easy to replace, Services can be implemented using different programming languages, databases, hardware and software environment, depending on what fits best)
 * [*The Twelve-Factor App*](http://12factor.net)
