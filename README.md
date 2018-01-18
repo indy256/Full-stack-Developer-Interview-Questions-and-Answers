@@ -312,7 +312,7 @@ for p in generate_permutations([-1] * 3, 0):
 * What is *Monad*?
 
 #### [[⬆]](#toc) <a name='reactive-programming'>Reactive programming:</a>
-* *The Reactive Manifesto* (responsive, resilient, elastic, message driven http://www.reactivemanifesto.org)
+* [*The Reactive Manifesto*](http://www.reactivemanifesto.org) (responsive, resilient, elastic, message driven)
 * What is *asynchronous* and *non-blocking*? [link](https://www.linkedin.com/pulse/java-servlets-asynchronous-non-blocking-aliaksandr-liakh)
 
 #### [[⬆]](#toc) <a name='git'>Git:</a>
