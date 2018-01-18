@@ -87,6 +87,7 @@ This repo contains a number of full-stack developer interview questions that can
   * Fixing and debugging can be a nightmare (fixing something in one place can lead to something else breaking that seems completely unrelated).
 * What is *uniform access principle*?(client code should not be affected by a decision to implement an attribute as a field or method)
 * [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law) (organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations)
+* [GRASP](https://en.wikipedia.org/wiki/GRASP_(object-oriented_design))
 
 #### [[⬆]](#toc) <a name='web'>WEB:</a>
 * WEB security vulnerabilities (XSS, CSRF, session fixation, SQL injection, man-in-the-middle, buffer overflow)
