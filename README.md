@@ -152,10 +152,10 @@ This repo contains a number of full-stack developer interview questions that can
 * *Sharding counters*.
 * Distributed software:
   * Distributed streaming platforms: **kafka**
-  * Distributed key-value store: **zookeeper**
+  * Distributed key-value store: **zookeeper**, **etcd**, **Consul**
   * Map-reduce: **hadoop**, **spark**
   * Distributed file system: **hbase**
-  * Cluster management: **mesos**, **kubernetes**
+  * Cluster management: **kubernetes**, **docker-swarm**, **mesos**
 * Herlihy’s consensus hierarchy. Every shared object can be assigned a consensus number, which is the maximum number of processes for which the object can solve wait-free consensus in an asynchronous system.
 ```
 1 Read-write registers
