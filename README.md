@@ -126,9 +126,10 @@ This repo contains a number of full-stack developer interview questions that can
   * Graph Stores (Neo4j, Giraph)
 
 #### [[⬆]](#toc) <a name='transactions'>Transactions:</a>
-* What ACID?
-* What is 2-phase, 3-phase commit?
-* What is pessimistic/optimistic locking?
+* [*ACID*](https://en.wikipedia.org/wiki/ACID)
+* [*2-phase commit protocol*](https://en.wikipedia.org/wiki/Two-phase_commit_protocol)
+* [*3-phase commit protocol*](https://en.wikipedia.org/wiki/Three-phase_commit_protocol)
+* What is *pessimistic*/[*optimistic*](https://en.wikipedia.org/wiki/Optimistic_concurrency_control) locking?
 
 #### [[⬆]](#toc) <a name='scalability'>Scalability:</a>
 * Horizontal and vertical scaling.
