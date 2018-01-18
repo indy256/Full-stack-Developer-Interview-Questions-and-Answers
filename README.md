@@ -308,6 +308,7 @@ for p in generate_permutations([-1] * 3, 0):
 ```
 
 #### [[⬆]](#toc) <a name='functional-programming'>Functional programming:</a>
+* [*Referential transparency*](https://en.wikipedia.org/wiki/Referential_transparency)
 * What is *Monad*?
 
 #### [[⬆]](#toc) <a name='reactive-programming'>Reactive programming:</a>
