@@ -303,7 +303,7 @@ def generate_permutations(p, depth):
             yield from generate_permutations(p, depth + 1)
             p[i] = -1
             
-for p in generate_permutations([-1] * 3, 1):
+for p in generate_permutations([-1] * 3, 0):
     print(p)
 ```
 
