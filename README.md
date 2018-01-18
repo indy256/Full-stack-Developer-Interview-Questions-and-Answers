@@ -203,6 +203,7 @@ This repo contains a number of full-stack developer interview questions that can
 * *Produces/consumer* problem.
 * *Readers/writers* problem.
 * [*Transactional memory*](https://en.wikipedia.org/wiki/Software_transactional_memory)
+* [Coroutine](https://en.wikipedia.org/wiki/Coroutine)
 
 #### [[⬆]](#toc) <a name='networking'>Networking:</a>
 * OSI model (Physical, Data link, Network, Transport, Session, Presentation, Application)
