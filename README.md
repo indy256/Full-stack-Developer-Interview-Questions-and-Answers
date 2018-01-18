@@ -41,13 +41,13 @@ This repo contains a number of full-stack developer interview questions that can
   1. [Books](#books)
 
 #### [[⬆]](#toc) <a name='general'>General Questions:</a>
-* What is *polymorphism*? (Variable of type Shape could refer to an object of type Square, Circle... Ability of a function to handle objects of many types)
-* What is *encapsulation* (Packing of data and functions into a single component)
-* What is *virtual function*? (Overridable function)
-* What is *virtual method table*?
-* What is *dynamic binding*? (Actual method implementation invoked is determined at run time based on the class of the object, not the type of the variable or expression)
-* How does *garbage collector* work? (Mark and sweep: mark: traverse object graph starting from root objects, sweep: garbage collect unmarked objects. Optimizations: young/old generations, incremental mark and sweep)
-* What is tail recursion? (A tail call is a subroutine call performed as the final action of a procedure)
+* [*Polymorphism*](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)) (Variable of type Shape could refer to an object of type Square, Circle... Ability of a function to handle objects of many types)
+* [*Encapsulation*](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) (Packing of data and functions into a single component)
+* [*Virtual function*](https://en.wikipedia.org/wiki/Virtual_function) (Overridable function)
+* [*Virtual method table*](https://en.wikipedia.org/wiki/Virtual_method_table)
+* [*Dynamic binding*](https://en.wikipedia.org/wiki/Late_binding) (Actual method implementation invoked is determined at run time based on the class of the object, not the type of the variable or expression)
+* How does [*garbage collector*](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)) work? (Mark and sweep: mark: traverse object graph starting from root objects, sweep: garbage collect unmarked objects. Optimizations: young/old generations, incremental mark and sweep)
+* [*Tail recursion](https://en.wikipedia.org/wiki/Tail_call) (A tail call is a subroutine call performed as the final action of a procedure)
 * [*Semantic versioning*](http://semver.org)
 
 #### [[⬆]](#toc) <a name='architecture'>Architecture:</a>
