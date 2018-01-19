@@ -216,9 +216,9 @@ This repo contains a number of full-stack developer interview questions that can
 * *TCP back-pressure*
 
 #### [[⬆]](#toc) <a name='os'>Operating system:</a>
-* What is *memory mapped* file and its benefits?
+* What is [*memory mapped*](https://en.wikipedia.org/wiki/Memory-mapped_file) file and its benefits?
 * *Interprocess communication* methods. (Pipes, Events, Mailboxes/Ports (can be implemented by using shared memory and semaphores), Direct Message Passing).
-* *Virtual memory* organization.
+* [*Virtual memory*](https://en.wikipedia.org/wiki/Virtual_memory) organization.
 * *Process scheduler*.
 
 #### [[⬆]](#toc) <a name='java'>Java:</a>
