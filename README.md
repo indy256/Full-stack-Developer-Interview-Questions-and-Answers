@@ -211,9 +211,9 @@ This repo contains a number of full-stack developer interview questions that can
 #### [[⬆]](#toc) <a name='networking'>Networking:</a>
 * OSI model (Physical, Data link, Network, Transport, Session, Presentation, Application)
 * Multithreading vs select
-* Switch, hub, router.
-* TCP congestion.
-* TCP back-pressure.
+* [*Switch*](https://en.wikipedia.org/wiki/Network_switch), [*hub*](https://en.wikipedia.org/wiki/Ethernet_hub), [*router*](https://en.wikipedia.org/wiki/Router_(computing))
+* [*TCP congestion*](https://en.wikipedia.org/wiki/TCP_congestion_control)
+* *TCP back-pressure*
 
 #### [[⬆]](#toc) <a name='os'>Operating system:</a>
 * What is *memory mapped* file and its benefits?
