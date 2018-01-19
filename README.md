@@ -299,7 +299,7 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
 
 #### [[⬆]](#toc) <a name='functional-programming'>Functional programming:</a>
 * [*Referential transparency*](https://en.wikipedia.org/wiki/Referential_transparency)
-* What is *Monad*?
+* What is [*Monad*](https://en.wikipedia.org/wiki/Monad_(functional_programming))?
 
 #### [[⬆]](#toc) <a name='reactive-programming'>Reactive programming:</a>
 * [*The Reactive Manifesto*](http://www.reactivemanifesto.org) (responsive, resilient, elastic, message driven)
