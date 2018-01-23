@@ -16,6 +16,7 @@
   1. [Concurrency](#concurrency)
   1. [Networking](#networking)
   1. [Operating system](#os)
+  1. [Compilers](#compilers)
   1. [Java](#java)
   1. [Javascript](#javascript)
   1. [Python](#python)
@@ -219,6 +220,13 @@
 * *Interprocess communication* methods. (Pipes, Events, Mailboxes/Ports (can be implemented by using shared memory and semaphores), Direct Message Passing).
 * [*Virtual memory*](https://en.wikipedia.org/wiki/Virtual_memory) organization.
 * *Process scheduler*.
+
+#### [[⬆]](#toc) <a name='compilers'>Compilers:</a>
+* [*Recursive descent parser*](https://en.wikipedia.org/wiki/Recursive_descent_parser)
+* [*LL parser*](https://en.wikipedia.org/wiki/LL_parser)
+* [*LR parser*](https://en.wikipedia.org/wiki/LR_parser)
+* [*Context-free grammar*](https://en.wikipedia.org/wiki/Context-free_grammar)
+* [*Chomsky hierarchy*](https://en.wikipedia.org/wiki/Chomsky_hierarchy)
 
 #### [[⬆]](#toc) <a name='java'>Java:</a>
 * [*PhantomReference*](https://en.wikipedia.org/wiki/Phantom_reference), [*WeakReference*](https://en.wikipedia.org/wiki/Weak_reference), [*SoftReference*](https://en.wikipedia.org/wiki/Soft_reference), *finalize()*, *ReferenceQueue*.
