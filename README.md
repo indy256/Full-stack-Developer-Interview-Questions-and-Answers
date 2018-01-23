@@ -1,7 +1,5 @@
 # Full-stack Developer Interview Questions and Answers
 
-This repo contains a number of full-stack developer interview topics.
-
 ## <a name='toc'>Table of Contents</a>
 
   1. [General Questions](#general)
