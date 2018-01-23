@@ -368,8 +368,9 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
 #### [[⬆]](#toc) <a name='image-processing'>Image processing:</a>
 
 #### [[⬆]](#toc) <a name='cryptography'>Cryptography:</a>
-* What is *public key cryptography*?
-* What is *public key certificate*?
+* [*Public-key cryptography*](https://en.wikipedia.org/wiki/Public-key_cryptography)
+* [*Public key certificate*](https://en.wikipedia.org/wiki/Public_key_certificate)
+* [*Blockchain*](https://en.wikipedia.org/wiki/Blockchain)
 * *RSA*
 ```
 select 2 primes: p,q
