@@ -407,3 +407,4 @@ m = c^d mod n = m^(e*d) mod n = m^(e*d mod phi(n)) mod n = m
 * [The Garbage Collection Handbook](https://www.amazon.com/Garbage-Collection-Handbook-Management-Algorithms/dp/1420082795)
 * [Pro Git](https://git-scm.com/book/en/v2)
 * [Learning JavaScript](https://www.amazon.com/Learning-JavaScript-Essentials-Application-Development/dp/1491914912)
+* [The Busy Coder's Guide to Android Development](https://commonsware.com/Android/)
