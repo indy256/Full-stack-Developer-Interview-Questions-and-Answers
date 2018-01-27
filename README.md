@@ -150,6 +150,9 @@
 * *Amazon web services*
 
 #### [[⬆]](#toc) <a name='distributed'>Distributed:</a>
+* [*Consensus*](https://en.wikipedia.org/wiki/Consensus_(computer_science))
+* [*Raft*](https://en.wikipedia.org/wiki/Raft_(computer_science)) [In Search of an Understandable Consensus Algorithm](https://ramcloud.stanford.edu/wiki/download/attachments/11370504/raft.pdf)
+* [*Paxos*](https://en.wikipedia.org/wiki/Paxos_(computer_science))
 * What is *CAP theorem*? (It is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: *consistency*, *availability*, *partition tolerance*). ["Please stop calling databases CP or AP"](https://martin.kleppmann.com/2015/05/11/please-stop-calling-databases-cp-or-ap.html))
 ![CAP theorem](http://guide.couchdb.org/draft/consistency/01.png "CAP theorem")
 * What is *map-reduce*? (Word count example)
@@ -358,7 +361,11 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
 * How to work with legacy code? (http://programmers.stackexchange.com/a/122024)
 
 #### [[⬆]](#toc) <a name='machine-learning'>Machine learning:</a>
-* Bayes' theorem. P(A|B) = P(B|A)P(A)/P(B), P(B) = sum(P(Ai)P(B|Ai))
+* [*Confidence interval*](https://en.wikipedia.org/wiki/Confidence_interval)
+* [*p-value*](https://en.wikipedia.org/wiki/P-value)
+* [*Overfitting*](https://en.wikipedia.org/wiki/Overfitting)
+* [*Bias–variance tradeoff*](https://en.wikipedia.org/wiki/Bias–variance_tradeoff)
+* [*Bayes' theorem*](https://en.wikipedia.org/wiki/Bayes%27_theorem) P(A|B) = P(B|A)P(A)/P(B), P(B) = sum(P(Ai)P(B|Ai))
 
 #### [[⬆]](#toc) <a name='big-data'>Big Data:</a>
 * [*Lambda architecture*](https://en.wikipedia.org/wiki/Lambda_architecture)
@@ -415,3 +422,4 @@ m = c^d mod n = m^(e*d) mod n = m^(e*d mod phi(n)) mod n = m
 * [Pro Git](https://git-scm.com/book/en/v2)
 * [Learning JavaScript](https://www.amazon.com/Learning-JavaScript-Essentials-Application-Development/dp/1491914912)
 * [The Busy Coder's Guide to Android Development](https://commonsware.com/Android/)
+* [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
