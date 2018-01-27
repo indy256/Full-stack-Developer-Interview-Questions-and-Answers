@@ -151,7 +151,7 @@
 
 #### [[⬆]](#toc) <a name='distributed'>Distributed:</a>
 * [*Consensus*](https://en.wikipedia.org/wiki/Consensus_(computer_science))
-* [*Raft*](https://en.wikipedia.org/wiki/Raft_(computer_science)) [In Search of an Understandable Consensus Algorithm](https://ramcloud.stanford.edu/wiki/download/attachments/11370504/raft.pdf)
+* [*Raft*](https://en.wikipedia.org/wiki/Raft_(computer_science)) ([In Search of an Understandable Consensus Algorithm])(https://ramcloud.stanford.edu/wiki/download/attachments/11370504/raft.pdf)
 * [*Paxos*](https://en.wikipedia.org/wiki/Paxos_(computer_science))
 * What is *CAP theorem*? (It is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: *consistency*, *availability*, *partition tolerance*). ["Please stop calling databases CP or AP"](https://martin.kleppmann.com/2015/05/11/please-stop-calling-databases-cp-or-ap.html))
 ![CAP theorem](http://guide.couchdb.org/draft/consistency/01.png "CAP theorem")
