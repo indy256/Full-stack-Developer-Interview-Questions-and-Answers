@@ -424,3 +424,4 @@ m = c^d mod n = m^(e*d) mod n = m^(e*d mod phi(n)) mod n = m
 * [The Busy Coder's Guide to Android Development](https://commonsware.com/Android/)
 * [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 * [Release It!: Design and Deploy Production-Ready Software](https://www.amazon.com/Release-Design-Deploy-Production-Ready-Software/dp/1680502395)
+* [The Linux Programming Interface](https://www.amazon.com/Linux-Programming-Interface-System-Handbook/dp/1593272200)
