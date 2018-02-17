@@ -105,7 +105,6 @@
 * What is session and persistent cookies, sessionStorage and localStorage?
 * How to implement *remember-me*? (http://jaspan.com/improved_persistent_login_cookie_best_practice)
 * Authentication using cookies, [*JWT*](https://en.wikipedia.org/wiki/JSON_Web_Token) (JSON Web Tokens).
-* How *OAuth 2.0* works?
 
 #### [[⬆]](#toc) <a name='sql'>SQL:</a>
 * *SQL join types* (inner join, left/right outer join, full outer join, cross join)
@@ -396,7 +395,8 @@ m = c^d mod n = m^(e*d) mod n = m^(e*d mod phi(n)) mod n = m
 
 #### [[⬆]](#toc) <a name='security'>Security:</a>
 * What is *OpenID and OAuth2.0 and OpenID Connect*?
-* What is *access_token, SAML token, JWT token*?
+* Four main actors in an OAuth system (clients, resource owners, authorization servers, and protected resources)
+* What is *access_token, refresh_token, SAML token, JWT token*?
 * *Sticky session vs Session Replication*.
 * What is *Federated Authentication* ?
 * What is *CSP* and *SRI hash* ?
