@@ -113,7 +113,7 @@
   1. The domain of each attribute contains only atomic values, and the value of each attribute contains only a single value from that domain
   1. No non-prime attribute in the table is functionally dependent on a proper subset of any candidate key
   1. Every non-prime attribute is non-transitively dependent on every candidate key in the table. BCNF.Every non-trivial functional dependency in the table is a dependency on a superkey.)
-* *Isolation levels* and Anomalies (Read Uncommitted, Read Committed, Repeatable Read, Serializable
+* *Isolation levels* and Anomalies
 
 |Isolation_level\Anomaly|Lost_update (because of rollback)|Dirty_read|Non_repeatable_reads second_lost_update|Phantoms|Write_skew|
 |:---------------|:-------:|:-------:|:-------:|:-------:|:-------:|
