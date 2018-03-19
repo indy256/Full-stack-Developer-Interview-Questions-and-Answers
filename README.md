@@ -392,7 +392,9 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
 * [*Public-key cryptography*](https://en.wikipedia.org/wiki/Public-key_cryptography)
 * [*Public key certificate*](https://en.wikipedia.org/wiki/Public_key_certificate)
 * [*Blockchain*](https://en.wikipedia.org/wiki/Blockchain)
-* *RSA*
+* [*Proof-of-work system*](https://en.wikipedia.org/wiki/Proof-of-work_system)
+* [*Secret sharing*](https://en.wikipedia.org/wiki/Secret_sharing)
+* [*RSA*](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
 ```
 select 2 primes: p,q
 n = p*q
