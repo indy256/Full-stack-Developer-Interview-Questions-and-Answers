@@ -1,4 +1,4 @@
-# Full-stack Developer Interview Questions and Answers
+# <center>Full-stack Developer Interview Q&A</center>
 
 ## <a name='toc'>Table of Contents</a>
 
