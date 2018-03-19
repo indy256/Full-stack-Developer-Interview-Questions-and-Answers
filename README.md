@@ -1,4 +1,4 @@
-# <center>Full-stack Developer Interview Q&A</center>
+<center># Full-stack Developer Interview Q&A</center>
 
 ## <a name='toc'>Table of Contents</a>
 
