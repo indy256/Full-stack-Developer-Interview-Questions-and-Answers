@@ -372,6 +372,11 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
 * [*p-value*](https://en.wikipedia.org/wiki/P-value)
 * [*Overfitting*](https://en.wikipedia.org/wiki/Overfitting)
 * [*Bias–variance tradeoff*](https://en.wikipedia.org/wiki/Bias–variance_tradeoff)
+* [*Backpropagation*](https://en.wikipedia.org/wiki/Backpropagation)
+* [*Reinforcement learning*](https://en.wikipedia.org/wiki/Reinforcement_learning)
+* [*Curse of dimensionality*](https://en.wikipedia.org/wiki/Curse_of_dimensionality)
+* [*Cross-validation*](https://en.wikipedia.org/wiki/Cross-validation_(statistics))
+* [*Bag-of-words*](https://en.wikipedia.org/wiki/Bag-of-words_model), [*Stop words*](https://en.wikipedia.org/wiki/Stop_words), [*n-gram*](https://en.wikipedia.org/wiki/N-gram), [*tf–idf*](https://en.wikipedia.org/wiki/Tf%E2%80%93idf), [*Latent semantic analysis*](https://en.wikipedia.org/wiki/Latent_semantic_analysis)
 * [*Bayes' theorem*](https://en.wikipedia.org/wiki/Bayes%27_theorem) P(A|B) = P(B|A)P(A)/P(B), P(B) = sum(P(Ai)P(B|Ai))
 
 #### [[⬆]](#toc) <a name='big-data'>Big Data:</a>
