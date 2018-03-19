@@ -2,8 +2,8 @@
 
 ## <a name='toc'>Table of Contents</a>
 
-  1. [General Questions](#general)
   1. [Architecture](#architecture)
+  1. [General Questions](#general)
   1. [WEB](#web)
   1. [SQL](#sql)
   1. [NoSQL](#nosql)
@@ -38,16 +38,6 @@
   1. [Security](#security)
   1. [Android](#android)
   1. [Books](#books)
-
-#### [[⬆]](#toc) <a name='general'>General Questions:</a>
-* [*Polymorphism*](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)) (Variable of type Shape could refer to an object of type Square, Circle... Ability of a function to handle objects of many types)
-* [*Encapsulation*](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) (Packing of data and functions into a single component)
-* [*Virtual function*](https://en.wikipedia.org/wiki/Virtual_function) (Overridable function)
-* [*Virtual method table*](https://en.wikipedia.org/wiki/Virtual_method_table)
-* [*Dynamic binding*](https://en.wikipedia.org/wiki/Late_binding) (Actual method implementation invoked is determined at run time based on the class of the object, not the type of the variable or expression)
-* How does [*garbage collector*](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)) work? (Mark and sweep: mark: traverse object graph starting from root objects, sweep: garbage collect unmarked objects. Optimizations: young/old generations, incremental mark and sweep)
-* [*Tail recursion*](https://en.wikipedia.org/wiki/Tail_call) (A tail call is a subroutine call performed as the final action of a procedure)
-* [*Semantic versioning*](http://semver.org)
 
 #### [[⬆]](#toc) <a name='architecture'>Architecture:</a>
 * *Design principles*. ([*DRY*](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), [*KISS*](https://en.wikipedia.org/wiki/KISS_principle), [*YAGNI*](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it), [*Occam's razor*](https://en.wikipedia.org/wiki/Occam%27s_razor), [*Worse is better*](https://en.wikipedia.org/wiki/Worse_is_better), [*convention over configuration*](https://en.wikipedia.org/wiki/Convention_over_configuration), [*separation of concerns*](https://en.wikipedia.org/wiki/Separation_of_concerns), [*Law of Demeter (principle of least knowledge)*](https://en.wikipedia.org/wiki/Law_of_Demeter), boy scout rule, [*single source of truth*](https://en.wikipedia.org/wiki/Single_source_of_truth), [*single version of truth*](https://en.wikipedia.org/wiki/Single_version_of_the_truth), [*principle of least astonishment*](https://en.wikipedia.org/wiki/Principle_of_least_astonishment), [*let it crash principle*](https://en.wikipedia.org/wiki/Crash-only_software), [*inversion of control*](https://en.wikipedia.org/wiki/Inversion_of_control))
@@ -92,6 +82,16 @@
 * What is [*uniform access principle*](https://en.wikipedia.org/wiki/Uniform_access_principle)? (client code should not be affected by a decision to implement an attribute as a field or method)
 * [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law) (organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations)
 * [GRASP](https://en.wikipedia.org/wiki/GRASP_(object-oriented_design))
+
+#### [[⬆]](#toc) <a name='general'>General Questions:</a>
+* [*Polymorphism*](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)) (Variable of type Shape could refer to an object of type Square, Circle... Ability of a function to handle objects of many types)
+* [*Encapsulation*](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) (Packing of data and functions into a single component)
+* [*Virtual function*](https://en.wikipedia.org/wiki/Virtual_function) (Overridable function)
+* [*Virtual method table*](https://en.wikipedia.org/wiki/Virtual_method_table)
+* [*Dynamic binding*](https://en.wikipedia.org/wiki/Late_binding) (Actual method implementation invoked is determined at run time based on the class of the object, not the type of the variable or expression)
+* How does [*garbage collector*](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)) work? (Mark and sweep: mark: traverse object graph starting from root objects, sweep: garbage collect unmarked objects. Optimizations: young/old generations, incremental mark and sweep)
+* [*Tail recursion*](https://en.wikipedia.org/wiki/Tail_call) (A tail call is a subroutine call performed as the final action of a procedure)
+* [*Semantic versioning*](http://semver.org)
 
 #### [[⬆]](#toc) <a name='web'>WEB:</a>
 * WEB security vulnerabilities ([*XSS*](https://en.wikipedia.org/wiki/Cross-site_scripting), [*CSRF*](https://en.wikipedia.org/wiki/Cross-site_request_forgery), [*session fixation*](https://en.wikipedia.org/wiki/Session_fixation), [*SQL injection*](https://en.wikipedia.org/wiki/SQL_injection), [*man-in-the-middle*](https://en.wikipedia.org/wiki/Man-in-the-middle_attack), [*buffer overflow*](https://en.wikipedia.org/wiki/Buffer_overflow))
