@@ -1,4 +1,4 @@
-# :blue_book: Full-stack Developer Interview Questions and Answers
+# Full-stack Developer Interview Questions and Answers
 
 ## <a name='toc'>Table of Contents</a>
 
