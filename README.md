@@ -208,8 +208,10 @@
 * *Sticky sessions* vs storing sessions in Redis.
 
 #### [[⬆]](#toc) <a name='cloud-computing'>Cloud computing:</a>
-* What is *cloud computing*? (Cloud computing platform is a fully automated server platform that allows users to purchase, remotely create, dynamically scale, and administer system)
-* *Amazon web services*
+* What is [*cloud computing*](https://en.wikipedia.org/wiki/Cloud_computing)? (Cloud computing platform is a fully automated server platform that allows users to purchase, remotely create, dynamically scale, and administer system)
+* [*Amazon web services*](https://en.wikipedia.org/wiki/Amazon_Web_Services)
+* [*Google Cloud Platform*](https://en.wikipedia.org/wiki/Google_Cloud_Platform)
+* [*Microsoft Azure*](https://en.wikipedia.org/wiki/Microsoft_Azure)
 
 #### [[⬆]](#toc) <a name='distributed'>Distributed:</a>
 * [*Consensus*](https://en.wikipedia.org/wiki/Consensus_(computer_science))
