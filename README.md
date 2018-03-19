@@ -226,6 +226,8 @@
   * Distributed file system: **hbase**
   * Cluster management: **kubernetes**, **docker-swarm**, **mesos**
 * [Herlihy’s consensus hierarchy](https://en.wikipedia.org/wiki/Read-modify-write). Every shared object can be assigned a consensus number, which is the maximum number of processes for which the object can solve wait-free consensus in an asynchronous system.
+* [*Logical clock*](https://en.wikipedia.org/wiki/Logical_clock)
+* [*Vector clock*](https://en.wikipedia.org/wiki/Vector_clock)
 ```
 1 Read-write registers
 2 Test-and-set, swap, fetch-and-add, queue, stack
