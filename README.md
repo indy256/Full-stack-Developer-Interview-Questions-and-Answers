@@ -1,4 +1,4 @@
-<h1 align="center">Full-stack Developer Interview Q&A</h1>
+# Full-stack Developer Interview Questions and Answers
 
 ## <a name='toc'>Table of Contents</a>
 
