@@ -340,6 +340,7 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
 * Selenium tests and webdriver.
 * How to test multithreading code?
 * What is *Consumer Driven Contract*? [link](https://cloud.spring.io/spring-cloud-contract/spring-cloud-contract.html)
+* [Types of tests](https://stackify.com/ultimate-guide-performance-testing-and-software-testing)
 
 #### [[⬆]](#toc) <a name='agile'>Agile:</a>
 * What is Agile? (http://agilemanifesto.org/principles.html)
