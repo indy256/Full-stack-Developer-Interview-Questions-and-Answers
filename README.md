@@ -3,6 +3,8 @@
 ## <a name='toc'>Table of Contents</a>
 
   * [Architecture](#architecture)
+  * [Concurrency](#concurrency)
+  * [Java](#java)
   * [General Questions](#general)
   * [WEB](#web)
   * [SQL](#sql)
@@ -13,11 +15,9 @@
   * [Cloud computing](#cloud-computing)
   * [Distributed](#distributed)
   * [Cache](#cache)
-  * [Concurrency](#concurrency)
   * [Networking](#networking)
   * [Operating system](#os)
   * [Compilers](#compilers)
-  * [Java](#java)
   * [Javascript](#javascript)
   * [Python](#python)
   * [C++](#cpp)
@@ -82,6 +82,63 @@
 * What is [*uniform access principle*](https://en.wikipedia.org/wiki/Uniform_access_principle)? (client code should not be affected by a decision to implement an attribute as a field or method)
 * [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law) (organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations)
 * [GRASP](https://en.wikipedia.org/wiki/GRASP_(object-oriented_design))
+
+#### [[⬆]](#toc) <a name='concurrency'>Concurrency:</a>
+* What is *deadlock*, *livelock*? (Deadlock is a situation in which two or more competing actions are each waiting for the other to finish, and thus neither ever does. A livelock is similar to a deadlock, except that the states of the processes involved in the livelock constantly change with regard to one another, none progressing.)
+* Deadlock avoidance. (prevention, detection, avoidance (Mutex hierarchy), and recovery)
+* What is *starvation*? ()
+* What is *race condition*? (Behavior of software system where the output is dependent on the sequence or timing of other uncontrollable events)
+* What is *happens-before* relation?
+* What is *thread contention*? (Contention is simply when two threads try to access either the same resource or related resources in such a way that at least one of the contending threads runs more slowly than it would if the other thread(s) were not running). Contention occurs when multiple threads try to acquire a lock at the same time
+* What is a *thread-safe function*? (Can be safely invoked by multiple threads at the same time)
+* Publish/Subscripe code
+* What is *2-phase locking*? (Growing phase, shrinking phase. Guarantees serializablity for transactions, doesn't prevent deadlock).
+* What is the difference between *thread* and *process*? (Threads (of the same process) run in a shared memory space, while processes run in separate memory spaces)
+* What is *false sharing*, *cache pollution*, *cache miss*, *thread affinity*, *speculative execution*, *ABA-problem*?
+* What is *lock-free* and *wait-free* algorithm?
+* What is *sequential consistency*? (The result of any execution is the same as if the operations of all the processors were executed in some sequential order, and the operations of each individual processor appear in this sequence in the order specified by its program).
+* What is *memory barrier*? (A memory barrier, also known as a membar, memory fence or fence instruction, is a type of barrier instruction that causes a CPU or compiler to enforce an ordering constraint on memory operations issued before and after the barrier instruction)
+* Synchonization aids in Java
+  * CountDownLatch
+  * CyclicBarrier
+  * Phaser
+  * ReentrantLock
+  * Exchanger
+  * Semaphore
+  * LinkedTransferQueue
+* What is *data race*? (When a program contains two conflicting accesses that are not ordered by a happens-before relationship, it is said to contain a data race. Two accesses to (reads of or writes to) the same variable are said to be conflicting if at least one of the accesses is a write)
+* Java *memory model*. (A program is correctly synchronized if and only if all sequentially consistent executions are free of data races. Correctly synchronized programs have sequentially consistent semantics. Causality requirement for incorrectly synchronized programs. [link](https://pdfs.semanticscholar.org/c132/11697f5c803221533a07bd6db839fa60b7b8.pdf))
+* What is *monitor* in Java? (Each object in Java is associated with a monitor, which a thread can lock or unlock)
+* What is *safe publication*?
+* What is *wait*/*notify*?
+* *Amdahl's law*? (Speedup = 1 / (1 - p + p / n))
+* *Dining philosophers problem* (Resource hierarchy (first take lower-indexed fork), arbitrator, communication (dirty/clean forks)).
+* *Produces/consumer* problem.
+* *Readers/writers* problem.
+* [*Transactional memory*](https://en.wikipedia.org/wiki/Software_transactional_memory)
+* [Coroutine](https://en.wikipedia.org/wiki/Coroutine)
+
+#### [[⬆]](#toc) <a name='java'>Java:</a>
+* [*PhantomReference*](https://en.wikipedia.org/wiki/Phantom_reference), [*WeakReference*](https://en.wikipedia.org/wiki/Weak_reference), [*SoftReference*](https://en.wikipedia.org/wiki/Soft_reference), *finalize()*, *ReferenceQueue*.
+* How to correctly stop a thread? (Thread.interrupt())
+* What is *Spring*? (Spring Framework is an application container for Java that supplies many useful features, such as Inversion of Control, Dependency Injection, abstract data access, transaction management, and more)
+  * Spring is a framework for dependency injection: a design pattern that allows the developer to build very decoupled systems by injecting dependencies into classes.
+  * It elegantly wraps Java libraries and makes then much easier to use in your application.
+  * Included in the framework are implementations of commonly used patterns such as REST and MVC web framework which are predominately use by in web applications.
+* What is *Spring-Boot*?
+* What is *Hibernate* and JPA (Caches, lazy-loading)?
+* *Garbage collection*. (G1, Young/Old generation collectors combination examples: PS Scavenge/PS MarkSweep, Copy/MarkSweepCompact)
+* How to write *benchmarks*? ([jmh](http://openjdk.java.net/projects/code-tools/jmh/))
+* What are Java 9 modularity?
+* What is OSGI? (Specification describes a modular system and a service platform for the Java programming language that implements a complete and dynamic component model. Each bundle has its own classpath. Dependency hell avoidance. META-INF/MANIFEST.MF contains OSGI-info)
+* Serializable / Externalizable
+* What is a *servlet* (versions of servlet api, Servlet 4.0)?
+* What is a *servlet filter*? How to implement *GZipFilter*? (ResponseWrapper)
+* What is *generics* and PECS (producer extends and consumer super)?
+* What is the difference between <?>, \<Object\>, <? extends Object> and no generic type? [link1](http://stackoverflow.com/questions/8055389/whats-the-difference-between-and-extends-object-in-java-generics) [link2](http://stackoverflow.com/questions/678822/what-is-the-difference-between-and-object-in-java-generics)
+* Explain method signature for [Collections.max(...)](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html#max-java.util.Collection-), [Collections.fill(...)](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html#fill-java.util.List-T-), [Collections.copy(...)](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html#copy-java.util.List-java.util.List-), [Collections.sort(...)](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html#sort-java.util.List-java.util.Comparator-)
+* Why are arrays covariant but generics are invariant? [link](http://stackoverflow.com/questions/18666710/why-are-arrays-covariant-but-generics-are-invariant)
+* Major specs: JAX-RS, JAX-WS, JMS, JAXB, XSLT, XPATH, JNDI, JMX, JDBC, XML(SAX, DOM, StAX)
 
 #### [[⬆]](#toc) <a name='general'>General Questions:</a>
 * [*Polymorphism*](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)) (Variable of type Shape could refer to an object of type Square, Circle... Ability of a function to handle objects of many types)
@@ -181,41 +238,6 @@
 * What is *write-through* and *write-behind* caching? (write-through (synchronous), write-behind (asynchronous))
 * HTTP cache options?
 
-#### [[⬆]](#toc) <a name='concurrency'>Concurrency:</a>
-* What is *deadlock*, *livelock*? (Deadlock is a situation in which two or more competing actions are each waiting for the other to finish, and thus neither ever does. A livelock is similar to a deadlock, except that the states of the processes involved in the livelock constantly change with regard to one another, none progressing.)
-* Deadlock avoidance. (prevention, detection, avoidance (Mutex hierarchy), and recovery)
-* What is *starvation*? ()
-* What is *race condition*? (Behavior of software system where the output is dependent on the sequence or timing of other uncontrollable events)
-* What is *happens-before* relation?
-* What is *thread contention*? (Contention is simply when two threads try to access either the same resource or related resources in such a way that at least one of the contending threads runs more slowly than it would if the other thread(s) were not running). Contention occurs when multiple threads try to acquire a lock at the same time
-* What is a *thread-safe function*? (Can be safely invoked by multiple threads at the same time)
-* Publish/Subscripe code
-* What is *2-phase locking*? (Growing phase, shrinking phase. Guarantees serializablity for transactions, doesn't prevent deadlock).
-* What is the difference between *thread* and *process*? (Threads (of the same process) run in a shared memory space, while processes run in separate memory spaces)
-* What is *false sharing*, *cache pollution*, *cache miss*, *thread affinity*, *speculative execution*, *ABA-problem*?
-* What is *lock-free* and *wait-free* algorithm?
-* What is *sequential consistency*? (The result of any execution is the same as if the operations of all the processors were executed in some sequential order, and the operations of each individual processor appear in this sequence in the order specified by its program).
-* What is *memory barrier*? (A memory barrier, also known as a membar, memory fence or fence instruction, is a type of barrier instruction that causes a CPU or compiler to enforce an ordering constraint on memory operations issued before and after the barrier instruction)
-* Synchonization aids in Java
-  * CountDownLatch
-  * CyclicBarrier
-  * Phaser
-  * ReentrantLock
-  * Exchanger
-  * Semaphore
-  * LinkedTransferQueue
-* What is *data race*? (When a program contains two conflicting accesses that are not ordered by a happens-before relationship, it is said to contain a data race. Two accesses to (reads of or writes to) the same variable are said to be conflicting if at least one of the accesses is a write)
-* Java *memory model*. (A program is correctly synchronized if and only if all sequentially consistent executions are free of data races. Correctly synchronized programs have sequentially consistent semantics. Causality requirement for incorrectly synchronized programs. [link](https://pdfs.semanticscholar.org/c132/11697f5c803221533a07bd6db839fa60b7b8.pdf))
-* What is *monitor* in Java? (Each object in Java is associated with a monitor, which a thread can lock or unlock)
-* What is *safe publication*?
-* What is *wait*/*notify*?
-* *Amdahl's law*? (Speedup = 1 / (1 - p + p / n))
-* *Dining philosophers problem* (Resource hierarchy (first take lower-indexed fork), arbitrator, communication (dirty/clean forks)).
-* *Produces/consumer* problem.
-* *Readers/writers* problem.
-* [*Transactional memory*](https://en.wikipedia.org/wiki/Software_transactional_memory)
-* [Coroutine](https://en.wikipedia.org/wiki/Coroutine)
-
 #### [[⬆]](#toc) <a name='networking'>Networking:</a>
 * OSI model (Physical, Data link, Network, Transport, Session, Presentation, Application)
 * Multithreading vs select
@@ -235,28 +257,6 @@
 * [*LR parser*](https://en.wikipedia.org/wiki/LR_parser)
 * [*Context-free grammar*](https://en.wikipedia.org/wiki/Context-free_grammar)
 * [*Chomsky hierarchy*](https://en.wikipedia.org/wiki/Chomsky_hierarchy)
-
-#### [[⬆]](#toc) <a name='java'>Java:</a>
-* [*PhantomReference*](https://en.wikipedia.org/wiki/Phantom_reference), [*WeakReference*](https://en.wikipedia.org/wiki/Weak_reference), [*SoftReference*](https://en.wikipedia.org/wiki/Soft_reference), *finalize()*, *ReferenceQueue*.
-* How to correctly stop a thread? (Thread.interrupt())
-* What is *Spring*? (Spring Framework is an application container for Java that supplies many useful features, such as Inversion of Control, Dependency Injection, abstract data access, transaction management, and more)
-  * Spring is a framework for dependency injection: a design pattern that allows the developer to build very decoupled systems by injecting dependencies into classes.
-  * It elegantly wraps Java libraries and makes then much easier to use in your application.
-  * Included in the framework are implementations of commonly used patterns such as REST and MVC web framework which are predominately use by in web applications.
-* What is *Spring-Boot*?
-* What is *Hibernate* and JPA (Caches, lazy-loading)?
-* *Garbage collection*. (G1, Young/Old generation collectors combination examples: PS Scavenge/PS MarkSweep, Copy/MarkSweepCompact)
-* How to write *benchmarks*? ([jmh](http://openjdk.java.net/projects/code-tools/jmh/))
-* What are Java 9 modularity?
-* What is OSGI? (Specification describes a modular system and a service platform for the Java programming language that implements a complete and dynamic component model. Each bundle has its own classpath. Dependency hell avoidance. META-INF/MANIFEST.MF contains OSGI-info)
-* Serializable / Externalizable
-* What is a *servlet* (versions of servlet api, Servlet 4.0)?
-* What is a *servlet filter*? How to implement *GZipFilter*? (ResponseWrapper)
-* What is *generics* and PECS (producer extends and consumer super)?
-* What is the difference between <?>, \<Object\>, <? extends Object> and no generic type? [link1](http://stackoverflow.com/questions/8055389/whats-the-difference-between-and-extends-object-in-java-generics) [link2](http://stackoverflow.com/questions/678822/what-is-the-difference-between-and-object-in-java-generics)
-* Explain method signature for [Collections.max(...)](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html#max-java.util.Collection-), [Collections.fill(...)](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html#fill-java.util.List-T-), [Collections.copy(...)](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html#copy-java.util.List-java.util.List-), [Collections.sort(...)](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html#sort-java.util.List-java.util.Comparator-)
-* Why are arrays covariant but generics are invariant? [link](http://stackoverflow.com/questions/18666710/why-are-arrays-covariant-but-generics-are-invariant)
-* Major specs: JAX-RS, JAX-WS, JMS, JAXB, XSLT, XPATH, JNDI, JMX, JDBC, XML(SAX, DOM, StAX)
 
 #### [[⬆]](#toc) <a name='javascript'>Javascript:</a>
 * this keyword
