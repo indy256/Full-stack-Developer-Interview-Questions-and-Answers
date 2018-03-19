@@ -318,6 +318,7 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
 
 #### [[⬆]](#toc) <a name='reactive-programming'>Reactive programming:</a>
 * [*The Reactive Manifesto*](http://www.reactivemanifesto.org) (responsive, resilient, elastic, message driven)
+* [Reactive extensions](http://reactivex.io)
 * What is *asynchronous* and *non-blocking*? [link](https://www.linkedin.com/pulse/java-servlets-asynchronous-non-blocking-aliaksandr-liakh)
 
 #### [[⬆]](#toc) <a name='git'>Git:</a>
