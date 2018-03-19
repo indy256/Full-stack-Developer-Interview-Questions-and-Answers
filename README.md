@@ -228,8 +228,14 @@
   * Distributed file system: **hbase**
   * Cluster management: **kubernetes**, **docker-swarm**, **mesos**
 * [Herlihy’s consensus hierarchy](https://en.wikipedia.org/wiki/Read-modify-write). Every shared object can be assigned a consensus number, which is the maximum number of processes for which the object can solve wait-free consensus in an asynchronous system.
-* [*Logical clock*](https://en.wikipedia.org/wiki/Logical_clock)
-* [*Vector clock*](https://en.wikipedia.org/wiki/Vector_clock)
+* [*Consistency models*](https://en.wikipedia.org/wiki/Consistency_model):
+  * [*Sequential consistency*](https://en.wikipedia.org/wiki/Sequential_consistency)
+  * [*Causal consistency*](https://en.wikipedia.org/wiki/Causal_consistency)
+  * [*Eventual consistency*](https://en.wikipedia.org/wiki/Eventual_consistency)
+  * [*Monotonic Read Consistency*](https://en.wikipedia.org/wiki/Consistency_model#Monotonic_Read_Consistency)
+  * [*Monotonic Write Consistency*](https://en.wikipedia.org/wiki/Consistency_model#Monotonic_Write_Consistency)
+  * [*Read-your-writes Consistency*](https://en.wikipedia.org/wiki/Consistency_model#Read-your-writes_Consistency)
+  * [*Writes-follows-reads Consistency*](https://en.wikipedia.org/wiki/Consistency_model#Writes-follows-reads_Consistency)
 ```
 1 Read-write registers
 2 Test-and-set, swap, fetch-and-add, queue, stack
@@ -237,6 +243,9 @@
 ∞ Augmented queue, compare-and-swap, sticky byte
 ```
 * *Consensus number*. Maximum number of threads for which objects of the class can solve consensus problem.
+* [*Logical clock*](https://en.wikipedia.org/wiki/Logical_clock)
+* [*Vector clock*](https://en.wikipedia.org/wiki/Vector_clock)
+* []
 
 #### [[⬆]](#toc) <a name='cache'>Cache:</a>
 * What is *write-through* and *write-behind* caching? (write-through (synchronous), write-behind (asynchronous))
