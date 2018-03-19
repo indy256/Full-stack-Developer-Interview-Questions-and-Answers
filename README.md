@@ -1,4 +1,4 @@
-# <p style="text-align: center;"> Full-stack Developer Interview Q&A </p>
+<h1 align="center">Full-stack Developer Interview Q&A</h1>
 
 ## <a name='toc'>Table of Contents</a>
 
