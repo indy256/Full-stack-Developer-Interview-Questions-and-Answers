@@ -84,20 +84,20 @@
 * [GRASP](https://en.wikipedia.org/wiki/GRASP_(object-oriented_design))
 
 #### [[⬆]](#toc) <a name='concurrency'>Concurrency:</a>
-* What is *deadlock*, *livelock*? (Deadlock is a situation in which two or more competing actions are each waiting for the other to finish, and thus neither ever does. A livelock is similar to a deadlock, except that the states of the processes involved in the livelock constantly change with regard to one another, none progressing.)
-* Deadlock avoidance. (prevention, detection, avoidance (Mutex hierarchy), and recovery)
-* What is *starvation*? ()
-* What is *race condition*? (Behavior of software system where the output is dependent on the sequence or timing of other uncontrollable events)
-* What is *happens-before* relation?
-* What is *thread contention*? (Contention is simply when two threads try to access either the same resource or related resources in such a way that at least one of the contending threads runs more slowly than it would if the other thread(s) were not running). Contention occurs when multiple threads try to acquire a lock at the same time
-* What is a *thread-safe function*? (Can be safely invoked by multiple threads at the same time)
+* What is [*deadlock*](https://en.wikipedia.org/wiki/Deadlock), [*livelock*](https://en.wikipedia.org/wiki/Deadlock#Livelock)? (Deadlock is a situation in which two or more competing actions are each waiting for the other to finish, and thus neither ever does. A livelock is similar to a deadlock, except that the states of the processes involved in the livelock constantly change with regard to one another, none progressing.)
+* [*Deadlock avoidance*](https://www.geeksforgeeks.org/deadlock-prevention). (prevention, detection, avoidance (Mutex hierarchy), and recovery)
+* What is [*starvation*](https://en.wikipedia.org/wiki/Starvation_(computer_science))? (a problem encountered in concurrent computing where a process is perpetually denied necessary resources to process its work)
+* What is [*race condition*](https://en.wikipedia.org/wiki/Race_condition)? (Behavior of software system where the output is dependent on the sequence or timing of other uncontrollable events)
+* What is [*happens-before*](https://en.wikipedia.org/wiki/Happened-before) relation?
+* What is [*thread contention*](https://stackoverflow.com/questions/1970345/what-is-thread-contention)? (Contention is simply when two threads try to access either the same resource or related resources in such a way that at least one of the contending threads runs more slowly than it would if the other thread(s) were not running). Contention occurs when multiple threads try to acquire a lock at the same time
+* What is a [*thread-safe*](https://en.wikipedia.org/wiki/Thread_safety) function? (Can be safely invoked by multiple threads at the same time)
 * Publish/Subscripe code
-* What is *2-phase locking*? (Growing phase, shrinking phase. Guarantees serializablity for transactions, doesn't prevent deadlock).
+* What is [*2-phase locking*](https://en.wikipedia.org/wiki/Two-phase_locking)? (Growing phase, shrinking phase. Guarantees serializablity for transactions, doesn't prevent deadlock).
 * What is the difference between *thread* and *process*? (Threads (of the same process) run in a shared memory space, while processes run in separate memory spaces)
-* What is *false sharing*, *cache pollution*, *cache miss*, *thread affinity*, *speculative execution*, *ABA-problem*?
-* What is *lock-free* and *wait-free* algorithm?
-* What is *sequential consistency*? (The result of any execution is the same as if the operations of all the processors were executed in some sequential order, and the operations of each individual processor appear in this sequence in the order specified by its program).
-* What is *memory barrier*? (A memory barrier, also known as a membar, memory fence or fence instruction, is a type of barrier instruction that causes a CPU or compiler to enforce an ordering constraint on memory operations issued before and after the barrier instruction)
+* What is [*false sharing*](https://en.wikipedia.org/wiki/False_sharing), [*cache pollution*](https://en.wikipedia.org/wiki/Cache_pollution), *cache miss*, [*thread affinity*](https://en.wikipedia.org/wiki/Processor_affinity), [*ABA-problem*](https://en.wikipedia.org/wiki/ABA_problem), [*speculative execution*](https://en.wikipedia.org/wiki/Speculative_execution)?
+* What is a [*lock-free*](https://en.wikipedia.org/wiki/Non-blocking_algorithm#Lock-freedom), [*wait-free*](https://en.wikipedia.org/wiki/Non-blocking_algorithm#Wait-freedom), [*obstruction-free*](https://en.wikipedia.org/wiki/Non-blocking_algorithm#Obstruction-freedom) algorithm?
+* What is [*sequential consistency*](https://en.wikipedia.org/wiki/Sequential_consistency)? (The result of any execution is the same as if the operations of all the processors were executed in some sequential order, and the operations of each individual processor appear in this sequence in the order specified by its program).
+* What is a [*memory barrier*](https://en.wikipedia.org/wiki/Memory_barrier)? (A memory barrier, also known as a membar, memory fence or fence instruction, is a type of barrier instruction that causes a CPU or compiler to enforce an ordering constraint on memory operations issued before and after the barrier instruction)
 * Synchonization aids in Java
   * CountDownLatch
   * CyclicBarrier
@@ -107,16 +107,16 @@
   * Semaphore
   * LinkedTransferQueue
 * What is *data race*? (When a program contains two conflicting accesses that are not ordered by a happens-before relationship, it is said to contain a data race. Two accesses to (reads of or writes to) the same variable are said to be conflicting if at least one of the accesses is a write)
-* Java *memory model*. (A program is correctly synchronized if and only if all sequentially consistent executions are free of data races. Correctly synchronized programs have sequentially consistent semantics. Causality requirement for incorrectly synchronized programs. [link](https://pdfs.semanticscholar.org/c132/11697f5c803221533a07bd6db839fa60b7b8.pdf))
+* Java [*memory model*](https://en.wikipedia.org/wiki/Java_memory_model). (A program is correctly synchronized if and only if all sequentially consistent executions are free of data races. Correctly synchronized programs have sequentially consistent semantics. Causality requirement for incorrectly synchronized programs. [link](https://pdfs.semanticscholar.org/c132/11697f5c803221533a07bd6db839fa60b7b8.pdf))
 * What is *monitor* in Java? (Each object in Java is associated with a monitor, which a thread can lock or unlock)
 * What is *safe publication*?
 * What is *wait*/*notify*?
-* *Amdahl's law*? (Speedup = 1 / (1 - p + p / n))
-* *Dining philosophers problem* (Resource hierarchy (first take lower-indexed fork), arbitrator, communication (dirty/clean forks)).
-* *Produces/consumer* problem.
-* *Readers/writers* problem.
+* [*Amdahl's law*](https://en.wikipedia.org/wiki/Amdahl%27s_law)? (Speedup = 1 / (1 - p + p / n))
+* [*Dining philosophers problem*](https://en.wikipedia.org/wiki/Dining_philosophers_problem) (Resource hierarchy (first take lower-indexed fork), arbitrator, communication (dirty/clean forks)).
+* [*Produces/consumer*](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem) problem.
+* [*Readers/writers*](https://en.wikipedia.org/wiki/Readers%E2%80%93writers_problem) problem.
 * [*Transactional memory*](https://en.wikipedia.org/wiki/Software_transactional_memory)
-* [Coroutine](https://en.wikipedia.org/wiki/Coroutine)
+* [*Coroutine*](https://en.wikipedia.org/wiki/Coroutine)
 
 #### [[⬆]](#toc) <a name='java'>Java:</a>
 * [*PhantomReference*](https://en.wikipedia.org/wiki/Phantom_reference), [*WeakReference*](https://en.wikipedia.org/wiki/Weak_reference), [*SoftReference*](https://en.wikipedia.org/wiki/Soft_reference), *finalize()*, *ReferenceQueue*.
