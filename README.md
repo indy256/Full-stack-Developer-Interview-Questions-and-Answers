@@ -380,6 +380,7 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
 * How to work with legacy code? (http://programmers.stackexchange.com/a/122024)
 
 #### [[⬆]](#toc) <a name='machine-learning'>Machine learning:</a>
+* [*Bayes' theorem*](https://en.wikipedia.org/wiki/Bayes%27_theorem) P(A|B) = P(B|A)P(A)/P(B), P(B) = sum(P(Ai)P(B|Ai))
 * [*Confidence interval*](https://en.wikipedia.org/wiki/Confidence_interval)
 * [*p-value*](https://en.wikipedia.org/wiki/P-value)
 * [*Overfitting*](https://en.wikipedia.org/wiki/Overfitting)
@@ -389,9 +390,12 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
 * [*Curse of dimensionality*](https://en.wikipedia.org/wiki/Curse_of_dimensionality)
 * [*Cross-validation*](https://en.wikipedia.org/wiki/Cross-validation_(statistics))
 * [*Bag-of-words*](https://en.wikipedia.org/wiki/Bag-of-words_model), [*Stop words*](https://en.wikipedia.org/wiki/Stop_words), [*n-gram*](https://en.wikipedia.org/wiki/N-gram), [*tf–idf*](https://en.wikipedia.org/wiki/Tf%E2%80%93idf), [*Latent semantic analysis*](https://en.wikipedia.org/wiki/Latent_semantic_analysis)
+* [*Linear regression*](https://en.wikipedia.org/wiki/Linear_regression)
+* [*Logistic regression*](https://en.wikipedia.org/wiki/Logistic_regression)
+* [*Naive Bayes classifier*](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
 * [*Support vector machine*](https://en.wikipedia.org/wiki/Support_vector_machine)
 * [*Principal component analysis*](https://en.wikipedia.org/wiki/Principal_component_analysis)
-* [*Bayes' theorem*](https://en.wikipedia.org/wiki/Bayes%27_theorem) P(A|B) = P(B|A)P(A)/P(B), P(B) = sum(P(Ai)P(B|Ai))
+* [*Deep learning*](https://en.wikipedia.org/wiki/Deep_learning)
 
 #### [[⬆]](#toc) <a name='big-data'>Big Data:</a>
 * [*Lambda architecture*](https://en.wikipedia.org/wiki/Lambda_architecture)
