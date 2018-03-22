@@ -271,7 +271,7 @@
 * [*Context-free grammar*](https://en.wikipedia.org/wiki/Context-free_grammar)
 * [*Chomsky hierarchy*](https://en.wikipedia.org/wiki/Chomsky_hierarchy)
 
-#### [[⬆]](#toc) <a name='c++'>C++:</a>
+#### [[⬆]](#toc) <a name='cpp'>C++:</a>
 
 #### [[⬆]](#toc) <a name='javascript'>Javascript:</a>
 * this keyword
@@ -387,9 +387,7 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
 * How to work with legacy code? (http://programmers.stackexchange.com/a/122024)
 
 #### [[⬆]](#toc) <a name='machine-learning'>Machine learning:</a>
-* [*Bayes' theorem*](https://en.wikipedia.org/wiki/Bayes%27_theorem) 
-  * ![equation](http://latex.codecogs.com/gif.latex?P%28A%7CB%29%20%3D%20P%28B%7CA%29*P%28A%29/P%28B%29)
-  * ![equation](http://latex.codecogs.com/gif.latex?P%28B%29%20%3D%20%5Csum%7BP%28Ai%29P%28B%7CAi%29%7D)
+* [*Bayes' theorem*](https://en.wikipedia.org/wiki/Bayes%27_theorem) (![equation](http://latex.codecogs.com/gif.latex?P%28A%7CB%29%20%3D%20P%28B%7CA%29*P%28A%29/P%28B%29), ![equation](http://latex.codecogs.com/gif.latex?P%28B%29%20%3D%20%5Csum%7BP%28Ai%29P%28B%7CAi%29%7D))
 * [*Confidence interval*](https://en.wikipedia.org/wiki/Confidence_interval)
 * [*p-value*](https://en.wikipedia.org/wiki/P-value)
 * [*Overfitting*](https://en.wikipedia.org/wiki/Overfitting)
