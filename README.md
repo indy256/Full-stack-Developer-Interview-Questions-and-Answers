@@ -18,9 +18,10 @@
   * [Networking](#networking)
   * [Operating system](#os)
   * [Compilers](#compilers)
+  * [C++](#cpp)
   * [Javascript](#javascript)
   * [Python](#python)
-  * [C++](#cpp)
+  * [Go](#go)
   * [Code writing](#codewriting)
   * [Functional programming](#functional-programming)
   * [Reactive programming](#reactive-programming)
@@ -270,6 +271,8 @@
 * [*Context-free grammar*](https://en.wikipedia.org/wiki/Context-free_grammar)
 * [*Chomsky hierarchy*](https://en.wikipedia.org/wiki/Chomsky_hierarchy)
 
+#### [[⬆]](#toc) <a name='c++'>C++:</a>
+
 #### [[⬆]](#toc) <a name='javascript'>Javascript:</a>
 * this keyword
 * How *prototypes* work?
@@ -282,6 +285,10 @@
 * What is event *bubbling* and *capturing*? (target.addEventListener(type, listener[, useCapture]))
 * What is *AMD*(Asynchronous Module Design) and *CommonJS*?
 * What is *jQuery*?
+
+#### [[⬆]](#toc) <a name='python'>Python:</a>
+
+#### [[⬆]](#toc) <a name='go'>Go:</a>
 
 #### [[⬆]](#toc) <a name='codewriting'>Codewriting:</a>
 * Implement binary search
@@ -381,9 +388,8 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
 
 #### [[⬆]](#toc) <a name='machine-learning'>Machine learning:</a>
 * [*Bayes' theorem*](https://en.wikipedia.org/wiki/Bayes%27_theorem) 
-![equation](http://latex.codecogs.com/gif.latex?P%28A%7CB%29%20%3D%20P%28B%7CA%29*P%28A%29/P%28B%29)
-
-P(A|B) = P(B|A)P(A)/P(B), P(B) = sum(P(Ai)P(B|Ai))
+  * ![equation](http://latex.codecogs.com/gif.latex?P%28A%7CB%29%20%3D%20P%28B%7CA%29*P%28A%29/P%28B%29)
+  * ![equation](http://latex.codecogs.com/gif.latex?P%28B%29%20%3D%20%5Csum%7BP%28Ai%29P%28B%7CAi%29%7D)
 * [*Confidence interval*](https://en.wikipedia.org/wiki/Confidence_interval)
 * [*p-value*](https://en.wikipedia.org/wiki/P-value)
 * [*Overfitting*](https://en.wikipedia.org/wiki/Overfitting)
