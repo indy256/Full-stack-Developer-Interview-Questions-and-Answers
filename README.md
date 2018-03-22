@@ -389,7 +389,7 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
 #### [[⬆]](#toc) <a name='machine-learning'>Machine learning:</a>
 * [*Bayes' theorem*](https://en.wikipedia.org/wiki/Bayes%27_theorem):
 
-![equation](http://latex.codecogs.com/png.latex?%5Cinline%20%5Cfn_cs%20%5Clarge%20P%28A%7CB%29%20%3D%20%5Cdfrac%7BP%28B%7CA%29%5Ctimes%20P%28A%29%7D%7BP%28B%29%7D%2CP%28B%29%20%3D%20%5Csum%7BP%28Ai%29%5Ctimes%20P%28B%7CAi%29%7D)
+![equation](http://latex.codecogs.com/png.latex?%5Cinline%20%5Cfn_cs%20P%28A%7CB%29%20%3D%20%5Cdfrac%7BP%28B%7CA%29%5Ctimes%20P%28A%29%7D%7BP%28B%29%7D%2CP%28B%29%20%3D%20%5Csum%5Climits_%7Bi%7D%7BP%28Ai%29%5Ctimes%20P%28B%7CAi%29%7D)
 * [*Confidence interval*](https://en.wikipedia.org/wiki/Confidence_interval)
 * [*p-value*](https://en.wikipedia.org/wiki/P-value)
 * [*Overfitting*](https://en.wikipedia.org/wiki/Overfitting)
