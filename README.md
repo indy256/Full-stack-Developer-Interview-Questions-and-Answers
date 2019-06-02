@@ -468,6 +468,8 @@ m = c^d mod n = m^(e*d) mod n = m^(e*d mod phi(n)) mod n = m
 * [The Elements of Statistical Learning: Data Mining, Inference, and Prediction](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
 * [Learning From Data](https://www.amazon.com/Learning-Data-Yaser-S-Abu-Mostafa/dp/1600490069)
 * [Machine Learning: a Concise Introduction](https://www.amazon.com/Machine-Learning-Introduction-Probability-Statistics/dp/1119439191)
+##### Signal processing
+* [Digital Signal Processing: A Practical Approach, 2nd Edition](https://www.amazon.com/Digital-Signal-Processing-Practical-Approach/dp/0201596199)
 ##### Other
 * [Reactive Programming with RxJava](https://www.amazon.com/Reactive-Programming-RxJava-Asynchronous-Applications/dp/1491931655)
 * [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
