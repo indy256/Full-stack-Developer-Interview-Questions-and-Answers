@@ -474,7 +474,6 @@ m = c^d mod n = m^(e*d) mod n = m^(e*d mod phi(n)) mod n = m
 ##### Digital Image Processing
 * [Digital Image Processing, 4th Edition](https://www.amazon.com/Digital-Image-Processing-Rafael-Gonzalez/dp/0133356728)
 * [The Image Processing Handbook, 7th Edition](https://www.amazon.com/Image-Processing-Handbook-John-Russ/dp/1138747491)
-##### Computer vision
 ##### Other
 * [Reactive Programming with RxJava](https://www.amazon.com/Reactive-Programming-RxJava-Asynchronous-Applications/dp/1491931655)
 * [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
