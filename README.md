@@ -96,7 +96,11 @@
 * What is [*2-phase locking*](https://en.wikipedia.org/wiki/Two-phase_locking)? (Growing phase, shrinking phase. Guarantees serializablity for transactions, doesn't prevent deadlock).
 * What is the difference between *thread* and *process*? (Threads (of the same process) run in a shared memory space, while processes run in separate memory spaces)
 * What is [*false sharing*](https://en.wikipedia.org/wiki/False_sharing), [*cache pollution*](https://en.wikipedia.org/wiki/Cache_pollution), *cache miss*, [*thread affinity*](https://en.wikipedia.org/wiki/Processor_affinity), [*ABA-problem*](https://en.wikipedia.org/wiki/ABA_problem), [*speculative execution*](https://en.wikipedia.org/wiki/Speculative_execution)?
-* What is a [*lock-free*](https://en.wikipedia.org/wiki/Non-blocking_algorithm#Lock-freedom), [*wait-free*](https://en.wikipedia.org/wiki/Non-blocking_algorithm#Wait-freedom), [*obstruction-free*](https://en.wikipedia.org/wiki/Non-blocking_algorithm#Obstruction-freedom) algorithm?
+* What is a
+  * [*obstruction-free*](https://en.wikipedia.org/wiki/Non-blocking_algorithm#Obstruction-freedom) - if all other threads are paused, then any given thread will complete its operation in a bounded number of steps
+  * [*lock-free*](https://en.wikipedia.org/wiki/Non-blocking_algorithm#Lock-freedom) - If multiple threads are operating on a data structure, then after a bounded number of steps one of them will complete its operation
+  * [*wait-free*](https://en.wikipedia.org/wiki/Non-blocking_algorithm#Wait-freedom) - Every thread operating on a data structure will complete its operation in a bounded number of steps, even if other threads are also operating on the data structure
+algorithm?
 * What is [*sequential consistency*](https://en.wikipedia.org/wiki/Sequential_consistency)? (The result of any execution is the same as if the operations of all the processors were executed in some sequential order, and the operations of each individual processor appear in this sequence in the order specified by its program).
 * What is a [*memory barrier*](https://en.wikipedia.org/wiki/Memory_barrier)? (A memory barrier, also known as a membar, memory fence or fence instruction, is a type of barrier instruction that causes a CPU or compiler to enforce an ordering constraint on memory operations issued before and after the barrier instruction)
 * Synchonization aids in Java
