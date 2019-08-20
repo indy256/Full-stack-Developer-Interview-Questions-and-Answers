@@ -278,6 +278,8 @@
 * [*Chomsky hierarchy*](https://en.wikipedia.org/wiki/Chomsky_hierarchy)
 
 #### [[⬆]](#toc) <a name='cpp'>C++:</a>
+* [SFINAE](https://en.cppreference.com/w/cpp/language/sfinae) [1](https://cpppatterns.com/patterns/function-template-sfinae.html)
+* [PImpl] https://en.cppreference.com/w/cpp/language/pimpl
 
 #### [[⬆]](#toc) <a name='javascript'>Javascript:</a>
 * this keyword
@@ -293,8 +295,11 @@
 * What is *jQuery*?
 
 #### [[⬆]](#toc) <a name='python'>Python:</a>
+* [Slice notation](https://stackoverflow.com/questions/509211/understanding-slice-notation/509295#509295)
 
 #### [[⬆]](#toc) <a name='go'>Go:</a>
+* [Language Specification](https://golang.org/ref/spec)
+* [Memory Model](https://golang.org/ref/mem)
 
 #### [[⬆]](#toc) <a name='codewriting'>Codewriting:</a>
 * Implement binary search
