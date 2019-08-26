@@ -281,6 +281,7 @@
 * [*Chomsky hierarchy*](https://en.wikipedia.org/wiki/Chomsky_hierarchy)
 
 #### [[⬆]](#toc) <a name='cpp'>C++:</a>
+* [C++ standard](http://eel.is/c++draft/)
 * [SFINAE](https://en.cppreference.com/w/cpp/language/sfinae) [1](https://cpppatterns.com/patterns/function-template-sfinae.html)
 * [PImpl] https://en.cppreference.com/w/cpp/language/pimpl
 
