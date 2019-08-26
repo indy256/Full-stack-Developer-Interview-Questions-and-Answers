@@ -287,6 +287,7 @@
   * both evaluations execute on the same thread or in the same signal handler, or
   * both conflicting evaluations are atomic operations (see std::atomic), or
   * one of the conflicting evaluations happens-before another (see std::memory_order)
+
 If a data race occurs, the behavior of the program is undefined.
 * [*SFINAE*](https://en.cppreference.com/w/cpp/language/sfinae) [1](https://cpppatterns.com/patterns/function-template-sfinae.html)
 * [*PImpl*] https://en.cppreference.com/w/cpp/language/pimpl
