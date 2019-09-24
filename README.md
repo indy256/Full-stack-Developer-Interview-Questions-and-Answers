@@ -486,6 +486,7 @@ m = c^d mod n = m^(e*d) mod n = m^(e*d mod phi(n)) mod n = m
 * [C++ Concurrency in Action, 2nd Edition](https://www.amazon.com/C-Concurrency-Action-Anthony-Williams/dp/1617294691)
 * [The Art of Multiprocessor Programming](https://www.amazon.com/Art-Multiprocessor-Programming-Revised-Reprint/dp/0123973376)
 ##### Statistics
+* [Introductory Statistics](https://www.amazon.com/Introductory-Statistics-10th-Neil-Weiss/dp/0321989171)
 * [All of Statistics: A Concise Course in Statistical Inference](https://www.amazon.com/All-Statistics-Statistical-Inference-Springer/dp/1441923225)
 ##### Machine Learning
 * [Applied Machine Learning](https://www.amazon.com/Applied-Machine-Learning-David-Forsyth/dp/3030181138)
