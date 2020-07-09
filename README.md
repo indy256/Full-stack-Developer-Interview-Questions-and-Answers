@@ -289,7 +289,7 @@
 #### [[⬆]](#toc) <a name='python'>Python:</a>
 
 #### [[⬆]](#toc) <a name='go'>Go:</a>
-
+* [Go interview questions](https://www.fullstack.cafe/blog/go-interview-questions)
 #### [[⬆]](#toc) <a name='codewriting'>Codewriting:</a>
 * Implement binary search
 ```java
