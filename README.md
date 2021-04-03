@@ -309,6 +309,7 @@
 * [Slice notation](https://stackoverflow.com/questions/509211/understanding-slice-notation/509295#509295)
 
 #### [[⬆]](#toc) <a name='go'>Go:</a>
+* [Go interview questions](https://www.fullstack.cafe/blog/go-interview-questions)
 * [Language Specification](https://golang.org/ref/spec)
 * [Memory Model](https://golang.org/ref/mem)
 
