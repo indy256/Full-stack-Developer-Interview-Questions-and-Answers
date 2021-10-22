@@ -170,7 +170,6 @@
 * [*Character encoding*](https://en.wikipedia.org/wiki/Character_encoding)
 * What is [*role-based access control*](https://en.wikipedia.org/wiki/Role-based_access_control) and [*access control list*](https://en.wikipedia.org/wiki/Access_control_list)?
 * What is session and persistent cookies, sessionStorage and [localStorage](https://en.wikipedia.org/wiki/Web_storage#Local_and_session_storage)?
-* How to implement *remember-me*? (http://jaspan.com/improved_persistent_login_cookie_best_practice)
 * Authentication using cookies, [*JWT*](https://en.wikipedia.org/wiki/JSON_Web_Token) (JSON Web Tokens).
 
 #### [[⬆]](#toc) <a name='sql'>SQL:</a>
@@ -408,6 +407,7 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
 * What is *virtualization*?
 * What is total/partial order?
 * How to work with legacy code? (http://programmers.stackexchange.com/a/122024)
+* Elasticsearch developer interview questions (https://logit.io/blog/post/the-top-50-elk-stack-and-elasticsearch-interview-questions)
 
 #### [[⬆]](#toc) <a name='machine-learning'>Machine learning:</a>
 * [*Bayes' theorem*](https://en.wikipedia.org/wiki/Bayes%27_theorem):
