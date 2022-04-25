@@ -174,7 +174,7 @@
 * Authentication using cookies, [*JWT*](https://en.wikipedia.org/wiki/JSON_Web_Token) (JSON Web Tokens).
 
 #### [[⬆]](#toc) <a name='sql'>SQL:</a>
-* *SQL join types* (inner join, left/right outer join, full outer join, cross join)
+* *SQL join types* (inner join, left/right outer join, full outer join, [cross join](https://www.scaler.com/topics/cross-join-in-sql/))
 ![Join types](https://habrastorage.org/files/7ff/b2c/3a2/7ffb2c3a25b74dcf9eec013282b9cfb4.png "Join types"))
 * *SQL normal forms* 
   1. The domain of each attribute contains only atomic values, and the value of each attribute contains only a single value from that domain
