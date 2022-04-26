@@ -87,6 +87,7 @@
 #### [[⬆]](#toc) <a name='concurrency'>Concurrency:</a>
 * What is [*deadlock*](https://en.wikipedia.org/wiki/Deadlock), [*livelock*](https://en.wikipedia.org/wiki/Deadlock#Livelock)? (Deadlock is a situation in which two or more competing actions are each waiting for the other to finish, and thus neither ever does. A livelock is similar to a deadlock, except that the states of the processes involved in the livelock constantly change with regard to one another, none progressing.)
 * [*Deadlock avoidance*](https://www.geeksforgeeks.org/deadlock-prevention). (prevention, detection, avoidance (Mutex hierarchy), and recovery)
+* [*Deadlock avoidance in OS](https://www.scaler.com/topics/operating-system/deadlock-avoidance-in-os/) (Deadlock is a situation that occurs in Operating System when any Process enters a waiting state because another waiting process is holding the demanded resource.)
 * What is [*starvation*](https://en.wikipedia.org/wiki/Starvation_(computer_science))? (a problem encountered in concurrent computing where a process is perpetually denied necessary resources to process its work)
 * What is [*race condition*](https://en.wikipedia.org/wiki/Race_condition)? (Behavior of software system where the output is dependent on the sequence or timing of other uncontrollable events)
 * What is [*happens-before*](https://en.wikipedia.org/wiki/Happened-before) relation?
