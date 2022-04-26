@@ -272,7 +272,7 @@
 * What is [*memory mapped*](https://en.wikipedia.org/wiki/Memory-mapped_file) file and its benefits?
 * *Interprocess communication* methods. (Pipes, Events, Mailboxes/Ports (can be implemented by using shared memory and semaphores), Direct Message Passing).
 * [*Virtual memory*](https://en.wikipedia.org/wiki/Virtual_memory) organization.
-* *Process scheduler*.
+* [*Process Scheduling Algorithm*](https://www.scaler.com/topics/operating-system/scheduling-algorithms-in-os/)
 
 #### [[⬆]](#toc) <a name='compilers'>Compilers:</a>
 * [*Recursive descent parser*](https://en.wikipedia.org/wiki/Recursive_descent_parser)
