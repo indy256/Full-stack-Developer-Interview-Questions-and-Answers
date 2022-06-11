@@ -496,16 +496,16 @@ m = c^d mod n = m^(e*d) mod n = m^(e*d mod phi(n)) mod n = m
 * [The Elements of Statistical Learning: Data Mining, Inference, and Prediction](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
 * [Machine Learning: a Concise Introduction](https://www.amazon.com/Machine-Learning-Introduction-Probability-Statistics/dp/1119439191)
 * [Learning From Data](https://www.amazon.com/Learning-Data-Yaser-S-Abu-Mostafa/dp/1600490069)
-* [Generative Deep Learning: Teaching Machines to Paint, Write, Compose, and Play](https://www.amazon.ca/Generative-Deep-Learning-Teaching-Machines/dp/1492041947)
-* [Foundations of Machine Learning, second edition](https://www.amazon.ca/Foundations-Machine-Learning-Mehryar-Mohri/dp/0262039400)
+* [Generative Deep Learning: Teaching Machines to Paint, Write, Compose, and Play](https://www.amazon.com/Generative-Deep-Learning-Teaching-Machines/dp/1492041947)
+* [Foundations of Machine Learning, second edition](https://www.amazon.com/Foundations-Machine-Learning-Mehryar-Mohri/dp/0262039400)
 ##### Digital Signal Processing
 * [Digital Signal Processing: A Practical Approach, 2nd Edition](https://www.amazon.com/Digital-Signal-Processing-Practical-Approach/dp/0201596199)
 ##### Digital Image Processing
 * [Digital Image Processing, 4th Edition](https://www.amazon.com/Digital-Image-Processing-Rafael-Gonzalez/dp/0133356728)
 * [The Image Processing Handbook, 7th Edition](https://www.amazon.com/Image-Processing-Handbook-John-Russ/dp/1138747491)
 ##### Other
-* [Software Engineering at Google: Lessons Learned from Programming Over Time](https://www.amazon.ca/Software-Engineering-Google-Lessons-Programming/dp/1492082791)
-* [Site Reliability Engineering: How Google Runs Production Systems](https://www.amazon.ca/Site-Reliability-Engineering-Production-Systems/dp/149192912X)
+* [Software Engineering at Google: Lessons Learned from Programming Over Time](https://www.amazon.com/Software-Engineering-Google-Lessons-Programming/dp/1492082791)
+* [Site Reliability Engineering: How Google Runs Production Systems](https://www.amazon.com/Site-Reliability-Engineering-Production-Systems/dp/149192912X)
 * [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 * [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
 * [Big Data: Principles and best practices of scalable realtime data systems](https://www.amazon.com/Big-Data-Principles-practices-scalable/dp/1617290343)
