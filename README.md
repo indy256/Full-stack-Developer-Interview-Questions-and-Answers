@@ -496,6 +496,8 @@ m = c^d mod n = m^(e*d) mod n = m^(e*d mod phi(n)) mod n = m
 * [The Elements of Statistical Learning: Data Mining, Inference, and Prediction](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
 * [Machine Learning: a Concise Introduction](https://www.amazon.com/Machine-Learning-Introduction-Probability-Statistics/dp/1119439191)
 * [Learning From Data](https://www.amazon.com/Learning-Data-Yaser-S-Abu-Mostafa/dp/1600490069)
+* [Generative Deep Learning: Teaching Machines to Paint, Write, Compose, and Play](https://www.amazon.ca/Generative-Deep-Learning-Teaching-Machines/dp/1492041947)
+* [Foundations of Machine Learning, second edition](https://www.amazon.ca/Foundations-Machine-Learning-Mehryar-Mohri/dp/0262039400)
 ##### Digital Signal Processing
 * [Digital Signal Processing: A Practical Approach, 2nd Edition](https://www.amazon.com/Digital-Signal-Processing-Practical-Approach/dp/0201596199)
 ##### Digital Image Processing
