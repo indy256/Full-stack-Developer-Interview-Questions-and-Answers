@@ -313,6 +313,7 @@
 * [Go interview questions](https://www.fullstack.cafe/blog/go-interview-questions)
 * [Language Specification](https://golang.org/ref/spec)
 * [Memory Model](https://golang.org/ref/mem)
+* [Full Stack Developer Interview Questions](https://www.interviewbit.com/full-stack-developer-interview-questions)
 
 #### [[⬆]](#toc) <a name='codewriting'>Codewriting:</a>
 * Implement binary search
