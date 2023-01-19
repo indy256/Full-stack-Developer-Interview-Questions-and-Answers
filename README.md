@@ -370,7 +370,7 @@ void qSort(int[] a, int fromInclusive, int toInclusive) {
 
 #### [[⬆]](#toc) <a name='devOps'>DevOps:</a>
 * What is *Blue-green Deployment*, *Canary release*, *A/B testing*? [link](https://www.javacodegeeks.com/2016/02/blue-green-deployment.html)
-* What is *Docker*?
+* What is *Docker*? [link](https://docs.docker.com/get-started/overview/)
 
 #### [[⬆]](#toc) <a name='qa'>QA:</a>
 * What is *unit test*? (A test that purely tests a single unit of functionality)
